@@ -2,6 +2,7 @@
 layout: post
 title: Project Introduction
 image: /img/logo.png
+date: 2019-05-27 
 ---
 
 ---
