@@ -183,7 +183,7 @@ img {
 }
 .navbar-custom .avatar-container  .avatar-img {
   width: 100%;
-  border-radius: 0.10%;
+  border-radius: 10%;
   display: block;
 }
 
