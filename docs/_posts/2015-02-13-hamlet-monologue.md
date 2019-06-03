@@ -40,8 +40,8 @@ Install:
 
 There are few changes in Dashing Diademata. Before working with this distro one should read the changes in documentation.
 
-Current work:
-* Writing the interface for supporting ROS and ROS2 standlone.  
+Ongoing work:
+* Writing the interface for supporting ROS and ROS2 standlone. 
   * Fetch images with this interface 
 * Use ListenerCamera of ROS with newer interface
 * New ListenerCamera of ROS2 
