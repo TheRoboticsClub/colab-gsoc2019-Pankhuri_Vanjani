@@ -19,7 +19,7 @@ A part of this work included fixing the issue discussed in [Issue#31](https://gi
 Second part of the work involved updating the current ros-2 image drivers in [Jderobot-ros2-drivers](https://github.com/JdeRobot/ros2-drivers) for reading the required information from a configuration file (yaml). I worked to solve the [Issue#01](https://github.com/JdeRobot/ros2-drivers/issues/1) with [#PR1](https://github.com/JdeRobot/ros2-drivers/pull/4). 
 These drivers have a publisher and a subscriber.
 
-#Video
+#Video of this driver (post it)
 
 Next part is to support these drivers to Camviz tools. But there are some challenges with this. Current JdeRobot is supported on Communication library which is built on ICE drivers. 
 I read the codebase and implementation of communication library to understand it for better clarity.
@@ -31,8 +31,21 @@ With further discussion it was concluded:
 More challenges...
 * Release of ROS2-Dashing supported till May 2021. Current distro i.e. ROS2 Crystal will not be maintained after Dec 2019. Best platform to work on this project is ROS-Melodic and ROS2- Dashing. 
 
-**Time to shift to Ubuntu 18.04 (Bionic) for supporting ROS-Melodic and ROS2-Dashing!!!!**
+**Time to shift to Ubuntu 18.04 (Bionic)!!!!**
 
+Install:
+
+* ROS-Melodic
+* ROS2- Dashing 
+* JdeRobot branch (Currently in progress of Migration to Bionic)
+
+There are few changes in Dashing Diademata. Before working with this distro one should read the changes in documentation.
+
+Current work:
+* Writing the interface for supporting ROS and ROS2 standlone.  
+  * Fetch images with this interface 
+* Use ListenerCamera of ROS with newer interface
+* New ListenerCamera of ROS2 
 
 
 
