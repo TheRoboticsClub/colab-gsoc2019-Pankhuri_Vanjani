@@ -15,10 +15,13 @@ Currently JdeRobot has two tools camviz and camviz_py for this purpose.
 This week focused on understanding the code of camviz for modifying the tools to support ROS2.
 A part of this work included fixing the issue discussed in [Issue#31](https://github.com/JdeRobot/viz/issues/31) and solved in [PR#32](https://github.com/JdeRobot/viz/pull/32).
 
-Second part of the work involved updating the current ros-2 image drivers in [Jderobot-ros2-drivers](https://github.com/JdeRobot/ros2-drivers) for reading the required information from a configuration file (yaml). I worked to solve the [Issue#01](https://github.com/JdeRobot/ros2-drivers/issues/1) with [#PR1](https://github.com/JdeRobot/ros2-drivers/pull/4). 
-These drivers have a publisher and a subscriber.
+Note. Camviz too: Error in compiling as viz tool doesn't have a compilation chain yet as discussed in  (Camviz-compile-Issue)[https://github.com/JdeRobot/viz/issues/33]. It has to be resolved later.
 
-#Video of this driver (post it)
+Second part of the work involved updating the current ros-2 image drivers in [Jderobot-ros2-drivers](https://github.com/JdeRobot/ros2-drivers) for reading the required information from a configuration file (yaml). I worked to solve the [Issue#01](https://github.com/JdeRobot/ros2-drivers/issues/1) with [#PR1](https://github.com/JdeRobot/ros2-drivers/pull/4). 
+These drivers have a publisher and a subscriber. Video can be accessed by clicking on the image.
+
+[![ROS2 image Driver](https://www.youtube.com/watch?v=QzxCfA791Ns&feature=youtu.be/0.jpg)](https://www.youtube.com/watch?v=QzxCfA791Ns&feature=youtu.be "ROS2 image Driver ")
+
 
 Next part is to support these drivers to Camviz tools. But there are some challenges with this. Current JdeRobot is supported on Communication library which is built on ICE drivers. 
 I read the codebase and implementation of communication library to understand it for better clarity.
@@ -35,8 +38,11 @@ More challenges...
 Install:
 
 * ROS-Melodic
+Follow this link [ROS-Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu)
 * ROS2- Dashing 
+Follow this link [ROS2-Dashing](https://index.ros.org/doc/ros2/Installation/Dashing/Linux-Install-Debians/)
 * JdeRobot branch (Currently in progress of Migration to Bionic)
+ Branch: (JdeRobot-Ubuntu-Bionic)[https://github.com/JdeRobot/base/tree/ubuntu_bionic]
 
 There are few changes in Dashing Diademata. Before working with this distro one should read the changes in documentation.
 
