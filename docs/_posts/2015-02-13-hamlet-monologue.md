@@ -42,7 +42,7 @@ Follow this link [ROS-Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu)
 * ROS2- Dashing 
 Follow this link [ROS2-Dashing](https://index.ros.org/doc/ros2/Installation/Dashing/Linux-Install-Debians/)
 * JdeRobot branch (Currently in progress of Migration to Bionic)
- Branch: (JdeRobot-Ubuntu-Bionic)[https://github.com/JdeRobot/base/tree/ubuntu_bionic] 
+ Branch: [JdeRobot-Ubuntu-Bionic](https://github.com/JdeRobot/base/tree/ubuntu_bionic) 
  Current Status: Not build properly, still some errors from third-party-repository left to be resolved.
   
 There are few changes in Dashing Diademata. Before working with this distro one should read the changes in documentation.
