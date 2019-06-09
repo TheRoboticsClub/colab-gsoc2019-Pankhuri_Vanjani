@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Week-1
-Subtitle: Let's Viz....visualize!	subtitle: Let's Viz....visualize!
+Subtitle: Let's Viz....visualize!
 date: 2019-05-27	date: 2019-05-27
 ---	---
 
