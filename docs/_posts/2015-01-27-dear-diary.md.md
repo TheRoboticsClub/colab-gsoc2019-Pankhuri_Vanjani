@@ -5,6 +5,7 @@ subtitle: ROS1 Or ROS2 Or both?
 date: 2019-06-10
 ---
 **DUMMY Libraries**
+
 Second week commenced with discussion over creating an interface for tools to support both ROS1 and ROS2. There were many challenges which were discussed with mentors over the meeting. For achieving this task I was suggested to use conditional compilation and building for both distros in a single code. To start with it, this week I was supposed to create a dummy library.
 
 First it is important to understand what is it and how it works?
@@ -14,14 +15,16 @@ We wish to develop the tool which can work when both distros are present, one of
  
 ![link-tool](../img/ROS1-ROS2.png)
 
+**Conditional Compilation with pre-processor directives**
+
+First part involved learning about pre-processor directives in C++ and define them in CMakeLists.txt
+
+Our concern is with conditional compilation directives which are
+* idfef ( if defined )
+* ifndef (if not defined)
+For better clarity these are the links studied for understanding [1](https://www.geeksforgeeks.org/cc-preprocessors/) [2](https://docs.microsoft.com/en-us/cpp/preprocessor/hash-ifdef-and-hash-ifndef-directives-c-cpp?view=vs-2019)
 
 
-(Text on ROS1 Or ROS2 Or both? with image)
-
-Discuss conditional compilation
-
-*Goals planned for this week*
---dummmy libraries
 
 1. Dummy example without involving ROS1 and ROS2
 
