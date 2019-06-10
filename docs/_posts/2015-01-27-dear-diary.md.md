@@ -60,12 +60,12 @@ Discussion in issues:
     
   **Testing the tool**
   
-  Hello World Publisher! :telephone_receiver: :office:
+  Hello World Publisher!
   
   Cases tested for ROS1 and ROS2 path individually
-  (Publish the working video on Youtube and link here)
+  (Publish the working video of ROS1 and ROS2 publisher on Youtube and link here)
   
-  Steps:
+  Steps to run this example:
   
   
   **************************************************************************************************
