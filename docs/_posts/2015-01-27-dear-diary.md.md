@@ -26,8 +26,6 @@ For better clarity these are the links studied for understanding [link1](https:/
 
 **Dummy example with ROS1 and ROS2**
 
-Challenge of enabling path 
-
 *Getting right path to get rid of sourcing environment.*
 
 Discussion in issues:
@@ -36,17 +34,41 @@ Discussion in issues:
 [Issue#02](https://github.com/TheRoboticsClub/colab-gsoc2019-Pankhuri_Vanjani/issues/2)
 
 * For ROS1
-            
+     --solved for ROS1  
+     Adding these lines in CMakeLists.txt 
               
     ```                        
-    --solved for ROS1
+    SET(CMAKE_PREFIX_PATH "${CMAKE_PREFIX_PATH} /home/pankhuri/ros2_ws/install";/opt/ros/melodic)
     ```
-    Problems in ROS2
+    Challenge: Since our files are in ```/opt/ros/melodic``` path or in```/install``` for workspace I was using these two paths individually. But using them together with help of dilimiter ';' solved the issue.
+    
+* For ROS2   
+    
     --AMENT PACKAGE- a python package so needs right pythonpath
+    (Explain the problem in detail)
     
     --solved for ROS2
     
+    Adding these lines in CMakeLists.txt 
+    
+    ```
+    SET(ENV{PYTHONPATH} "/opt/ros/dashing/lib/python3.6/site-packages/")
+    SET(CMAKE_PREFIX_PATH "${CMAKE_REFIX_PATH} home/pankhuri/ros2_ws/install;/opt/ros/dashing")
+    
+    ```
+    Challenge: I tried it in a way simialar to ROS1 but there was an error of 'No module named ament package'. Resolving it consumed a lot of time.
+    
+  **Testing the tool**
+  
+  Hello World Publisher! :telephone_receiver: :office:
+  
   Cases tested for ROS1 and ROS2 path individually
+  (Publish the working video on Youtube and link here)
+  
+  Steps:
+  
+  
+  **************************************************************************************************
   
   Next challenge : How to set path for both ROS1 and ROS2 during environment and select during runtime?
   
@@ -56,6 +78,6 @@ Discussion in issues:
                        elif (variable -ROS2= on /ROS1=on)
                            set ROS2 path
   
-              Solev: how to get variable
+              Solve: how to get variable
       
-  Final: Test Hello World publisher!
+  Final: Test Hello World publisher with both ROS1 and ROS2 path defined in one CMakeLists.txt!
