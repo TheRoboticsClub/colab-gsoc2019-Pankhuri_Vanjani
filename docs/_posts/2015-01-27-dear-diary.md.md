@@ -7,6 +7,7 @@ date: 2019-06-10
 **DUMMY Libraries**
 (Rough sketch --to be completed)
 
+![link-tool](../img/ROS1-ROS2.png)
 (Text on ROS1 Or ROS2 Or both? with image)
 
 Discuss conditional compilation
