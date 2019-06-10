@@ -5,9 +5,17 @@ subtitle: ROS1 Or ROS2 Or both?
 date: 2019-06-10
 ---
 **DUMMY Libraries**
-(Rough sketch --to be completed)
+Second week commenced with discussion over creating an interface for tools to support both ROS1 and ROS2. There were many challenges which were discussed with mentors over the meeting. For achieving this task I was suggested to use conditional compilation and building for both distros in a single code. To start with it, this week I was supposed to create a dummy library.
 
+First it is important to understand what is it and how it works?
+ 
+We wish to develop the tool which can work when both distros are present, one of them is present or even none is present. Dependencies of ROS should not result in errors. After reading the required config from a configuration file the interface decides internally to shake hands with selected distro (i.e. set up the environment to include necessary header files and compile that ROS code).
+
+ 
 ![link-tool](../img/ROS1-ROS2.png)
+
+
+
 (Text on ROS1 Or ROS2 Or both? with image)
 
 Discuss conditional compilation
