@@ -22,26 +22,25 @@ First part involved learning about pre-processor directives in C++ and define th
 Our concern is with conditional compilation directives which are
 * idfef ( if defined )
 * ifndef (if not defined)
-For better clarity these are the links studied for understanding [1](https://www.geeksforgeeks.org/cc-preprocessors/) [2](https://docs.microsoft.com/en-us/cpp/preprocessor/hash-ifdef-and-hash-ifndef-directives-c-cpp?view=vs-2019)
+For better clarity these are the links studied for understanding [link1](https://www.geeksforgeeks.org/cc-preprocessors/), [link2](https://docs.microsoft.com/en-us/cpp/preprocessor/hash-ifdef-and-hash-ifndef-directives-c-cpp?view=vs-2019)
 
+**Dummy example with ROS1 and ROS2**
 
+Challenge of enabling path 
 
-1. Dummy example without involving ROS1 and ROS2
+*Getting right path to get rid of sourcing environment.*
 
-Pre-processor directives in cpp
-#ifdef, #ifndef #if how do they work
+Discussion in issues:
+[Issue#01](https://github.com/TheRoboticsClub/colab-gsoc2019-Pankhuri_Vanjani/issues/1)
 
---Challenges here especially with CMakeLists and how they were solved
+[Issue#02](https://github.com/TheRoboticsClub/colab-gsoc2019-Pankhuri_Vanjani/issues/2)
 
-
-2. Dummy example with ROS1 and ROS2
-
---Biggest challenge:
-    
-    Getting right path to get rid of sourcing environment.
-    
+* For ROS1
+            
+              
+    '''                        
     --solved for ROS1
-    
+    '''
     Problems in ROS2
     --AMENT PACKAGE- a python package so needs right pythonpath
     
