@@ -61,6 +61,16 @@ Now, moving to the solution:
     ```
     Challenge: I tried it in a way simialar to ROS1 but there was an error of 'No module named ament package'. Resolving it consumed a lot of time.
     
+     Helpful links studied for this:
+     
+     [answers.ros.org](http://answers.ros.org/question/325087/modulenotfounderror-no-module-named-ament_package/)
+     
+     [ament/ament_tools](https://github.com/ament/ament_tools/issues/76)
+     
+     [How to properly set AMENT_PREFIX_PATH?](http://answers.ros.org/question/318205/how-to-properly-set-ament_prefix_path/)
+    
+     [ImportError: 'from ament_package](https://github.com/ament/ament_package/issues/5)
+    
     
   **Testing the tool**
   
@@ -78,11 +88,8 @@ Now, moving to the solution:
   
   * Neither ROS1 nor ROS2 present
  
- [![ROS1-ROS2 Interface](https://www.youtube.com/watch?v=ziAgkfG3tBc&feature=youtu.be/0.jpg)](https://www.youtube.com/watch?v=ziAgkfG3tBc&feature=youtu.be "ROS1-ROS2 Interface")	
+ [![ROS1-ROS2 Interface](https:img.//www.youtube.com/watch?v=ziAgkfG3tBc&feature=youtu.be/0.jpg)](https://www.youtube.com/watch?v=ziAgkfG3tBc&feature=youtu.be "ROS1-ROS2 Interface")	
  
- <a href="https://www.youtube.com/watch?v=ziAgkfG3tBc&feature=youtu.be
-" target="_blank"><img src="https://www.youtube.com/watch?v=ziAgkfG3tBc&feature=youtu.be0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
   
 *******************************************************************************************************
 **Steps to run this example:**
