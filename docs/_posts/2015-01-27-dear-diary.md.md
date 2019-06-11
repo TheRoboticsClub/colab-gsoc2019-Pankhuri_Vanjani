@@ -88,9 +88,9 @@ Now, moving to the solution:
   
   * Neither ROS1 nor ROS2 present
  
- [![ROS1-ROS2 Interface](https:img.//www.youtube.com/watch?v=ziAgkfG3tBc&feature=youtu.be/0.jpg)](https://www.youtube.com/watch?v=ziAgkfG3tBc&feature=youtu.be "ROS1-ROS2 Interface")	
+ [![ROS1-ROS2 Interface](http://img.https://youtu.be/ziAgkfG3tBc/0.jpg)](https://www.youtube.com/watch?v=ziAgkfG3tBc&feature=youtu.be "ROS1-ROS2 Interface")	
  
-  
+
 *******************************************************************************************************
 **Steps to run this example:**
 
