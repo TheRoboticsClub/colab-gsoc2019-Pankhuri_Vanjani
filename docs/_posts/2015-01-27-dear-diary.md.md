@@ -78,7 +78,7 @@ Now, moving to the solution:
   
   **Hello World Publisher!**
   
-  This tool works for all 4 cases:
+  This tool works for 4 cases:
   
   * Both ROS1 and ROS2 installed
   
@@ -87,6 +87,8 @@ Now, moving to the solution:
   * Only ROS2 present
   
   * Neither ROS1 nor ROS2 present
+  
+  (Click on the image to watch video)
  
  [![ROS1-ROS2 Interface](http://img.youtube.com/vi/ziAgkfG3tBc/0.jpg)](http://www.youtube.com/watch?v=ziAgkfG3tBc "Interface")
  
@@ -94,7 +96,9 @@ Now, moving to the solution:
 *******************************************************************************************************
 **Steps to run this example:**
 
-1. Download the dummyexample
+1. Download the dummyexample [dummyexample](https://github.com/TheRoboticsClub/colab-gsoc2019-Pankhuri_Vanjani/tree/master/dummyexample)
+
+***Cmake version > 3.3 is required. Lower versions will give errors***
 
 2. Build the code:
 
@@ -116,7 +120,12 @@ Now, moving to the solution:
 
 *********************************************************************************************************
        
-       
+Upcoming work:
+
+* If possible, use another alternative AMENT_PREEFIX_PATH for setting the path which would be better too since we should utilize ROS2 design features
+* Attach a subscriber or a listener too
+* Extend this code for library similar to cameraclient for CamViz tool
+
 
 
 
