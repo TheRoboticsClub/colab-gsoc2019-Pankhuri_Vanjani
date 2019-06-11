@@ -80,18 +80,21 @@ Now, moving to the solution:
  
  [![ROS1-ROS2 Interface](https://www.youtube.com/watch?v=ziAgkfG3tBc&feature=youtu.be/0.jpg)](https://www.youtube.com/watch?v=ziAgkfG3tBc&feature=youtu.be "ROS1-ROS2 Interface")	
   
-  **************************************************************************************************  
+*******************************************************************************************************
 **Steps to run this example:**
 
 1. Download the dummyexample
 
 2. Build the code:
+
   ```  colcon build --symlink-install \--cmake-args \ -Drosversion:string=0  ```
   
  Note: 
+ 
  ```-Drosversion:string=1 ```//For ROS1
  
  ```-Drosversion:string=0 ```//For ROS2
+ 
 3. To run it:
     
     Go to build directory where the main file is located (/build/dummyexample/)
@@ -100,7 +103,7 @@ Now, moving to the solution:
     
     ```./main 2``` //For ROS2
 
-       
+*********************************************************************************************************
        
        
 
