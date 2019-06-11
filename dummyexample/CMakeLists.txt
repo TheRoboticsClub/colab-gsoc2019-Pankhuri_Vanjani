@@ -1,8 +1,5 @@
-cmake_minimum_required(VERSION 2.8.3)
+cmake_minimum_required(VERSION 3.5)
 project(dummyexample)
-
-find_package( PythonLibs 3 REQUIRED )
-find_package(yaml-cpp REQUIRED)
 
 # Default to C++14
 if(NOT CMAKE_CXX_STANDARD)
@@ -10,66 +7,77 @@ if(NOT CMAKE_CXX_STANDARD)
 endif()
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
-  add_compile_options(-Wall -Wextra)
+  add_compile_options(-Wall -Wextra -Wpedantic -Wunused-parameter)
 endif()
 
-if(roscpp_FOUND)
-    add_definitions(-DROS1_H)
-    SET(ROS1_H ON)
-    #//SET(CMAKE_PREFIX_PATH "${CMAKE_PREFIX_PATH} /home/pankhuri/YOUR_CATKIN_WORKSPACE/install")
-if(rclcpp_FOUND)
-    add_definitions(-DROS2_H)
-    SET(ROS2_H ON)
-    #//SET(CMAKE_PREFIX_PATH "${CMAKE_PREFIX_PATH} /home/pankhuri/ros2_ws/install")
-ELSE()
-    SET(ROS1_H OFF)
-    SET(ROS2_H OFF)
-endif()
-endif()
+SET(rosversion "1" CACHE STRING "Some user-specified option")
 
-IF (ROS1_H)
-    message(STATUS "Using ROS1_H")
-    set(ROS1_H ${CMAKE_CURRENT_SOURCE_DIR}/opt/ros/melodic/include)
+if(rosversion) 
+    message("THIS IS ROS1")
+
+    SET(CMAKE_PREFIX_PATH "${CMAKE_PREFIX_PATH} /home/pankhuri/catkin_ws/install;/opt/ros/melodic")
+
     find_package(roscpp REQUIRED)
     find_package(std_msgs REQUIRED)
-    target_include_directories(main PRIVATE ${"/opt/ros/melodic/include/"})
-    #set(SOURCES file.cpp file2.cpp ${YOUR_DIRECTORY}/file1.h ${YOUR_DIRECTORY}/file2.h)
+    if(roscpp_FOUND) 
+      message("ROS1 found")
+      add_definitions(-DROS1_H) 
+      SET(ROS1_H ON) 
+    ELSE()
+      message("ROS1 not found")
+      SET(ROS1_H OFF) 
+    endif()
+
+    include_directories(${roscpp_INCLUDE_DIRS})
+    #include_directories(${std_msgs_INCLUDE_DIRS})
+
     add_executable(main main.cpp)
-    target_link_libraries(main ${roscpp_LIBRARIES} ${std_msgs_LIBRARIES})
+    target_link_libraries(main ${roscpp_LIBRARIES} ${std_msgs_LIBRARIES} )
 
-ENDIF()
+    install(TARGETS main
+            DESTINATION bin)
 
-IF (ROS2_H)
-   message(STATUS "Using ROS2_H")
-   set(ROS2_H ${CMAKE_CURRENT_SOURCE_DIR}/opt/ros/dashing/include)
-   find_package(ament_cmake REQUIRED)
-   find_package(rclcpp REQUIRED)
-   find_package(sensor_msgs REQUIRED)
-   target_include_directories(main PRIVATE ${"/opt/ros/dashing/include/"})
-   #set(SOURCES file.cpp file2.cpp ${YOUR_DIRECTORY}/file1.h ${YOUR_DIRECTORY}/file2.h)
-   add_executable(main main.cpp)
-   target_link_libraries(main ${rclcpp_LIBRARIES} ${std_msgs_LIBRARIES})
+else()
+    message("THIS IS ROS2")
 
-ENDIF() 
+    SET(ENV{PYTHONPATH} "/opt/ros/dashing/lib/python3.6/site-packages/")
+    SET(CMAKE_PREFIX_PATH "${CMAKE_PREFIX_PATH} home/pankhuri/ros2_ws/install;/opt/ros/dashing")
 
-   add_executable(main main.cpp)
+    find_package(ament_cmake REQUIRED)
+    find_package(rclcpp REQUIRED)
+    find_package(sensor_msgs REQUIRED)
 
-    include_directories(include
-    ${ament_cmake_INCLUDE_DIRS}
-    ${roscpp_INCLUDE_DIRS}
-    ${rclcpp_INCLUDE_DIRS}
-    ${std_msgs_INCLUDE_DIRS}
-    
-    )
+    if(rclcpp_FOUND) 
+      message("ROS2 found")
+      add_definitions(-DROS2_H) 
+      SET(ROS2_H ON) 
+    ELSE()
+      message("ROS2 not found")
+      SET(ROS2_H OFF) 
+    endif()
+ 
+    include_directories(
+    include
+      ${rclcpp_INCLUDE_DIRS}
+      ${rmw_connext_cpp_INCLUDE_DIRS}
+      ${std_interfaces_INCLUDE_DIRS}
+      )
 
-   target_link_libraries(main 
-   ${yaml-cpp}
-   ${roscpp_LIBRARIES}
-   ${rclcpp_LIBRARIES}
-   ${std_msgs_LIBRARIES})
+    add_executable(main main.cpp)
+    #target_link_libraries(main ${rclcppLIBRARIES} ${std_msgs_LIBRARIES} )
+    ament_target_dependencies(main rclcpp std_msgs)
+    install(TARGETS main
+        DESTINATION bin)
+
+endif()
 
 
-install(TARGETS
-  main
-  DESTINATION lib/${PROJECT_NAME}
-)
+
+
+
+
+
+
+
+
+
