@@ -1,19 +1,22 @@
-#include <sstream>
+#include <iostream>
 #include <yaml-cpp/yaml.h>
 #include "main.hpp"
+#include <chrono>
+
+using namespace std::chrono_literals;
 
 int main(int argc, char **argv)
 {
-    std::string config_file_;
-    config_file_.assign(argv[1]);
-	YAML::Node config = YAML::LoadFile(config_file_);
-    int server = config["Server"].as<int>();
+	int server = *argv[1];
+    //std::string config_file_;
+    //config_file_.assign(argv[1]);
+	//YAML::Node config = YAML::LoadFile(config_file_);
+    //int server = config["Server"].as<int>();
     	switch (server){
-		case 1:
+		case '1':
 		{
-			//system("/opt/ros/melodic/setup.bash");
 			#ifdef ROS1_H
-				std::cout << "Receiving Image from ROS messages" << std::endl;
+				std::cout << "Receiving ROS messages" << std::endl;
 				ros::init(argc, argv, "talker");
 				ros::NodeHandle n;
 				ros::Publisher chatter_pub = n.advertise<std_msgs::String>("chatter", 1000);
@@ -32,20 +35,38 @@ int main(int argc, char **argv)
 					loop_rate.sleep();
 					++count;
 				}
+			#else
+				throw "ERROR: ROS is not available";
 			#endif
 		 	break;
 		}
-		case 2:
+		case '2':
 		{
-			#if ROS2_H			
-            //system("/opt/ros/dashing/setup.bash");
-			std::cout << "Receiving Image from ROS2 messages" << std::endl;
+			#ifdef ROS2_H
+				std::cout << "Receiving ROS2 messages" << std::endl;
+				rclcpp::init(argc, argv);
+				auto node = rclcpp::Node::make_shared("minimal_publisher");
+				auto publisher = node->create_publisher<std_msgs::msg::String>("topic", 10);
+				std_msgs::msg::String message;
+				auto publish_count = 0;
+				rclcpp::WallRate loop_rate(500ms);
+
+				while (rclcpp::ok()) {
+				message.data = "Hello, world! " + std::to_string(publish_count++);
+				RCLCPP_INFO(node->get_logger(), "Publishing: '%s'", message.data.c_str());
+				publisher->publish(message);
+				rclcpp::spin_some(node);
+				loop_rate.sleep();
+				}
+				rclcpp::shutdown();
+			#else
+				throw "ERROR: ROS2 is not available";
 			#endif
-		 	break;
+			break;
 		}
 		default:
 		{
-			printf("No ROS1; ROS2");
+			printf("Select right distro of ROS");
             break;
 		}
 return 0;    
