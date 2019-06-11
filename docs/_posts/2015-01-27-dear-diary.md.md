@@ -64,7 +64,7 @@ Now, moving to the solution:
   
   Initially cases were tasted for ROS1 and ROS2 path individually with different CMake file and after successful runs they were integrated into one using --cmake-args and if()..else()..endif() conditions in CMakeLists.txt
   
-                                          **Hello World Publisher!**
+  **Hello World Publisher!**
   
   This tool works for all 4 cases:
   
