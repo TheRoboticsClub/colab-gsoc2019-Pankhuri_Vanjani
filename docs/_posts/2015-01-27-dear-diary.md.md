@@ -43,7 +43,9 @@ Now, moving to the solution:
     ```                        
     SET(CMAKE_PREFIX_PATH "${CMAKE_PREFIX_PATH} /home/pankhuri/ros2_ws/install";/opt/ros/melodic)
     ```
-    Challenge: Since our files are in ```/opt/ros/melodic``` path or in```/install``` for workspace I was using these two paths individually. But using them together with help of dilimiter ';' solved the issue.
+    Challenge: Since our files are in ```/opt/ros/melodic``` path or in```/install``` for workspace I was using these two paths individually. But using them together with help of dilimiter ';' solved the issue. 
+    
+    Helpful links: [answers.ros #01](Sourcing Error solved using http://answers.ros.org/question/251262/qt-creator-42-cmake/)
     
 * For ROS2   
     
@@ -78,9 +80,34 @@ Now, moving to the solution:
  
  [![ROS1-ROS2 Interface](https://www.youtube.com/watch?v=ziAgkfG3tBc&feature=youtu.be/0.jpg)](https://www.youtube.com/watch?v=ziAgkfG3tBc&feature=youtu.be "ROS1-ROS2 Interface")	
   
-Steps to run this example:
+  **************************************************************************************************  
+**Steps to run this example:**
+
+1. Download the dummyexample
+
+2. Build the code:
+  ```  colcon build --symlink-install \--cmake-args \ -Drosversion:string=0  ```
+  
+ Note: 
+ ```-Drosversion:string=1 ```//For ROS1
+ 
+ ```-Drosversion:string=0 ```//For ROS2
+3. To run it:
+    
+    Go to build directory where the main file is located (/build/dummyexample/)
+    
+    ```./main 1``` //For ROS1
+    
+    ```./main 2``` //For ROS2
+
+       
+       
+       
+
+
+
   
   
-  **************************************************************************************************
+
   
 
