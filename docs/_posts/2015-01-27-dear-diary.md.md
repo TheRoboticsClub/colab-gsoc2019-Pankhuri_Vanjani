@@ -75,10 +75,10 @@ Now, moving to the solution:
   * Only ROS2 present
   
   * Neither ROS1 nor ROS2 present
+ 
+ [![ROS1-ROS2 Interface](https://www.youtube.com/watch?v=ziAgkfG3tBc&feature=youtu.be/0.jpg)](https://www.youtube.com/watch?v=ziAgkfG3tBc&feature=youtu.be "ROS1-ROS2 Interface")	
   
-  (Publish the working video of ROS1 and ROS2 publisher on Youtube and link here)
-  
-  Steps to run this example:
+Steps to run this example:
   
   
   **************************************************************************************************
