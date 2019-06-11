@@ -76,7 +76,7 @@ Now, moving to the solution:
   
   Initially cases were tasted for ROS1 and ROS2 path individually with different CMake file and after successful runs they were integrated into one using --cmake-args and if()..else()..endif() conditions in CMakeLists.txt
   
-  Most of the work in this week was to correct the CMakeLists.txt and get it right.  So, here is the final version of it:
+  Most of the work in this week was to correct the CMakeLists.txt for both ROS and ROS2 and get it right.  So, here is the final version of it:
   
 ```  
   cmake_minimum_required(VERSION 3.5)
