@@ -77,6 +77,7 @@ Now, moving to the solution:
   Initially cases were tasted for ROS1 and ROS2 path individually with different CMake file and after successful runs they were integrated into one using --cmake-args and if()..else()..endif() conditions in CMakeLists.txt
   
   Most of the work in this week was to correct the CMakeLists.txt and get it right.  So, here is the final version of it:
+  
 ```  
   cmake_minimum_required(VERSION 3.5)
 project(dummyexample)
@@ -91,10 +92,8 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic -Wunused-parameter)
 endif()
 
-SET(rosversion "1" CACHE STRING "Some user-specified option") ````
+SET(rosversion "1" CACHE STRING "Some user-specified option") 
    
-```
-```
 if(rosversion) 
     message("THIS IS ROS1")
 
@@ -119,9 +118,7 @@ if(rosversion)
 
     install(TARGETS main
             DESTINATION bin)
-```
 
-```
 else()
     message("THIS IS ROS2")
 
