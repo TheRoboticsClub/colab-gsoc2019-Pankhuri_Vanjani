@@ -29,13 +29,16 @@ For better clarity these are the links studied for understanding [link1](https:/
 *Getting right path to get rid of sourcing environment.*
 
 Discussion in issues:
-[Issue#01](https://github.com/TheRoboticsClub/colab-gsoc2019-Pankhuri_Vanjani/issues/1)
 
-[Issue#02](https://github.com/TheRoboticsClub/colab-gsoc2019-Pankhuri_Vanjani/issues/2)
+1. Source the ROS and ROS2 environment for different cases from the cpp file (Intended interface) [Issue#01](https://github.com/TheRoboticsClub/colab-gsoc2019-Pankhuri_Vanjani/issues/1)
+
+2. Conditional compilation failing [Issue#02](https://github.com/TheRoboticsClub/colab-gsoc2019-Pankhuri_Vanjani/issues/2)
+
+Now, moving to the solution:
 
 * For ROS1
-     --solved for ROS1  
-     Adding these lines in CMakeLists.txt 
+
+     ---Solved for ROS1 by Adding these lines in CMakeLists.txt 
               
     ```                        
     SET(CMAKE_PREFIX_PATH "${CMAKE_PREFIX_PATH} /home/pankhuri/ros2_ws/install";/opt/ros/melodic)
@@ -44,12 +47,10 @@ Discussion in issues:
     
 * For ROS2   
     
-    --AMENT PACKAGE- a python package so needs right pythonpath
-    (Explain the problem in detail)
+    --AMENT PACKAGE- 'ament_package is a Python module. Python uses the PYTHONPATH variable. It doesn't retrieve the CMAKE_PREFIX_PATH, so setting it will not extend the Python search path'. First we need to set the right path.
+   
     
-    --solved for ROS2
-    
-    Adding these lines in CMakeLists.txt 
+    ---Solved for ROS2 by adding these lines in CMakeLists.txt 
     
     ```
     SET(ENV{PYTHONPATH} "/opt/ros/dashing/lib/python3.6/site-packages/")
@@ -58,11 +59,23 @@ Discussion in issues:
     ```
     Challenge: I tried it in a way simialar to ROS1 but there was an error of 'No module named ament package'. Resolving it consumed a lot of time.
     
+    
   **Testing the tool**
   
-  Hello World Publisher!
+  Initially cases were tasted for ROS1 and ROS2 path individually with different CMake file and after successful runs they were integrated into one using --cmake-args and if()..else()..endif() conditions in CMakeLists.txt
   
-  Cases tested for ROS1 and ROS2 path individually
+                                          **Hello World Publisher!**
+  
+  This tool works for all 4 cases:
+  
+  * Both ROS1 and ROS2 installed
+  
+  * Only ROS1 present
+  
+  * Only ROS2 present
+  
+  * Neither ROS1 nor ROS2 present
+  
   (Publish the working video of ROS1 and ROS2 publisher on Youtube and link here)
   
   Steps to run this example:
@@ -70,14 +83,4 @@ Discussion in issues:
   
   **************************************************************************************************
   
-  Next challenge : How to set path for both ROS1 and ROS2 during environment and select during runtime?
-  
-  one solution: --cmake-args ' -DVARIABLE=1 '
-                  then if(variable-ROS1=on)
-                          set ROS1 path
-                       elif (variable -ROS2= on /ROS1=on)
-                           set ROS2 path
-  
-              Solve: how to get variable
-      
-  Final: Test Hello World publisher with both ROS1 and ROS2 path defined in one CMakeLists.txt!
+
