@@ -1,0 +1,9 @@
+version: '3.7'
+services:
+   ros-com:
+      build: /home/pankhuri/dock-final
+      ports:
+         - "4000:80"
+      tty: true
+
+
