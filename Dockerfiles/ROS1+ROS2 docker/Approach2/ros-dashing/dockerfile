@@ -1,0 +1,17 @@
+FROM ubuntu:bionic
+RUN apt update
+#RUN sudo locale-gen en_US en_US.UTF-8
+#RUN update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
+#RUN export LANG=en_US.UTF-8
+RUN apt update
+RUN apt-get -y install lsb-release
+RUN apt install -y curl gnupg2 lsb-release
+RUN curl http://repo.ros2.org/repos.key | apt-key add -
+RUN sh -c 'echo "deb [arch=amd64,arm64] http://packages.ros.org/ros2/ubuntu `lsb_release -cs` main" > /etc/apt/sources.list.d/ros2-latest.list'
+RUN apt update
+RUN apt-get install -y tzdata
+RUN apt install -y ros-dashing-desktop
+RUN apt install -y python3-argcomplete
+RUN apt update
+
+
