@@ -61,7 +61,7 @@ else:
     os.environ["ROS_VERSION"] = "2"
     os.environ["ROS_PYTHON_VERSION"] = "3"
     os.environ["OSPL_ERRORFILE"] = "<stderr>"
-    os.environ["PYTHONPATH"] = "PYTHONPATH=/opt/ros/dashing/lib/python3.6/site-packages"
+    os.environ["PYTHONPATH"] = "/opt/ros/dashing/lib/python3.6/site-packages"
     os.environ["PATH"] = "/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/dashing/bin:/home/pankhuri/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
     os.environ["ROS_DISTRO"] = "dashing"
     os.environ["OSPL_TMPL_PATH"] = "/usr/etc/opensplice/idlpp"
