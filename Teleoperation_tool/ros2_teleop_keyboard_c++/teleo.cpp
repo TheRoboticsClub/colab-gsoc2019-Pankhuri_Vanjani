@@ -120,24 +120,11 @@ int getch(void)
 
 int main(int argc, char** argv)
 {
-  // Init ROS node
   rclcpp::init(argc, argv);
-
-  //rc::init(argc, argv, "teleop_twist_keyboard");
-  //ros::NodeHandle nh;
   auto node = std::make_shared<rclcpp::Node>("teleop_twist_keyboard");
-
-  //auto node rclcpp::Node::make_shared("teleop_twist_keyboard");
   auto pub = node->create_publisher<geometry_msgs::msg::Twist>("cmd_vel", 10);
   
   geometry_msgs::msg::Twist twist;
-
-
-  // Init cmd_vel publisher
-  //ros::Publisher pub = nh.advertise<geometry_msgs::Twist>("cmd_vel", 1);
-
-  // Create Twist message
-  //geometry_msgs::Twist twist;
 
   printf("%s", msg);
   printf("\rCurrent: speed %f\tturn %f | Awaiting command...\r", speed, turn);
@@ -196,9 +183,9 @@ int main(int argc, char** argv)
     twist.angular.y = 0;
     twist.angular.z = th * turn;
 
-    // Publish it and resolve any remaining callbacks
+    // Publish it 
     pub->publish(twist);
-    //ros::spinOnce();
+
   }
 
   return 0;
