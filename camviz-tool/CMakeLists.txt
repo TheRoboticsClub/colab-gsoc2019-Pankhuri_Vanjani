@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
+
 project(camViz-ros1)
 set(CMAKE_BUILD_TYPE Debug)
 # Default to C++14
