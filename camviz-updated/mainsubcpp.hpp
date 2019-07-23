@@ -29,7 +29,7 @@ namespace camViz{
 						std::cout << "lc-startyo";
 
 				client = (camViz::CameraClient*) lc;
-						std::cout << "clientbanyoo";
+						std::cout << "clientban";
 
 
 				//cv::destroyWindow("view");
