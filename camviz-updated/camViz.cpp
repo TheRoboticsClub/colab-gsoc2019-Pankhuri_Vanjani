@@ -64,7 +64,7 @@ int main(int argc, char** argv){
 	//Comm::Communicator* jdrc = new Comm::Communicator(cfg);
 
 	camRGB = camViz::getCameraClient(argc,argv,server,topic,nodeName);
-		std::cout << "cameraclientmilgyo";
+		std::cout << "cameraclientfound";
 
 
 //////****************View in GUI******************************
@@ -79,7 +79,7 @@ int main(int argc, char** argv){
 	while(viewer.isVisible()){
 		//jderobot::ImageDataPtr data = camRGB->getImageData(format);
 		rgb = camRGB->getImage();
-		std::cout << "imageayo\n";
+		std::cout << "imageaagyi\n";
 
 		viewer.display(rgb.data);
 		viewer.displayFrameRate(0);
