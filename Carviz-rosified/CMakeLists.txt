@@ -16,7 +16,10 @@ SET(CMAKE_PREFIX_PATH "${CMAKE_PREFIX_PATH} /home/pankhuri/catkin_ws/install;/op
 	SET(SOURCE main.cpp  
 				    robot/actuators.cpp robot/robot.cpp robot/sensors.cpp  
 			        gui/gui.cpp gui/threadupdategui.cpp
-			        gui/widget/cameraswidget.cpp gui/widget/controlvw.cpp gui/widget/laserwidget.cpp
+			        gui/widget/cameraswidget.cpp gui/widget/controlvw.cpp gui/widget/laserwidget.cpp 
+              config/loader.cpp config/properties.cpp
+              comm/cameraClient.cpp comm/communicator.cpp comm/laserClient.cpp comm/motorsClient.cpp comm/pose3dClient.cpp
+              comm/src/listenerCamera.cpp comm/src/listenerLaser.cpp comm/src/listenerPose.cpp comm/src/publisherMotors.cpp comm/src/translators.cpp
 			        ${HEADERS}
 			        ${RESOURCES}
     )
@@ -32,6 +35,17 @@ find_package(Qt5 REQUIRED Widgets)
         find_package(Boost 1.65 REQUIRED COMPONENTS system)
 
         find_package(yaml-cpp REQUIRED)
+
+if(roscpp_FOUND) 
+message("ROS1 found")
+add_definitions(-DROS_H) 
+add_definitions(-DROS1S_H)
+SET(ROS_H ON) 
+ELSE()
+message("ROS1 not found")
+SET(ROS_H OFF) 
+SET(ROS1S_H OFF)
+endif()
 
 #if (${QT5_COMPILE} AND ${roscpp_FOUND})
 	
@@ -51,6 +65,8 @@ find_package(Qt5 REQUIRED Widgets)
     SET(HEADERS robot/robot.h gui/gui.h gui/widget/cameraswidget.h gui/widget/controlvw.h)
     SET(RESOURCES resources.qrc)
 
+include_directories(${roscpp_INCLUDE_DIRS}   ${std_msgs_INCLUDE_DIRS}
+ ${image_transport_INCLUDE_DIRS} ${sensor_msgs_INCLUDE_DIRS} )
 
 
     include_directories(
@@ -72,6 +88,10 @@ find_package(Qt5 REQUIRED Widgets)
         ${ZLIB_INCLUDE_DIRS}
     )
 
+	include_directories(carviz)
+	include_directories(config)
+	
+
     link_directories(${JDE_LIBS}
         ${easyiceconfig_LIBRARY_DIRS}
         ${carviz_LIBRARY_DIRS}
@@ -83,6 +103,13 @@ find_package(Qt5 REQUIRED Widgets)
         ${Qt5Widgets_LIBRARIES}
         ${YAML_CPP_LIBRARIES}
         ${Boost_LIBRARIES}
+
+ ${roscpp_LIBRARIES}
+  ${std_msgs_LIBRARIES}
+   ${image_transport_LIBRARIES}
+     ${OpenCV_LIBRARIES} 
+     ${cv_bridge_LIBRARIES}
+      ${sensor_msgs_LIBRARIES}
 
         ${Qt5Core_LIBRARIES}
         ${Qt5Gui_LIBRARIES}
@@ -104,8 +131,6 @@ find_package(Qt5 REQUIRED Widgets)
     )
 
     INSTALL (FILES ${CMAKE_CURRENT_SOURCE_DIR}/carViz.yml 
-	       NAMESPACE
-		  Comm::
 		DESTINATION ${CMAKE_INSTALL_PREFIX}/share/jderobot/conf 
 		COMPONENT carviz)
 #ENDIF()

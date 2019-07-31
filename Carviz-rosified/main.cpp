@@ -4,7 +4,7 @@
 #include "gui/threadupdategui.h"
 
 #include "config/config.h"
-#include "communicator.hpp"
+#include "comm/communicator.hpp"
 
 int main(int argc, char *argv[])
 {
