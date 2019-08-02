@@ -6,7 +6,6 @@
 #include <opencv2/core/core.hpp>
 #include <opencv2/highgui/highgui.hpp>
 
-#include <memory>
 #include "std_msgs/msg/string.hpp"
 #include "translatorsros2.hpp"
 #include <boost/thread/thread.hpp>
@@ -27,6 +26,16 @@ namespace camViz {
 	class ListenerCameraros2 
 	{
 		public:
+
+			class derivedMultiThreadedExecutor : public rclcpp::executors::MultiThreadedExecutor
+			{
+			public:
+
+				//void rclcpp::executors::MultiThreadedExecutor::run	(	size_t 	this_thread_number	)	;
+				void runn(size_t this_thread_number) { 
+				return  run(	size_t (4)) ; 
+				}
+    		};
 			ListenerCameraros2(int argc, char** argv, std::string nodeName, std::string topic);
 			~ListenerCameraros2();
 
@@ -38,7 +47,9 @@ namespace camViz {
 			virtual int getRefreshRate();
 
 
-    		MultiThreadedExecutor* spinner = new MultiThreadedExecutor();
+    		//MultiThreadedExecutor* spinner = new MultiThreadedExecutor();
+			derivedMultiThreadedExecutor* spinner = new derivedMultiThreadedExecutor();
+
 
 
 
@@ -85,7 +96,7 @@ namespace camViz {
 			const std::string nodeName = std::string(this->nodeName);
 			time(&timer);
 			int a = 0;
-			rclcpp::init(argc, argv);
+			//rclcpp::init(argc, argv);
 
 
 			subscription_ = g_node->create_subscription<sensor_msgs::msg::Image>(topic, std::bind(&ListenerCameraros2::imagecallback, this, _1), 10);
@@ -105,7 +116,8 @@ namespace camViz {
 	//}
 
 	void ListenerCameraros2::start(){
-		this->spinner->spin();
+		this->spinner->runn(size_t (1));
+
 
 	}
 
