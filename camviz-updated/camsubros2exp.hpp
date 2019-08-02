@@ -17,7 +17,7 @@
 #include <cv_bridge/cv_bridge.h>
 #include <time.h>
 
-
+static const std::string OPENCV_WINDOW = "Image window";
 
 namespace camViz{
 
@@ -29,32 +29,64 @@ class MinimalSubscriber : public rclcpp::Node
 {
 public:
 
-    MultiThreadedExecutor* spinner = new MultiThreadedExecutor();
+    //MultiThreadedExecutor* spinner = new MultiThreadedExecutor();
+
+    ///Multithreaded spinner
+
+    class derivedMultiThreadedExecutor : public rclcpp::executors::MultiThreadedExecutor
+    {
+    public:
+
+        //void rclcpp::executors::MultiThreadedExecutor::run	(	size_t 	this_thread_number	)	;
+         void runn(size_t this_thread_number) { 
+          return  run(	size_t (4)) ; 
+       }
+    
+
+    };
+
+     derivedMultiThreadedExecutor* spinner = new derivedMultiThreadedExecutor();
+
+ 
+    MinimalSubscriber(int argc, char** argv, std::string nodeName, std::string topic)
+    : Node(nodeName)
+    {
+        RCLCPP_INFO(this->get_logger(), "constructor Called");
+        rclcpp::Node::SharedPtr g_node = rclcpp::Node::make_shared(nodeName);
+
+        subscription_ = this->create_subscription<sensor_msgs::msg::Image>(
+        topic, std::bind(&MinimalSubscriber::topic_callback, this, _1), 10);
+
+        std::cout << "listen from "+ topic << std::endl;   
 
 
-  MinimalSubscriber(int argc, char** argv, std::string nodeName, std::string topic)
-  : Node(nodeName)
-  {
-    RCLCPP_INFO(this->get_logger(), "constructor Called");
-    rclcpp::Node::SharedPtr g_node = rclcpp::Node::make_shared(nodeName);
+        spinner->add_node(g_node);
 
-    subscription_ = this->create_subscription<sensor_msgs::msg::Image>(
-      topic, std::bind(&MinimalSubscriber::imagecallback, this, _1), 10);
-	std::cout << "listen from "+ topic << std::endl;   
-
-    spinner->add_node(g_node);
-
-    void start();
+    }
+    ~MinimalSubscriber(){
+        this->stop();
+    }
 
 
-  }
 
-	void start(){
-		this->spinner->spin();
-
+    void stop(){
+		//ssthis->spinner->stop();
+		rclcpp::shutdown();
 	}
     
-	//virtual int getRefreshRate();
+
+  	void start(){
+        RCLCPP_INFO(this->get_logger(), "starting");
+        //spinner->run(size_t (4));
+        this->spinner->runn(size_t (1));
+        //this->spinner->spin();
+		    std::cout << "Hello "<< std::endl;
+
+
+	}
+  	virtual JdeRobotTypes::Image getImage();
+
+
 
     int getRefreshRate(){
 
@@ -69,19 +101,20 @@ public:
 private:
     pthread_mutex_t mutex;
 
-  void topic_callback(const sensor_msgs::msg::Image::SharedPtr message)
+  void
+  topic_callback(const sensor_msgs::msg::Image::SharedPtr message)
   {
     RCLCPP_INFO(this->get_logger(), "In callback");
 
     cv::Mat cv_mat = cv::imdecode(cv::Mat(message->data), cv::IMREAD_UNCHANGED);
 
-    //RCLCPP_INFO(this->get_logger(), "I heard: '%s'", "Image");
+    RCLCPP_INFO(this->get_logger(), "I heard: '%s'", "Image");
 
     cv::Mat c_mat = cv_mat;
 
-    //std::cout << c_mat.rows << " " << c_mat.cols << std::endl;
+    std::cout << c_mat.rows << " " << c_mat.cols << std::endl;
 
-    //cv::imshow("camViz", c_mat);
+    cv::imshow("camViz", c_mat);
 
     char key = cv::waitKey(1);
 
@@ -96,9 +129,12 @@ private:
 			this->cont++;
 			time_t now;
 			time(&now);
+
 			pthread_mutex_lock(&mutex);
+      RCLCPP_INFO(this->get_logger(), "getting22 images");
 
 		this->image = translate_image_messages(image_msg);
+
 
         //this->image.data  = cv::imdecode(cv::Mat(image_msg->data), cv::IMREAD_UNCHANGED);
 
@@ -114,6 +150,8 @@ private:
   rclcpp::Subscription<sensor_msgs::msg::Image>::SharedPtr subscription_;
 
 protected:
+
+
 	JdeRobotTypes::Image image;
 	int refreshRate;
 	int cont = 0; //used to count Frames per seconds
@@ -121,6 +159,14 @@ protected:
 };
 
 
+	JdeRobotTypes::Image MinimalSubscriber::getImage(){
+		std::cout << "hi\n";
+		JdeRobotTypes::Image img;
+		pthread_mutex_lock(&mutex);
+		img = this->image;
+		pthread_mutex_unlock(&mutex);
+		return img;
+	}
 
 
 
