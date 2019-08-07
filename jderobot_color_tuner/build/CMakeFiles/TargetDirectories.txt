@@ -1,0 +1,6 @@
+/home/pankhuri/ColorTuner/jderobot_color_tuner/build/CMakeFiles/install/strip.dir
+/home/pankhuri/ColorTuner/jderobot_color_tuner/build/CMakeFiles/install.dir
+/home/pankhuri/ColorTuner/jderobot_color_tuner/build/CMakeFiles/install/local.dir
+/home/pankhuri/ColorTuner/jderobot_color_tuner/build/CMakeFiles/list_install_components.dir
+/home/pankhuri/ColorTuner/jderobot_color_tuner/build/CMakeFiles/edit_cache.dir
+/home/pankhuri/ColorTuner/jderobot_color_tuner/build/CMakeFiles/rebuild_cache.dir
