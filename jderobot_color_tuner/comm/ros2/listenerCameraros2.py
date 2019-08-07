@@ -88,7 +88,7 @@ class ListenerCameraros2:
         self.data = Image()
         self.sub = None
         self.lock = threading.Lock()
-        self.__noderos2 = comm.Communicator.getnoderos2(self)
+        #self.__noderos2 = comm.Communicator.getnoderos2(self)
 
 
         self.bridge = CvBridge()
