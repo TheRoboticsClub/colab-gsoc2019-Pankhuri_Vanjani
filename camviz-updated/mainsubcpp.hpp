@@ -29,7 +29,7 @@ namespace camViz{
 						std::cout << "lc-startyo";
 
 				client = (camViz::CameraClient*) lc;
-						std::cout << "clientban";
+						std::cout << "clientform";
 
 
 				//cv::destroyWindow("view");
@@ -71,13 +71,13 @@ namespace camViz{
 				lc2 = new  MinimalSubscriber(0, nullptr, nodeName,topic);	
 				lc2->start();
 
-				std::cout << "lc-startyo";
+				std::cout << "lc-start";
                 //rclcpp::spin(std::make_shared<MinimalSubscriber>(0, nullptr, nodeName, topic));
 
-				std::cout << "comeoutyo";
+				std::cout << "comeout";
 
 				client = (camViz::CameraClient*) lc2;
-						std::cout << "clientbanyoo";
+						std::cout << "received client";
 
                 rclcpp::shutdown();
 	
