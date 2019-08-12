@@ -77,9 +77,21 @@ namespace camViz{
 				std::cout << "comeout";
 
 				client = (camViz::CameraClient*) lc2;
-						std::cout << "received client";
+				std::cout << "received client";
+				
+				if(client==NULL)
+				{
+					std::cout << "clientnulls";
 
-                rclcpp::shutdown();
+					client->getImage();
+					
+				}
+				else
+				{
+					std::cout << "clientnotnull";
+
+					lc2->getImage();
+				}
 	
 				#else
 					throw "ERROR: ROS2 is not available";
