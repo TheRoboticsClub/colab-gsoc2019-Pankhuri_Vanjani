@@ -132,7 +132,7 @@ protected:
 		}
 
 
-	JdeRobotTypes::Image MinimalSubscriber::getImage(){
+  JdeRobotTypes::Image MinimalSubscriber::getImage(){
 		JdeRobotTypes::Image img;
 		pthread_mutex_lock(&mutex);
 		img = this->image;
