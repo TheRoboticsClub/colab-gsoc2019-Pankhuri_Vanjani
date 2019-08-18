@@ -20,7 +20,9 @@ Terminal 1: (Client side)
 
 Terminal 2: (Publisher)
 
-1. ```ros2 topic pub /chatter std_msgs/String "data: Hello ROS Developers"```
+1. source /opt/ros/dashing/setup.bash
+
+2. ```ros2 topic pub /chatter std_msgs/String "data: Hello ROS Developers"```
 
 
 P.S. There are two approaches in mainsubcpp.hpp file
