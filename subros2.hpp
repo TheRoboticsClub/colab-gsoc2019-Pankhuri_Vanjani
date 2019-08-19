@@ -49,11 +49,13 @@ protected:
     : Node(nodeName)
     {
       	pthread_mutex_init(&mutex, NULL);
-        subscription_ = this->create_subscription<sensor_msgs::msg::Image>(
+        subscription_ = this->create_subscription<std_msgs::msg::String>(
       topic, 10, std::bind(&MinimalSubscriber::topic_callback, this, _1));
         std::cout << "listen from "+ topic << std::endl;   
         //spinner->add_node(nodeName); //***Is it right to call add_node here??
     }
+
+// std::bind(&MinimalSubscriber::topic_callback, this, _1)
 
   void
   MinimalSubscriber::start(){
@@ -65,7 +67,7 @@ protected:
   void 
   MinimalSubscriber::topic_callback(const std_msgs::msg::String::SharedPtr msg) 
     {
-      std::cout << "in topic-callback"<< std::endl;   
+      std::cout << "in topic-callback " << msg->data << std::endl;   
     }
 
   int MinimalSubscriber::getRefreshRate(){

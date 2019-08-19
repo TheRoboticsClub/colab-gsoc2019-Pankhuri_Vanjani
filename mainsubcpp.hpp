@@ -23,17 +23,7 @@ namespace camViz{
 			//Approach 1
 			MinimalSubscriber* lc2;
 			lc2 = new MinimalSubscriber(0, nullptr, nodeName,topic);
-			std::shared_ptr <camViz::MinimalSubscriber> temp_ptr (lc2);
-			lc2->spinner->add_node( temp_ptr);
-			lc2->start();
-
-			client = (camViz::CameraClient*) lc2;
-
-
-			//Approach 2	
-			//rclcpp::spin(std::make_shared<MinimalSubscriber>(0, nullptr, nodeName,topic));
-
-		return client;
+			return (camViz::CameraClient*) lc2;
 
 		}
 	

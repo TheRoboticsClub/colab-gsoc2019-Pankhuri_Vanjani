@@ -1,4 +1,4 @@
-#include </opt/jderobot/include/jderobot/types/image.h>
+//#include </opt/jderobot/include/jderobot/types/image.h>
 
 #include "caminterface.hpp"
 
