@@ -1,0 +1,2 @@
+/home/pankhuri/Week13/carViz/install/carviz/bin/carViz
+/home/pankhuri/Week13/carViz/install/carviz/share/jderobot/conf/carViz.yml

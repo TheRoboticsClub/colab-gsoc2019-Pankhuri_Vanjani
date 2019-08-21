@@ -1,0 +1,26 @@
+[  4%] [34m[1mAutomatic MOC for target carViz[0m
+[  4%] Built target carViz_autogen
+[35m[1mScanning dependencies of target carViz[0m
+[  8%] [32mBuilding CXX object CMakeFiles/carViz.dir/robot/robot.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/carViz.dir/comm/ros2src/listenerPoseros2.cpp.o[0m
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/listenerPoseros2.cpp:[m[K In constructor ‘[01m[KComm::ListenerPose::ListenerPose(int, char**, std::__cxx11::string, std::__cxx11::string)[m[K’:
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/listenerPoseros2.cpp:6:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  ListenerPose::ListenerPose(int [01;35m[Kargc[m[K, char** argv, std::string nodeName, std::string topic):
+                                 [01;35m[K^~~~[m[K
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/listenerPoseros2.cpp:6:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  ListenerPose::ListenerPose(int argc, char** [01;35m[Kargv[m[K, std::string nodeName, std::string topic):
+                                              [01;35m[K^~~~[m[K
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/listenerPoseros2.cpp:[m[K At global scope:
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/listenerPoseros2.cpp:40:2:[m[K [01;31m[Kerror: [m[Kprototype for ‘[01m[Kvoid Comm::ListenerPose::posecallback(nav_msgs::msg::Odometry)[m[K’ does not match any in class ‘[01m[KComm::ListenerPose[m[K’
+  [01;31m[KListenerPose[m[K::posecallback(const nav_msgs::msg::Odometry odom_msg){
+  [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/comm/ros2src/listenerPoseros2.cpp:1:0[m[K:
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/../ros2head/listenerPoseros2.hpp:24:8:[m[K [01;31m[Kerror: [m[Kcandidate is: void Comm::ListenerPose::posecallback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)
+   void [01;31m[Kposecallback[m[K (const nav_msgs::msg::Odometry::SharedPtr odom_msg);
+        [01;31m[K^~~~~~~~~~~~[m[K
+CMakeFiles/carViz.dir/build.make:494: recipe for target 'CMakeFiles/carViz.dir/comm/ros2src/listenerPoseros2.cpp.o' failed
+make[2]: *** [CMakeFiles/carViz.dir/comm/ros2src/listenerPoseros2.cpp.o] Error 1
+make[1]: *** [CMakeFiles/carViz.dir/all] Error 2
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/carViz.dir/all' failed
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

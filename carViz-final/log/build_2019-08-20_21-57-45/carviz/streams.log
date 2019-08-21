@@ -1,0 +1,24 @@
+Invoking command in '/home/pankhuri/Week13/carViz/build/carviz': /usr/bin/cmake --build /home/pankhuri/Week13/carViz/build/carviz -- -j4 -l4
+[  4%] [34m[1mAutomatic MOC for target carViz[0m
+[  4%] Built target carViz_autogen
+[35m[1mScanning dependencies of target carViz[0m
+[  8%] [32mBuilding CXX object CMakeFiles/carViz.dir/main.cpp.o[0m
+[01m[K/home/pankhuri/Week13/carViz/main.cpp:1:9:[m[K [01;35m[Kwarning: [m[K#pragma once in main file
+ #pragma [01;35m[Konce[m[K
+         [01;35m[K^~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/main.cpp:8:0[m[K:
+[01m[K/home/pankhuri/Week13/carViz/config/config.h:[m[K In function ‘[01m[KConfig::Properties Config::load(int, char**)[m[K’:
+[01m[K/home/pankhuri/Week13/carViz/config/config.h:18:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ Config::Properties load(int [01;35m[Kargc[m[K, char* argv[])
+                             [01;35m[K^~~~[m[K
+[01m[K/home/pankhuri/Week13/carViz/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/pankhuri/Week13/carViz/main.cpp:96:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kexecution_thread[m[K’ was not declared in this scope
+     [01;31m[Kexecution_thread[m[K.join();
+     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+CMakeFiles/carViz.dir/build.make:62: recipe for target 'CMakeFiles/carViz.dir/main.cpp.o' failed
+make[2]: *** [CMakeFiles/carViz.dir/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/carViz.dir/all] Error 2
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/carViz.dir/all' failed
+make: *** [all] Error 2
+Makefile:140: recipe for target 'all' failed
+Invoked command in '/home/pankhuri/Week13/carViz/build/carviz' returned '2': /usr/bin/cmake --build /home/pankhuri/Week13/carViz/build/carviz -- -j4 -l4

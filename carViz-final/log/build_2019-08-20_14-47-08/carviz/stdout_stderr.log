@@ -1,0 +1,29 @@
+[  4%] [34m[1mAutomatic MOC for target carViz[0m
+[  4%] Built target carViz_autogen
+[35m[1mScanning dependencies of target carViz[0m
+[  8%] [32mBuilding CXX object CMakeFiles/carViz.dir/gui/widget/laserwidget.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/carViz.dir/comm/communicator.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/carViz.dir/comm/laserClient.cpp.o[0m
+[01m[K/home/pankhuri/Week13/carViz/comm/laserClient.cpp:[m[K In function ‘[01m[KComm::LaserClient* Comm::getLaserClient(Comm::Communicator*, std::__cxx11::string)[m[K’:
+[01m[K/home/pankhuri/Week13/carViz/comm/laserClient.cpp:47:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kargc[m[K’ was not declared in this scope
+     rclcpp::init([01;31m[Kargc[m[K, argv);
+                  [01;31m[K^~~~[m[K
+[01m[K/home/pankhuri/Week13/carViz/comm/laserClient.cpp:47:18:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kerfc[m[K’
+     rclcpp::init([01;36m[Kargc[m[K, argv);
+                  [01;36m[K^~~~[m[K
+                  [32m[Kerfc[m[K
+[01m[K/home/pankhuri/Week13/carViz/comm/laserClient.cpp:47:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kargv[m[K’ was not declared in this scope
+     rclcpp::init(argc, [01;31m[Kargv[m[K);
+                        [01;31m[K^~~~[m[K
+[01m[K/home/pankhuri/Week13/carViz/comm/laserClient.cpp:50:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kcomm[m[K’ has not been declared
+     client = ([01;31m[Kcomm[m[K::LaserClient*) lc2;
+               [01;31m[K^~~~[m[K
+[01m[K/home/pankhuri/Week13/carViz/comm/laserClient.cpp:50:33:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+     client = (comm::LaserClient*[01;31m[K)[m[K lc2;
+                                 [01;31m[K^[m[K
+CMakeFiles/carViz.dir/build.make:374: recipe for target 'CMakeFiles/carViz.dir/comm/laserClient.cpp.o' failed
+make[2]: *** [CMakeFiles/carViz.dir/comm/laserClient.cpp.o] Error 1
+make[1]: *** [CMakeFiles/carViz.dir/all] Error 2
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/carViz.dir/all' failed
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

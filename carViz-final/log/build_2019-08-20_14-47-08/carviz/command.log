@@ -1,0 +1,2 @@
+Invoking command in '/home/pankhuri/Week13/carViz/build/carviz': /usr/bin/cmake --build /home/pankhuri/Week13/carViz/build/carviz -- -j4 -l4
+Invoked command in '/home/pankhuri/Week13/carViz/build/carviz' returned '2': /usr/bin/cmake --build /home/pankhuri/Week13/carViz/build/carviz -- -j4 -l4

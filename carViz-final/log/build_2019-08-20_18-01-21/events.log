@@ -1,0 +1,144 @@
+[0.000000] (-) TimerEvent: {}
+[0.000426] (carviz) JobQueued: {'identifier': 'carviz', 'dependencies': OrderedDict()}
+[0.000695] (carviz) JobStarted: {'identifier': 'carviz'}
+[0.017001] (carviz) JobProgress: {'identifier': 'carviz', 'progress': 'cmake'}
+[0.018713] (carviz) JobProgress: {'identifier': 'carviz', 'progress': 'build'}
+[0.022763] (carviz) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pankhuri/Week13/carViz/build/carviz', '--', '-j4', '-l4'], 'cwd': '/home/pankhuri/Week13/carViz/build/carviz', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('WORKON_HOME', '/home/pankhuri/.virtualenvs'), ('USER', 'pankhuri'), ('LANGUAGE', 'en_IN:en'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2887'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/pankhuri'), ('VIRTUALENVWRAPPER_PYTHON', '/usr/bin/python3'), ('DESKTOP_SESSION', 'ubuntu'), ('TERM_PROGRAM_VERSION', '1.34.0'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '23997'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '2'), ('LOGNAME', 'pankhuri'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'pankhuri'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/pankhuri/.local/bin:/home/pankhuri/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/pankhuri-LENOVO-IDEAPAD-500-15ISK:@/tmp/.ICE-unix/2761,unix/pankhuri-LENOVO-IDEAPAD-500-15ISK:/tmp/.ICE-unix/2761'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('NO_AT_BRIDGE', '1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/pankhuri/Week13/carViz/build/carviz'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg')]), 'shell': False}
+[0.097805] (-) TimerEvent: {}
+[0.198585] (-) TimerEvent: {}
+[0.285741] (carviz) StderrLine: {'line': b'THIS IS ROS2\n'}
+[0.299081] (-) TimerEvent: {}
+[0.364503] (carviz) StdoutLine: {'line': b'-- Found ament_cmake: 0.7.3 (/opt/ros/dashing/share/ament_cmake/cmake)\n'}
+[0.399417] (-) TimerEvent: {}
+[0.494356] (carviz) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.499436] (-) TimerEvent: {}
+[0.599952] (-) TimerEvent: {}
+[0.700736] (-) TimerEvent: {}
+[0.802108] (-) TimerEvent: {}
+[0.903658] (-) TimerEvent: {}
+[1.005144] (-) TimerEvent: {}
+[1.106690] (-) TimerEvent: {}
+[1.208504] (-) TimerEvent: {}
+[1.309897] (-) TimerEvent: {}
+[1.411720] (-) TimerEvent: {}
+[1.513035] (-) TimerEvent: {}
+[1.613975] (-) TimerEvent: {}
+[1.714524] (-) TimerEvent: {}
+[1.720431] (carviz) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.815026] (-) TimerEvent: {}
+[1.873531] (carviz) StdoutLine: {'line': b'-- Found rclcpp: 0.7.5 (/opt/ros/dashing/share/rclcpp/cmake)\n'}
+[1.915203] (-) TimerEvent: {}
+[2.016489] (-) TimerEvent: {}
+[2.093523] (carviz) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.7.1 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)\n'}
+[2.116410] (-) TimerEvent: {}
+[2.217222] (-) TimerEvent: {}
+[2.247531] (carviz) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.7.3 (/opt/ros/dashing/share/rosidl_adapter/cmake)\n'}
+[2.317442] (-) TimerEvent: {}
+[2.418388] (-) TimerEvent: {}
+[2.486106] (carviz) StdoutLine: {'line': b'-- Found sensor_msgs: 0.7.0 (/opt/ros/dashing/share/sensor_msgs/cmake)\n'}
+[2.518794] (-) TimerEvent: {}
+[2.615183] (carviz) StdoutLine: {'line': b'-- Found image_transport: 2.1.1 (/opt/ros/dashing/share/image_transport/cmake)\n'}
+[2.618890] (-) TimerEvent: {}
+[2.720300] (-) TimerEvent: {}
+[2.722555] (carviz) StdoutLine: {'line': b'-- Found poco_vendor:  (/opt/ros/dashing/share/poco_vendor/cmake)\n'}
+[2.820562] (-) TimerEvent: {}
+[2.891740] (carviz) StdoutLine: {'line': b'-- Found nav_msgs: 0.7.0 (/opt/ros/dashing/share/nav_msgs/cmake)\n'}
+[2.920812] (-) TimerEvent: {}
+[2.976614] (carviz) StdoutLine: {'line': b'-- Found cv_bridge: 2.1.2 (/opt/ros/dashing/share/cv_bridge/cmake)\n'}
+[3.020738] (-) TimerEvent: {}
+[3.051866] (carviz) StdoutLine: {'line': b'-- Boost version: 1.65.1\n'}
+[3.052361] (carviz) StdoutLine: {'line': b'-- Found the following Boost libraries:\n'}
+[3.052751] (carviz) StdoutLine: {'line': b'--   system\n'}
+[3.066389] (carviz) StderrLine: {'line': b'ROS2 found\n'}
+[3.115466] (carviz) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.120861] (-) TimerEvent: {}
+[3.221354] (-) TimerEvent: {}
+[3.322253] (-) TimerEvent: {}
+[3.424248] (-) TimerEvent: {}
+[3.477323] (carviz) StdoutLine: {'line': b'-- Generating done\n'}
+[3.480185] (carviz) StdoutLine: {'line': b'-- Build files have been written to: /home/pankhuri/Week13/carViz/build/carviz\n'}
+[3.524296] (-) TimerEvent: {}
+[3.525010] (carviz) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mAutomatic MOC for target carViz\x1b[0m\n'}
+[3.552777] (carviz) StdoutLine: {'line': b'[  4%] Built target carViz_autogen\n'}
+[3.624425] (-) TimerEvent: {}
+[3.681353] (carviz) StdoutLine: {'line': b'[  8%] \x1b[32m\x1b[1mLinking CXX executable carViz\x1b[0m\n'}
+[3.724594] (-) TimerEvent: {}
+[3.825106] (-) TimerEvent: {}
+[3.925743] (-) TimerEvent: {}
+[4.026513] (-) TimerEvent: {}
+[4.127374] (-) TimerEvent: {}
+[4.228165] (-) TimerEvent: {}
+[4.329356] (-) TimerEvent: {}
+[4.430150] (-) TimerEvent: {}
+[4.530859] (-) TimerEvent: {}
+[4.631574] (-) TimerEvent: {}
+[4.732579] (-) TimerEvent: {}
+[4.833489] (-) TimerEvent: {}
+[4.934205] (-) TimerEvent: {}
+[5.035014] (-) TimerEvent: {}
+[5.135777] (-) TimerEvent: {}
+[5.236538] (-) TimerEvent: {}
+[5.337543] (-) TimerEvent: {}
+[5.438507] (-) TimerEvent: {}
+[5.539302] (-) TimerEvent: {}
+[5.640045] (-) TimerEvent: {}
+[5.740843] (-) TimerEvent: {}
+[5.841573] (-) TimerEvent: {}
+[5.942269] (-) TimerEvent: {}
+[6.043086] (-) TimerEvent: {}
+[6.143771] (-) TimerEvent: {}
+[6.244648] (-) TimerEvent: {}
+[6.345429] (-) TimerEvent: {}
+[6.446234] (-) TimerEvent: {}
+[6.547082] (-) TimerEvent: {}
+[6.647885] (-) TimerEvent: {}
+[6.748685] (-) TimerEvent: {}
+[6.849458] (-) TimerEvent: {}
+[6.950174] (-) TimerEvent: {}
+[7.051090] (-) TimerEvent: {}
+[7.151863] (-) TimerEvent: {}
+[7.252513] (-) TimerEvent: {}
+[7.353099] (-) TimerEvent: {}
+[7.453788] (-) TimerEvent: {}
+[7.554425] (-) TimerEvent: {}
+[7.655174] (-) TimerEvent: {}
+[7.755932] (-) TimerEvent: {}
+[7.856753] (-) TimerEvent: {}
+[7.957495] (-) TimerEvent: {}
+[8.058235] (-) TimerEvent: {}
+[8.159082] (-) TimerEvent: {}
+[8.259971] (-) TimerEvent: {}
+[8.360691] (-) TimerEvent: {}
+[8.461183] (-) TimerEvent: {}
+[8.561624] (-) TimerEvent: {}
+[8.662096] (-) TimerEvent: {}
+[8.762554] (-) TimerEvent: {}
+[8.863059] (-) TimerEvent: {}
+[8.963521] (-) TimerEvent: {}
+[9.064049] (-) TimerEvent: {}
+[9.164600] (-) TimerEvent: {}
+[9.265095] (-) TimerEvent: {}
+[9.365641] (-) TimerEvent: {}
+[9.466161] (-) TimerEvent: {}
+[9.527254] (carviz) StdoutLine: {'line': b'[100%] Built target carViz\n'}
+[9.541229] (carviz) CommandEnded: {'returncode': 0}
+[9.566288] (-) TimerEvent: {}
+[9.621131] (carviz) JobProgress: {'identifier': 'carviz', 'progress': 'install'}
+[9.623127] (carviz) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pankhuri/Week13/carViz/build/carviz', '--target', 'install'], 'cwd': '/home/pankhuri/Week13/carViz/build/carviz', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('WORKON_HOME', '/home/pankhuri/.virtualenvs'), ('USER', 'pankhuri'), ('LANGUAGE', 'en_IN:en'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2887'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/pankhuri'), ('VIRTUALENVWRAPPER_PYTHON', '/usr/bin/python3'), ('DESKTOP_SESSION', 'ubuntu'), ('TERM_PROGRAM_VERSION', '1.34.0'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '23997'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '2'), ('LOGNAME', 'pankhuri'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'pankhuri'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/pankhuri/.local/bin:/home/pankhuri/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/pankhuri-LENOVO-IDEAPAD-500-15ISK:@/tmp/.ICE-unix/2761,unix/pankhuri-LENOVO-IDEAPAD-500-15ISK:/tmp/.ICE-unix/2761'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('NO_AT_BRIDGE', '1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/pankhuri/Week13/carViz/build/carviz'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg')]), 'shell': False}
+[9.666442] (-) TimerEvent: {}
+[9.685871] (carviz) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mAutomatic MOC for target carViz\x1b[0m\n'}
+[9.713472] (carviz) StdoutLine: {'line': b'[  4%] Built target carViz_autogen\n'}
+[9.766575] (-) TimerEvent: {}
+[9.839439] (carviz) StdoutLine: {'line': b'[100%] Built target carViz\n'}
+[9.861928] (carviz) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[9.866655] (-) TimerEvent: {}
+[9.873343] (carviz) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[9.874241] (carviz) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[9.890602] (carviz) StdoutLine: {'line': b'-- Installing: /home/pankhuri/Week13/carViz/install/carviz/bin/carViz\n'}
+[9.925581] (carviz) StdoutLine: {'line': b'-- Set runtime path of "/home/pankhuri/Week13/carViz/install/carviz/bin/carViz" to ""\n'}
+[9.925961] (carviz) StdoutLine: {'line': b'-- Installing: /home/pankhuri/Week13/carViz/install/carviz/share/jderobot/conf/carViz.yml\n'}
+[9.948051] (carviz) CommandEnded: {'returncode': 0}
+[9.966870] (-) TimerEvent: {}
+[10.068212] (-) TimerEvent: {}
+[10.138912] (carviz) JobEnded: {'identifier': 'carviz', 'rc': 0}
+[10.140904] (-) EventReactorShutdown: {}

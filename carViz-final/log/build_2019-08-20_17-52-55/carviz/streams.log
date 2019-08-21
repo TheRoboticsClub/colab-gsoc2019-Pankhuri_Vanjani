@@ -1,0 +1,23 @@
+Invoking command in '/home/pankhuri/Week13/carViz/build/carviz': /usr/bin/cmake --build /home/pankhuri/Week13/carViz/build/carviz -- -j4 -l4
+[  4%] [34m[1mAutomatic MOC for target carViz[0m
+[  4%] Built target carViz_autogen
+[35m[1mScanning dependencies of target carViz[0m
+[  8%] [32mBuilding CXX object CMakeFiles/carViz.dir/comm/ros2src/publisherMotorsros2.cpp.o[0m
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/publisherMotorsros2.cpp:[m[K In constructor ‘[01m[KComm::PublisherMotors::PublisherMotors(int, char**, std::__cxx11::string, std::__cxx11::string)[m[K’:
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/publisherMotorsros2.cpp:7:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  PublisherMotors::PublisherMotors(int [01;35m[Kargc[m[K, char** argv, std::string nodeName, std::string topic)
+                                       [01;35m[K^~~~[m[K
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/publisherMotorsros2.cpp:7:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  PublisherMotors::PublisherMotors(int argc, char** [01;35m[Kargv[m[K, std::string nodeName, std::string topic)
+                                                    [01;35m[K^~~~[m[K
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/publisherMotorsros2.cpp:[m[K In member function ‘[01m[Kvoid Comm::PublisherMotors::publish()[m[K’:
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/publisherMotorsros2.cpp:35:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > > > {aka class std::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > > >}[m[K’ has no member named ‘[01m[Kpublish[m[K’
+   this->publisher_.[01;31m[Kpublish[m[K(vel);////***check the correct syntac here****////
+                    [01;31m[K^~~~~~~[m[K
+CMakeFiles/carViz.dir/build.make:518: recipe for target 'CMakeFiles/carViz.dir/comm/ros2src/publisherMotorsros2.cpp.o' failed
+make[2]: *** [CMakeFiles/carViz.dir/comm/ros2src/publisherMotorsros2.cpp.o] Error 1
+make[1]: *** [CMakeFiles/carViz.dir/all] Error 2
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/carViz.dir/all' failed
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2
+Invoked command in '/home/pankhuri/Week13/carViz/build/carviz' returned '2': /usr/bin/cmake --build /home/pankhuri/Week13/carViz/build/carviz -- -j4 -l4

@@ -1,0 +1,7 @@
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/publisherMotorsros2.cpp:[m[K In constructor ‘[01m[KComm::PublisherMotors::PublisherMotors(int, char**, std::__cxx11::string, std::__cxx11::string)[m[K’:
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/publisherMotorsros2.cpp:7:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  PublisherMotors::PublisherMotors(int [01;35m[Kargc[m[K, char** argv, std::string nodeName, std::string topic)
+                                       [01;35m[K^~~~[m[K
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/publisherMotorsros2.cpp:7:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  PublisherMotors::PublisherMotors(int argc, char** [01;35m[Kargv[m[K, std::string nodeName, std::string topic)
+                                                    [01;35m[K^~~~[m[K

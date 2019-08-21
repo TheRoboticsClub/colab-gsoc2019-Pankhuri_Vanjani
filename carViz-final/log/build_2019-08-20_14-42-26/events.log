@@ -1,0 +1,614 @@
+[0.000000] (-) TimerEvent: {}
+[0.001055] (carviz) JobQueued: {'identifier': 'carviz', 'dependencies': OrderedDict()}
+[0.002282] (carviz) JobStarted: {'identifier': 'carviz'}
+[0.025657] (carviz) JobProgress: {'identifier': 'carviz', 'progress': 'cmake'}
+[0.026904] (carviz) JobProgress: {'identifier': 'carviz', 'progress': 'build'}
+[0.028304] (carviz) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pankhuri/Week13/carViz/build/carviz', '--', '-j4', '-l4'], 'cwd': '/home/pankhuri/Week13/carViz/build/carviz', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('WORKON_HOME', '/home/pankhuri/.virtualenvs'), ('USER', 'pankhuri'), ('LANGUAGE', 'en_IN:en'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2887'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/pankhuri'), ('VIRTUALENVWRAPPER_PYTHON', '/usr/bin/python3'), ('DESKTOP_SESSION', 'ubuntu'), ('TERM_PROGRAM_VERSION', '1.34.0'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '23997'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '2'), ('LOGNAME', 'pankhuri'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'pankhuri'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/pankhuri/.local/bin:/home/pankhuri/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/pankhuri-LENOVO-IDEAPAD-500-15ISK:@/tmp/.ICE-unix/2761,unix/pankhuri-LENOVO-IDEAPAD-500-15ISK:/tmp/.ICE-unix/2761'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('NO_AT_BRIDGE', '1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/pankhuri/Week13/carViz/build/carviz'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg')]), 'shell': False}
+[0.099484] (-) TimerEvent: {}
+[0.122488] (carviz) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mAutomatic MOC for target carViz\x1b[0m\n'}
+[0.199790] (-) TimerEvent: {}
+[0.214716] (carviz) StdoutLine: {'line': b'[  4%] Built target carViz_autogen\n'}
+[0.300407] (-) TimerEvent: {}
+[0.396429] (carviz) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target carViz\x1b[0m\n'}
+[0.400771] (-) TimerEvent: {}
+[0.501833] (-) TimerEvent: {}
+[0.602597] (-) TimerEvent: {}
+[0.708694] (-) TimerEvent: {}
+[0.809465] (-) TimerEvent: {}
+[0.909892] (-) TimerEvent: {}
+[0.918883] (carviz) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/carViz.dir/main.cpp.o\x1b[0m\n'}
+[0.923222] (carviz) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/carViz.dir/robot/robot.cpp.o\x1b[0m\n'}
+[0.932055] (carviz) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/carViz.dir/robot/actuators.cpp.o\x1b[0m\n'}
+[0.939642] (carviz) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/carViz.dir/robot/sensors.cpp.o\x1b[0m\n'}
+[1.010034] (-) TimerEvent: {}
+[1.110918] (-) TimerEvent: {}
+[1.211781] (-) TimerEvent: {}
+[1.312507] (-) TimerEvent: {}
+[1.413413] (-) TimerEvent: {}
+[1.514384] (-) TimerEvent: {}
+[1.615374] (-) TimerEvent: {}
+[1.716380] (-) TimerEvent: {}
+[1.817596] (-) TimerEvent: {}
+[1.918559] (-) TimerEvent: {}
+[2.019577] (-) TimerEvent: {}
+[2.120489] (-) TimerEvent: {}
+[2.221050] (-) TimerEvent: {}
+[2.321595] (-) TimerEvent: {}
+[2.422103] (-) TimerEvent: {}
+[2.522598] (-) TimerEvent: {}
+[2.623115] (-) TimerEvent: {}
+[2.723630] (-) TimerEvent: {}
+[2.824188] (-) TimerEvent: {}
+[2.924734] (-) TimerEvent: {}
+[3.025306] (-) TimerEvent: {}
+[3.125867] (-) TimerEvent: {}
+[3.226500] (-) TimerEvent: {}
+[3.327866] (-) TimerEvent: {}
+[3.428581] (-) TimerEvent: {}
+[3.529230] (-) TimerEvent: {}
+[3.586556] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:65:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"/*" within comment [\x1b[01;35m\x1b[K-Wcomment\x1b[m\x1b[K]\n'}
+[3.587257] (carviz) StderrLine: {'line': b'         ////****Do work her****////\n'}
+[3.587793] (carviz) StderrLine: {'line': b'             \n'}
+[3.629339] (-) TimerEvent: {}
+[3.729944] (-) TimerEvent: {}
+[3.830549] (-) TimerEvent: {}
+[3.931159] (-) TimerEvent: {}
+[4.031797] (-) TimerEvent: {}
+[4.132408] (-) TimerEvent: {}
+[4.233038] (-) TimerEvent: {}
+[4.333597] (-) TimerEvent: {}
+[4.434150] (-) TimerEvent: {}
+[4.534715] (-) TimerEvent: {}
+[4.635315] (-) TimerEvent: {}
+[4.735848] (-) TimerEvent: {}
+[4.836460] (-) TimerEvent: {}
+[4.937073] (-) TimerEvent: {}
+[5.037799] (-) TimerEvent: {}
+[5.138424] (-) TimerEvent: {}
+[5.238970] (-) TimerEvent: {}
+[5.339494] (-) TimerEvent: {}
+[5.440037] (-) TimerEvent: {}
+[5.540570] (-) TimerEvent: {}
+[5.641140] (-) TimerEvent: {}
+[5.741698] (-) TimerEvent: {}
+[5.842246] (-) TimerEvent: {}
+[5.942787] (-) TimerEvent: {}
+[6.043346] (-) TimerEvent: {}
+[6.143920] (-) TimerEvent: {}
+[6.244441] (-) TimerEvent: {}
+[6.344987] (-) TimerEvent: {}
+[6.445525] (-) TimerEvent: {}
+[6.546091] (-) TimerEvent: {}
+[6.646642] (-) TimerEvent: {}
+[6.747156] (-) TimerEvent: {}
+[6.847690] (-) TimerEvent: {}
+[6.948225] (-) TimerEvent: {}
+[7.048787] (-) TimerEvent: {}
+[7.149304] (-) TimerEvent: {}
+[7.249861] (-) TimerEvent: {}
+[7.350415] (-) TimerEvent: {}
+[7.450987] (-) TimerEvent: {}
+[7.551560] (-) TimerEvent: {}
+[7.652106] (-) TimerEvent: {}
+[7.752657] (-) TimerEvent: {}
+[7.853240] (-) TimerEvent: {}
+[7.953813] (-) TimerEvent: {}
+[8.054424] (-) TimerEvent: {}
+[8.155095] (-) TimerEvent: {}
+[8.255635] (-) TimerEvent: {}
+[8.356167] (-) TimerEvent: {}
+[8.456727] (-) TimerEvent: {}
+[8.557271] (-) TimerEvent: {}
+[8.657783] (-) TimerEvent: {}
+[8.758358] (-) TimerEvent: {}
+[8.858934] (-) TimerEvent: {}
+[8.959554] (-) TimerEvent: {}
+[9.060119] (-) TimerEvent: {}
+[9.160670] (-) TimerEvent: {}
+[9.261205] (-) TimerEvent: {}
+[9.361740] (-) TimerEvent: {}
+[9.462289] (-) TimerEvent: {}
+[9.562825] (-) TimerEvent: {}
+[9.663440] (-) TimerEvent: {}
+[9.764004] (-) TimerEvent: {}
+[9.864590] (-) TimerEvent: {}
+[9.965162] (-) TimerEvent: {}
+[10.065719] (-) TimerEvent: {}
+[10.166270] (-) TimerEvent: {}
+[10.266820] (-) TimerEvent: {}
+[10.367383] (-) TimerEvent: {}
+[10.467962] (-) TimerEvent: {}
+[10.568535] (-) TimerEvent: {}
+[10.669098] (-) TimerEvent: {}
+[10.769655] (-) TimerEvent: {}
+[10.870211] (-) TimerEvent: {}
+[10.970783] (-) TimerEvent: {}
+[11.071336] (-) TimerEvent: {}
+[11.171876] (-) TimerEvent: {}
+[11.272426] (-) TimerEvent: {}
+[11.372973] (-) TimerEvent: {}
+[11.473513] (-) TimerEvent: {}
+[11.574057] (-) TimerEvent: {}
+[11.674633] (-) TimerEvent: {}
+[11.775161] (-) TimerEvent: {}
+[11.875725] (-) TimerEvent: {}
+[11.976287] (-) TimerEvent: {}
+[12.076826] (-) TimerEvent: {}
+[12.177376] (-) TimerEvent: {}
+[12.277967] (-) TimerEvent: {}
+[12.294891] (carviz) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/carViz.dir/gui/gui.cpp.o\x1b[0m\n'}
+[12.378066] (-) TimerEvent: {}
+[12.478594] (-) TimerEvent: {}
+[12.580449] (-) TimerEvent: {}
+[12.607499] (carviz) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/carViz.dir/gui/threadupdategui.cpp.o\x1b[0m\n'}
+[12.680580] (-) TimerEvent: {}
+[12.781084] (-) TimerEvent: {}
+[12.881593] (-) TimerEvent: {}
+[12.982143] (-) TimerEvent: {}
+[13.082685] (-) TimerEvent: {}
+[13.183244] (-) TimerEvent: {}
+[13.283794] (-) TimerEvent: {}
+[13.384361] (-) TimerEvent: {}
+[13.484914] (-) TimerEvent: {}
+[13.585428] (-) TimerEvent: {}
+[13.685937] (-) TimerEvent: {}
+[13.786458] (-) TimerEvent: {}
+[13.887008] (-) TimerEvent: {}
+[13.987522] (-) TimerEvent: {}
+[14.088105] (-) TimerEvent: {}
+[14.141275] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:4:0\x1b[m\x1b[K:\n'}
+[14.141863] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/config/config.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KConfig::Properties Config::load(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.142339] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/config/config.h:18:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargc\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[14.142802] (carviz) StderrLine: {'line': b' Config::Properties load(int \x1b[01;35m\x1b[Kargc\x1b[m\x1b[K, char* argv[])\n'}
+[14.143246] (carviz) StderrLine: {'line': b'                             \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[14.188225] (-) TimerEvent: {}
+[14.288820] (-) TimerEvent: {}
+[14.389321] (-) TimerEvent: {}
+[14.489846] (-) TimerEvent: {}
+[14.590418] (-) TimerEvent: {}
+[14.690959] (-) TimerEvent: {}
+[14.791495] (-) TimerEvent: {}
+[14.892059] (-) TimerEvent: {}
+[14.992624] (-) TimerEvent: {}
+[15.093174] (-) TimerEvent: {}
+[15.193717] (-) TimerEvent: {}
+[15.294331] (-) TimerEvent: {}
+[15.394890] (-) TimerEvent: {}
+[15.496191] (-) TimerEvent: {}
+[15.596751] (-) TimerEvent: {}
+[15.697289] (-) TimerEvent: {}
+[15.797819] (-) TimerEvent: {}
+[15.898409] (-) TimerEvent: {}
+[15.999002] (-) TimerEvent: {}
+[16.099581] (-) TimerEvent: {}
+[16.200111] (-) TimerEvent: {}
+[16.300741] (-) TimerEvent: {}
+[16.401357] (-) TimerEvent: {}
+[16.501915] (-) TimerEvent: {}
+[16.602473] (-) TimerEvent: {}
+[16.703040] (-) TimerEvent: {}
+[16.803590] (-) TimerEvent: {}
+[16.904153] (-) TimerEvent: {}
+[16.978840] (carviz) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/carViz.dir/gui/widget/cameraswidget.cpp.o\x1b[0m\n'}
+[17.004250] (-) TimerEvent: {}
+[17.104774] (-) TimerEvent: {}
+[17.205297] (-) TimerEvent: {}
+[17.305825] (-) TimerEvent: {}
+[17.406353] (-) TimerEvent: {}
+[17.506916] (-) TimerEvent: {}
+[17.607458] (-) TimerEvent: {}
+[17.708012] (-) TimerEvent: {}
+[17.808676] (-) TimerEvent: {}
+[17.909235] (-) TimerEvent: {}
+[18.010412] (-) TimerEvent: {}
+[18.092869] (carviz) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/carViz.dir/gui/widget/controlvw.cpp.o\x1b[0m\n'}
+[18.110528] (-) TimerEvent: {}
+[18.211047] (-) TimerEvent: {}
+[18.311548] (-) TimerEvent: {}
+[18.412056] (-) TimerEvent: {}
+[18.512573] (-) TimerEvent: {}
+[18.613142] (-) TimerEvent: {}
+[18.713663] (-) TimerEvent: {}
+[18.814213] (-) TimerEvent: {}
+[18.914758] (-) TimerEvent: {}
+[19.015277] (-) TimerEvent: {}
+[19.115856] (-) TimerEvent: {}
+[19.216394] (-) TimerEvent: {}
+[19.316947] (-) TimerEvent: {}
+[19.417489] (-) TimerEvent: {}
+[19.518032] (-) TimerEvent: {}
+[19.618563] (-) TimerEvent: {}
+[19.719109] (-) TimerEvent: {}
+[19.819623] (-) TimerEvent: {}
+[19.920141] (-) TimerEvent: {}
+[20.020670] (-) TimerEvent: {}
+[20.121230] (-) TimerEvent: {}
+[20.221807] (-) TimerEvent: {}
+[20.322355] (-) TimerEvent: {}
+[20.422910] (-) TimerEvent: {}
+[20.523461] (-) TimerEvent: {}
+[20.623999] (-) TimerEvent: {}
+[20.724586] (-) TimerEvent: {}
+[20.825156] (-) TimerEvent: {}
+[20.925768] (-) TimerEvent: {}
+[21.026320] (-) TimerEvent: {}
+[21.126959] (-) TimerEvent: {}
+[21.227544] (-) TimerEvent: {}
+[21.328159] (-) TimerEvent: {}
+[21.428688] (-) TimerEvent: {}
+[21.529212] (-) TimerEvent: {}
+[21.629756] (-) TimerEvent: {}
+[21.730329] (-) TimerEvent: {}
+[21.830839] (-) TimerEvent: {}
+[21.931382] (-) TimerEvent: {}
+[22.031933] (-) TimerEvent: {}
+[22.132511] (-) TimerEvent: {}
+[22.233060] (-) TimerEvent: {}
+[22.334275] (-) TimerEvent: {}
+[22.434828] (-) TimerEvent: {}
+[22.535396] (-) TimerEvent: {}
+[22.635941] (-) TimerEvent: {}
+[22.736481] (-) TimerEvent: {}
+[22.837016] (-) TimerEvent: {}
+[22.937547] (-) TimerEvent: {}
+[23.039019] (-) TimerEvent: {}
+[23.139561] (-) TimerEvent: {}
+[23.240114] (-) TimerEvent: {}
+[23.340645] (-) TimerEvent: {}
+[23.441185] (-) TimerEvent: {}
+[23.541759] (-) TimerEvent: {}
+[23.642332] (-) TimerEvent: {}
+[23.743923] (-) TimerEvent: {}
+[23.844659] (-) TimerEvent: {}
+[23.945502] (-) TimerEvent: {}
+[24.047086] (-) TimerEvent: {}
+[24.148445] (-) TimerEvent: {}
+[24.251168] (-) TimerEvent: {}
+[24.352007] (-) TimerEvent: {}
+[24.453050] (-) TimerEvent: {}
+[24.554119] (-) TimerEvent: {}
+[24.654999] (-) TimerEvent: {}
+[24.755747] (-) TimerEvent: {}
+[24.856578] (-) TimerEvent: {}
+[24.959766] (-) TimerEvent: {}
+[25.061594] (-) TimerEvent: {}
+[25.165226] (-) TimerEvent: {}
+[25.265966] (-) TimerEvent: {}
+[25.367088] (-) TimerEvent: {}
+[25.467961] (-) TimerEvent: {}
+[25.569055] (-) TimerEvent: {}
+[25.672366] (-) TimerEvent: {}
+[25.777704] (-) TimerEvent: {}
+[25.879172] (-) TimerEvent: {}
+[25.981137] (-) TimerEvent: {}
+[26.081858] (-) TimerEvent: {}
+[26.182558] (-) TimerEvent: {}
+[26.283241] (-) TimerEvent: {}
+[26.383899] (-) TimerEvent: {}
+[26.485111] (-) TimerEvent: {}
+[26.586212] (-) TimerEvent: {}
+[26.686817] (-) TimerEvent: {}
+[26.787412] (-) TimerEvent: {}
+[26.888387] (-) TimerEvent: {}
+[26.989926] (-) TimerEvent: {}
+[27.091152] (-) TimerEvent: {}
+[27.191710] (-) TimerEvent: {}
+[27.292865] (-) TimerEvent: {}
+[27.397342] (-) TimerEvent: {}
+[27.500027] (-) TimerEvent: {}
+[27.600612] (-) TimerEvent: {}
+[27.702038] (-) TimerEvent: {}
+[27.807140] (-) TimerEvent: {}
+[27.915169] (-) TimerEvent: {}
+[28.015751] (-) TimerEvent: {}
+[28.117274] (-) TimerEvent: {}
+[28.218754] (-) TimerEvent: {}
+[28.323756] (-) TimerEvent: {}
+[28.425390] (-) TimerEvent: {}
+[28.526043] (-) TimerEvent: {}
+[28.626629] (-) TimerEvent: {}
+[28.727299] (-) TimerEvent: {}
+[28.828537] (-) TimerEvent: {}
+[28.930191] (-) TimerEvent: {}
+[29.031417] (-) TimerEvent: {}
+[29.133247] (-) TimerEvent: {}
+[29.245535] (-) TimerEvent: {}
+[29.349367] (-) TimerEvent: {}
+[29.450374] (-) TimerEvent: {}
+[29.551146] (-) TimerEvent: {}
+[29.651865] (-) TimerEvent: {}
+[29.752681] (-) TimerEvent: {}
+[29.853913] (-) TimerEvent: {}
+[29.956757] (-) TimerEvent: {}
+[30.059306] (-) TimerEvent: {}
+[30.161184] (-) TimerEvent: {}
+[30.263160] (-) TimerEvent: {}
+[30.365066] (-) TimerEvent: {}
+[30.466444] (-) TimerEvent: {}
+[30.568674] (-) TimerEvent: {}
+[30.675519] (-) TimerEvent: {}
+[30.777847] (-) TimerEvent: {}
+[30.889851] (-) TimerEvent: {}
+[30.992198] (-) TimerEvent: {}
+[31.103330] (-) TimerEvent: {}
+[31.204282] (-) TimerEvent: {}
+[31.312461] (-) TimerEvent: {}
+[31.413625] (-) TimerEvent: {}
+[31.514255] (-) TimerEvent: {}
+[31.614884] (-) TimerEvent: {}
+[31.715527] (-) TimerEvent: {}
+[31.816136] (-) TimerEvent: {}
+[31.916823] (-) TimerEvent: {}
+[32.023097] (-) TimerEvent: {}
+[32.124482] (-) TimerEvent: {}
+[32.225296] (-) TimerEvent: {}
+[32.326015] (-) TimerEvent: {}
+[32.428643] (-) TimerEvent: {}
+[32.529319] (-) TimerEvent: {}
+[32.630059] (-) TimerEvent: {}
+[32.730789] (-) TimerEvent: {}
+[32.832214] (-) TimerEvent: {}
+[32.933348] (-) TimerEvent: {}
+[33.034303] (-) TimerEvent: {}
+[33.137007] (-) TimerEvent: {}
+[33.238755] (-) TimerEvent: {}
+[33.343211] (-) TimerEvent: {}
+[33.443997] (-) TimerEvent: {}
+[33.544774] (-) TimerEvent: {}
+[33.645753] (-) TimerEvent: {}
+[33.748106] (-) TimerEvent: {}
+[33.850265] (-) TimerEvent: {}
+[33.951664] (-) TimerEvent: {}
+[34.052316] (-) TimerEvent: {}
+[34.153140] (-) TimerEvent: {}
+[34.256760] (-) TimerEvent: {}
+[34.360546] (-) TimerEvent: {}
+[34.461227] (-) TimerEvent: {}
+[34.562395] (-) TimerEvent: {}
+[34.663737] (-) TimerEvent: {}
+[34.764395] (-) TimerEvent: {}
+[34.865126] (-) TimerEvent: {}
+[34.965878] (-) TimerEvent: {}
+[35.067106] (-) TimerEvent: {}
+[35.169399] (-) TimerEvent: {}
+[35.274515] (-) TimerEvent: {}
+[35.377302] (-) TimerEvent: {}
+[35.479601] (-) TimerEvent: {}
+[35.584848] (-) TimerEvent: {}
+[35.686727] (-) TimerEvent: {}
+[35.788223] (-) TimerEvent: {}
+[35.889644] (-) TimerEvent: {}
+[35.992731] (-) TimerEvent: {}
+[36.093376] (-) TimerEvent: {}
+[36.194033] (-) TimerEvent: {}
+[36.294699] (-) TimerEvent: {}
+[36.395324] (-) TimerEvent: {}
+[36.496079] (-) TimerEvent: {}
+[36.599584] (-) TimerEvent: {}
+[36.700389] (-) TimerEvent: {}
+[36.801866] (-) TimerEvent: {}
+[36.905674] (-) TimerEvent: {}
+[37.008170] (-) TimerEvent: {}
+[37.108787] (-) TimerEvent: {}
+[37.209430] (-) TimerEvent: {}
+[37.310080] (-) TimerEvent: {}
+[37.410656] (-) TimerEvent: {}
+[37.511307] (-) TimerEvent: {}
+[37.611952] (-) TimerEvent: {}
+[37.712521] (-) TimerEvent: {}
+[37.813499] (-) TimerEvent: {}
+[37.915300] (-) TimerEvent: {}
+[38.017708] (-) TimerEvent: {}
+[38.119041] (-) TimerEvent: {}
+[38.219529] (-) TimerEvent: {}
+[38.321241] (-) TimerEvent: {}
+[38.423385] (-) TimerEvent: {}
+[38.523907] (-) TimerEvent: {}
+[38.624344] (-) TimerEvent: {}
+[38.724769] (-) TimerEvent: {}
+[38.825255] (-) TimerEvent: {}
+[38.925818] (-) TimerEvent: {}
+[39.026345] (-) TimerEvent: {}
+[39.126991] (-) TimerEvent: {}
+[39.227438] (-) TimerEvent: {}
+[39.328018] (-) TimerEvent: {}
+[39.428988] (-) TimerEvent: {}
+[39.533107] (-) TimerEvent: {}
+[39.633737] (-) TimerEvent: {}
+[39.735291] (-) TimerEvent: {}
+[39.836853] (-) TimerEvent: {}
+[39.937376] (-) TimerEvent: {}
+[40.037900] (-) TimerEvent: {}
+[40.138469] (-) TimerEvent: {}
+[40.239190] (-) TimerEvent: {}
+[40.340558] (-) TimerEvent: {}
+[40.441127] (-) TimerEvent: {}
+[40.541678] (-) TimerEvent: {}
+[40.642189] (-) TimerEvent: {}
+[40.742644] (-) TimerEvent: {}
+[40.843279] (-) TimerEvent: {}
+[40.943880] (-) TimerEvent: {}
+[41.044569] (-) TimerEvent: {}
+[41.145491] (-) TimerEvent: {}
+[41.248019] (-) TimerEvent: {}
+[41.349660] (-) TimerEvent: {}
+[41.453242] (-) TimerEvent: {}
+[41.553899] (-) TimerEvent: {}
+[41.654413] (-) TimerEvent: {}
+[41.754977] (-) TimerEvent: {}
+[41.855502] (-) TimerEvent: {}
+[41.956211] (-) TimerEvent: {}
+[41.991002] (carviz) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/carViz.dir/config/properties.cpp.o\x1b[0m\n'}
+[42.056207] (-) TimerEvent: {}
+[42.156651] (-) TimerEvent: {}
+[42.257118] (-) TimerEvent: {}
+[42.357552] (-) TimerEvent: {}
+[42.458004] (-) TimerEvent: {}
+[42.558559] (-) TimerEvent: {}
+[42.661374] (-) TimerEvent: {}
+[42.765757] (-) TimerEvent: {}
+[42.866822] (-) TimerEvent: {}
+[42.967294] (-) TimerEvent: {}
+[43.068819] (-) TimerEvent: {}
+[43.170265] (-) TimerEvent: {}
+[43.277546] (-) TimerEvent: {}
+[43.378568] (-) TimerEvent: {}
+[43.481360] (-) TimerEvent: {}
+[43.584403] (-) TimerEvent: {}
+[43.684943] (-) TimerEvent: {}
+[43.785544] (-) TimerEvent: {}
+[43.886077] (-) TimerEvent: {}
+[43.986654] (-) TimerEvent: {}
+[44.087317] (-) TimerEvent: {}
+[44.187993] (-) TimerEvent: {}
+[44.288561] (-) TimerEvent: {}
+[44.389087] (-) TimerEvent: {}
+[44.489628] (-) TimerEvent: {}
+[44.590269] (-) TimerEvent: {}
+[44.692147] (-) TimerEvent: {}
+[44.794119] (-) TimerEvent: {}
+[44.894838] (-) TimerEvent: {}
+[44.995493] (-) TimerEvent: {}
+[45.096611] (-) TimerEvent: {}
+[45.198073] (-) TimerEvent: {}
+[45.298748] (-) TimerEvent: {}
+[45.400116] (-) TimerEvent: {}
+[45.501307] (-) TimerEvent: {}
+[45.601763] (-) TimerEvent: {}
+[45.702293] (-) TimerEvent: {}
+[45.802785] (-) TimerEvent: {}
+[45.903280] (-) TimerEvent: {}
+[46.003895] (-) TimerEvent: {}
+[46.104539] (-) TimerEvent: {}
+[46.171695] (carviz) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/carViz.dir/comm/cameraClient.cpp.o\x1b[0m\n'}
+[46.204530] (-) TimerEvent: {}
+[46.304958] (-) TimerEvent: {}
+[46.406624] (-) TimerEvent: {}
+[46.507580] (-) TimerEvent: {}
+[46.609011] (-) TimerEvent: {}
+[46.709607] (-) TimerEvent: {}
+[46.810278] (-) TimerEvent: {}
+[46.911899] (-) TimerEvent: {}
+[47.012652] (-) TimerEvent: {}
+[47.113609] (-) TimerEvent: {}
+[47.214173] (-) TimerEvent: {}
+[47.314851] (-) TimerEvent: {}
+[47.415397] (-) TimerEvent: {}
+[47.515884] (-) TimerEvent: {}
+[47.616392] (-) TimerEvent: {}
+[47.716884] (-) TimerEvent: {}
+[47.817329] (-) TimerEvent: {}
+[47.917864] (-) TimerEvent: {}
+[48.018367] (-) TimerEvent: {}
+[48.118829] (-) TimerEvent: {}
+[48.219404] (-) TimerEvent: {}
+[48.319885] (-) TimerEvent: {}
+[48.420633] (-) TimerEvent: {}
+[48.522897] (-) TimerEvent: {}
+[48.623979] (-) TimerEvent: {}
+[48.724770] (-) TimerEvent: {}
+[48.825418] (-) TimerEvent: {}
+[48.926480] (-) TimerEvent: {}
+[49.027889] (-) TimerEvent: {}
+[49.128388] (-) TimerEvent: {}
+[49.229073] (-) TimerEvent: {}
+[49.329883] (-) TimerEvent: {}
+[49.430379] (-) TimerEvent: {}
+[49.530856] (-) TimerEvent: {}
+[49.631451] (-) TimerEvent: {}
+[49.731938] (-) TimerEvent: {}
+[49.832490] (-) TimerEvent: {}
+[49.933010] (-) TimerEvent: {}
+[50.033557] (-) TimerEvent: {}
+[50.134089] (-) TimerEvent: {}
+[50.235621] (-) TimerEvent: {}
+[50.336812] (-) TimerEvent: {}
+[50.438600] (-) TimerEvent: {}
+[50.539279] (-) TimerEvent: {}
+[50.639890] (-) TimerEvent: {}
+[50.740751] (-) TimerEvent: {}
+[50.841838] (-) TimerEvent: {}
+[50.943846] (-) TimerEvent: {}
+[51.044284] (-) TimerEvent: {}
+[51.144745] (-) TimerEvent: {}
+[51.245206] (-) TimerEvent: {}
+[51.345720] (-) TimerEvent: {}
+[51.446210] (-) TimerEvent: {}
+[51.546663] (-) TimerEvent: {}
+[51.647247] (-) TimerEvent: {}
+[51.747702] (-) TimerEvent: {}
+[51.848150] (-) TimerEvent: {}
+[51.948787] (-) TimerEvent: {}
+[52.049473] (-) TimerEvent: {}
+[52.150049] (-) TimerEvent: {}
+[52.251111] (-) TimerEvent: {}
+[52.353212] (-) TimerEvent: {}
+[52.454401] (-) TimerEvent: {}
+[52.555156] (-) TimerEvent: {}
+[52.656717] (-) TimerEvent: {}
+[52.757777] (-) TimerEvent: {}
+[52.859101] (-) TimerEvent: {}
+[52.959590] (-) TimerEvent: {}
+[53.060050] (-) TimerEvent: {}
+[53.160668] (-) TimerEvent: {}
+[53.261874] (-) TimerEvent: {}
+[53.362492] (-) TimerEvent: {}
+[53.463116] (-) TimerEvent: {}
+[53.563558] (-) TimerEvent: {}
+[53.595546] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/comm/cameraClient.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KComm::CameraClient* Comm::getCameraClient(Comm::Communicator*, std::__cxx11::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[53.596080] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/comm/cameraClient.cpp:64:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kargc\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[53.596501] (carviz) StderrLine: {'line': b'     rclcpp::init(\x1b[01;31m\x1b[Kargc\x1b[m\x1b[K, argv);\n'}
+[53.596964] (carviz) StderrLine: {'line': b'                  \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[53.597937] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/comm/cameraClient.cpp:64:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Kerfc\x1b[m\x1b[K\xe2\x80\x99\n'}
+[53.598260] (carviz) StderrLine: {'line': b'     rclcpp::init(\x1b[01;36m\x1b[Kargc\x1b[m\x1b[K, argv);\n'}
+[53.598503] (carviz) StderrLine: {'line': b'                  \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[53.599024] (carviz) StderrLine: {'line': b'                  \x1b[32m\x1b[Kerfc\x1b[m\x1b[K\n'}
+[53.600540] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/comm/cameraClient.cpp:64:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kargv\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[53.602724] (carviz) StderrLine: {'line': b'     rclcpp::init(argc, \x1b[01;31m\x1b[Kargv\x1b[m\x1b[K);\n'}
+[53.603385] (carviz) StderrLine: {'line': b'                        \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[53.603839] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/comm/cameraClient.cpp:67:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KnodeName\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[53.604263] (carviz) StderrLine: {'line': b'     lc2 = new ListenerCamera(0, nullptr, \x1b[01;31m\x1b[KnodeName\x1b[m\x1b[K,topic);\n'}
+[53.604706] (carviz) StderrLine: {'line': b'                                          \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[53.607481] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/comm/cameraClient.cpp:67:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Krename\x1b[m\x1b[K\xe2\x80\x99\n'}
+[53.607970] (carviz) StderrLine: {'line': b'     lc2 = new ListenerCamera(0, nullptr, \x1b[01;36m\x1b[KnodeName\x1b[m\x1b[K,topic);\n'}
+[53.608448] (carviz) StderrLine: {'line': b'                                          \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[53.608867] (carviz) StderrLine: {'line': b'                                          \x1b[32m\x1b[Krename\x1b[m\x1b[K\n'}
+[53.609095] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/comm/cameraClient.cpp:67:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktopic\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[53.609297] (carviz) StderrLine: {'line': b'     lc2 = new ListenerCamera(0, nullptr, nodeName,\x1b[01;31m\x1b[Ktopic\x1b[m\x1b[K);\n'}
+[53.609495] (carviz) StderrLine: {'line': b'                                                   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[53.612688] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/comm/cameraClient.cpp:68:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCameraClient\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[KcamViz\x1b[m\x1b[K\xe2\x80\x99\n'}
+[53.613075] (carviz) StderrLine: {'line': b'     client = (camViz::\x1b[01;31m\x1b[KCameraClient\x1b[m\x1b[K*) lc2;\n'}
+[53.613327] (carviz) StderrLine: {'line': b'                       \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[53.613568] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/comm/cameraClient.cpp:68:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative:\n'}
+[53.613782] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/comm/cameraClient.hpp:6:0\x1b[m\x1b[K,\n'}
+[53.614048] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/comm/cameraClient.cpp:19\x1b[m\x1b[K:\n'}
+[53.614308] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/comm/interfaces/cameraClient.hpp:31:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[KComm::CameraClient\x1b[m\x1b[K\xe2\x80\x99\n'}
+[53.614522] (carviz) StderrLine: {'line': b'  class \x1b[01;36m\x1b[KCameraClient\x1b[m\x1b[K {\n'}
+[53.614730] (carviz) StderrLine: {'line': b'        \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[53.614997] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/comm/cameraClient.cpp:68:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[53.615228] (carviz) StderrLine: {'line': b'     client = (camViz::CameraClient*\x1b[01;31m\x1b[K)\x1b[m\x1b[K lc2;\n'}
+[53.615456] (carviz) StderrLine: {'line': b'                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[53.663676] (-) TimerEvent: {}
+[53.764221] (-) TimerEvent: {}
+[53.864870] (-) TimerEvent: {}
+[53.965417] (-) TimerEvent: {}
+[54.066618] (-) TimerEvent: {}
+[54.167527] (-) TimerEvent: {}
+[54.269203] (-) TimerEvent: {}
+[54.369933] (-) TimerEvent: {}
+[54.470831] (-) TimerEvent: {}
+[54.573698] (-) TimerEvent: {}
+[54.674198] (-) TimerEvent: {}
+[54.774685] (-) TimerEvent: {}
+[54.875181] (-) TimerEvent: {}
+[54.975665] (-) TimerEvent: {}
+[55.076199] (-) TimerEvent: {}
+[55.123551] (carviz) StdoutLine: {'line': b"CMakeFiles/carViz.dir/build.make:326: recipe for target 'CMakeFiles/carViz.dir/comm/cameraClient.cpp.o' failed\n"}
+[55.126364] (carviz) StderrLine: {'line': b'make[2]: *** [CMakeFiles/carViz.dir/comm/cameraClient.cpp.o] Error 1\n'}
+[55.127850] (carviz) StdoutLine: {'line': b"CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/carViz.dir/all' failed\n"}
+[55.128696] (carviz) StderrLine: {'line': b'make[1]: *** [CMakeFiles/carViz.dir/all] Error 2\n'}
+[55.131144] (carviz) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[55.133415] (carviz) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[55.135549] (carviz) CommandEnded: {'returncode': 2}
+[55.153181] (carviz) JobEnded: {'identifier': 'carviz', 'rc': 2}
+[55.162713] (-) EventReactorShutdown: {}

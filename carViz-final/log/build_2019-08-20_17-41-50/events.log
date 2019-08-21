@@ -1,0 +1,189 @@
+[0.000000] (-) TimerEvent: {}
+[0.001898] (carviz) JobQueued: {'identifier': 'carviz', 'dependencies': OrderedDict()}
+[0.002217] (carviz) JobStarted: {'identifier': 'carviz'}
+[0.025717] (carviz) JobProgress: {'identifier': 'carviz', 'progress': 'cmake'}
+[0.029323] (carviz) JobProgress: {'identifier': 'carviz', 'progress': 'build'}
+[0.029745] (carviz) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pankhuri/Week13/carViz/build/carviz', '--', '-j4', '-l4'], 'cwd': '/home/pankhuri/Week13/carViz/build/carviz', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('WORKON_HOME', '/home/pankhuri/.virtualenvs'), ('USER', 'pankhuri'), ('LANGUAGE', 'en_IN:en'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2887'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/pankhuri'), ('VIRTUALENVWRAPPER_PYTHON', '/usr/bin/python3'), ('DESKTOP_SESSION', 'ubuntu'), ('TERM_PROGRAM_VERSION', '1.34.0'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '23997'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '2'), ('LOGNAME', 'pankhuri'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'pankhuri'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/pankhuri/.local/bin:/home/pankhuri/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/pankhuri-LENOVO-IDEAPAD-500-15ISK:@/tmp/.ICE-unix/2761,unix/pankhuri-LENOVO-IDEAPAD-500-15ISK:/tmp/.ICE-unix/2761'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('NO_AT_BRIDGE', '1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/pankhuri/Week13/carViz/build/carviz'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg')]), 'shell': False}
+[0.098992] (-) TimerEvent: {}
+[0.113648] (carviz) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mAutomatic MOC for target carViz\x1b[0m\n'}
+[0.160797] (carviz) StdoutLine: {'line': b'[  4%] Built target carViz_autogen\n'}
+[0.199096] (-) TimerEvent: {}
+[0.231145] (carviz) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target carViz\x1b[0m\n'}
+[0.299237] (-) TimerEvent: {}
+[0.399774] (-) TimerEvent: {}
+[0.500264] (-) TimerEvent: {}
+[0.503187] (carviz) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/carViz.dir/comm/ros2src/listenerLaserros2.cpp.o\x1b[0m\n'}
+[0.506074] (carviz) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/carViz.dir/comm/ros2src/translatorsros2.cpp.o\x1b[0m\n'}
+[0.511825] (carviz) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/carViz.dir/comm/ros2src/publisherMotorsros2.cpp.o\x1b[0m\n'}
+[0.600361] (-) TimerEvent: {}
+[0.700894] (-) TimerEvent: {}
+[0.802108] (-) TimerEvent: {}
+[0.903514] (-) TimerEvent: {}
+[1.004051] (-) TimerEvent: {}
+[1.104964] (-) TimerEvent: {}
+[1.206066] (-) TimerEvent: {}
+[1.307207] (-) TimerEvent: {}
+[1.408353] (-) TimerEvent: {}
+[1.509463] (-) TimerEvent: {}
+[1.610786] (-) TimerEvent: {}
+[1.712077] (-) TimerEvent: {}
+[1.813338] (-) TimerEvent: {}
+[1.914751] (-) TimerEvent: {}
+[2.016263] (-) TimerEvent: {}
+[2.117804] (-) TimerEvent: {}
+[2.219334] (-) TimerEvent: {}
+[2.320669] (-) TimerEvent: {}
+[2.421696] (-) TimerEvent: {}
+[2.522789] (-) TimerEvent: {}
+[2.623886] (-) TimerEvent: {}
+[2.724999] (-) TimerEvent: {}
+[2.826179] (-) TimerEvent: {}
+[2.927252] (-) TimerEvent: {}
+[3.029373] (-) TimerEvent: {}
+[3.130490] (-) TimerEvent: {}
+[3.231776] (-) TimerEvent: {}
+[3.332912] (-) TimerEvent: {}
+[3.434083] (-) TimerEvent: {}
+[3.535398] (-) TimerEvent: {}
+[3.636783] (-) TimerEvent: {}
+[3.738279] (-) TimerEvent: {}
+[3.839817] (-) TimerEvent: {}
+[3.941177] (-) TimerEvent: {}
+[4.042429] (-) TimerEvent: {}
+[4.143647] (-) TimerEvent: {}
+[4.244830] (-) TimerEvent: {}
+[4.346086] (-) TimerEvent: {}
+[4.447507] (-) TimerEvent: {}
+[4.548832] (-) TimerEvent: {}
+[4.650110] (-) TimerEvent: {}
+[4.751481] (-) TimerEvent: {}
+[4.852832] (-) TimerEvent: {}
+[4.954179] (-) TimerEvent: {}
+[5.055646] (-) TimerEvent: {}
+[5.125107] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/comm/ros2src/listenerLaserros2.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KComm::ListenerLaser::ListenerLaser(int, char**, std::__cxx11::string, std::__cxx11::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.125636] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/comm/ros2src/listenerLaserros2.cpp:6:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargc\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.126053] (carviz) StderrLine: {'line': b'  ListenerLaser::ListenerLaser(int \x1b[01;35m\x1b[Kargc\x1b[m\x1b[K, char** argv, std::string nodeName, std::string topic)\n'}
+[5.126420] (carviz) StderrLine: {'line': b'                                   \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.126780] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/comm/ros2src/listenerLaserros2.cpp:6:48:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargv\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.127111] (carviz) StderrLine: {'line': b'  ListenerLaser::ListenerLaser(int argc, char** \x1b[01;35m\x1b[Kargv\x1b[m\x1b[K, std::string nodeName, std::string topic)\n'}
+[5.127480] (carviz) StderrLine: {'line': b'                                                \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.155759] (-) TimerEvent: {}
+[5.190680] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/comm/ros2src/translatorsros2.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KJdeRobotTypes::LaserData Comm::translate_laser_messages(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.191182] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/comm/ros2src/translatorsros2.cpp:85:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing _stamp_type = struct builtin_interfaces::msg::Time_<std::allocator<void> > {aka struct builtin_interfaces::msg::Time_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Knsec\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Ksec\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.193357] (carviz) StderrLine: {'line': b'   data.timeStamp = scan->header.stamp.sec + (scan->header.stamp.\x1b[01;31m\x1b[Knsec\x1b[m\x1b[K *1e-9);\n'}
+[5.193788] (carviz) StderrLine: {'line': b'                                                                 \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.194147] (carviz) StderrLine: {'line': b'                                                                 \x1b[32m\x1b[Ksec\x1b[m\x1b[K\n'}
+[5.194484] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/comm/ros2src/translatorsros2.cpp:\x1b[m\x1b[K At global scope:\n'}
+[5.194821] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/comm/ros2src/translatorsros2.cpp:108:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KOdometryConstPtr\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Knav_msgs\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.195164] (carviz) StderrLine: {'line': b'  translate_odometry_messages(const nav_msgs::\x1b[01;31m\x1b[KOdometryConstPtr\x1b[m\x1b[K& odom_msg)\n'}
+[5.201037] (carviz) StderrLine: {'line': b'                                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.206526] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/comm/ros2src/translatorsros2.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KJdeRobotTypes::Pose3d Comm::translate_odometry_messages(const int&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.206974] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/comm/ros2src/translatorsros2.cpp:112:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 is not a pointer\n'}
+[5.207399] (carviz) StderrLine: {'line': b'   data.x= odom_msg\x1b[01;31m\x1b[K->\x1b[m\x1b[Kpose.pose.position.x;\n'}
+[5.207798] (carviz) StderrLine: {'line': b'                   \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.221876] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/comm/ros2src/translatorsros2.cpp:113:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 is not a pointer\n'}
+[5.222343] (carviz) StderrLine: {'line': b'   data.y= odom_msg\x1b[01;31m\x1b[K->\x1b[m\x1b[Kpose.pose.position.y;\n'}
+[5.222738] (carviz) StderrLine: {'line': b'                   \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.223149] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/comm/ros2src/translatorsros2.cpp:114:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 is not a pointer\n'}
+[5.223557] (carviz) StderrLine: {'line': b'   data.z= odom_msg\x1b[01;31m\x1b[K->\x1b[m\x1b[Kpose.pose.position.z;\n'}
+[5.223924] (carviz) StderrLine: {'line': b'                   \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.229388] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/comm/ros2src/translatorsros2.cpp:116:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 is not a pointer\n'}
+[5.229865] (carviz) StderrLine: {'line': b'   data.q[0]= odom_msg\x1b[01;31m\x1b[K->\x1b[m\x1b[Kpose.pose.orientation.w;\n'}
+[5.230260] (carviz) StderrLine: {'line': b'                      \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.230603] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/comm/ros2src/translatorsros2.cpp:117:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 is not a pointer\n'}
+[5.233927] (carviz) StderrLine: {'line': b'   data.q[1]= odom_msg\x1b[01;31m\x1b[K->\x1b[m\x1b[Kpose.pose.orientation.x;\n'}
+[5.234419] (carviz) StderrLine: {'line': b'                      \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.234799] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/comm/ros2src/translatorsros2.cpp:118:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 is not a pointer\n'}
+[5.235136] (carviz) StderrLine: {'line': b'   data.q[2]= odom_msg\x1b[01;31m\x1b[K->\x1b[m\x1b[Kpose.pose.orientation.y;\n'}
+[5.235527] (carviz) StderrLine: {'line': b'                      \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.235893] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/comm/ros2src/translatorsros2.cpp:119:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 is not a pointer\n'}
+[5.236285] (carviz) StderrLine: {'line': b'   data.q[3]= odom_msg\x1b[01;31m\x1b[K->\x1b[m\x1b[Kpose.pose.orientation.z;\n'}
+[5.236611] (carviz) StderrLine: {'line': b'                      \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.236931] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/comm/ros2src/translatorsros2.cpp:121:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kquat2Yaw\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.237259] (carviz) StderrLine: {'line': b'   data.yaw = \x1b[01;31m\x1b[Kquat2Yaw\x1b[m\x1b[K(data.q);\n'}
+[5.237580] (carviz) StderrLine: {'line': b'              \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.237900] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/comm/ros2src/translatorsros2.cpp:122:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kquat2Pitch\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.238261] (carviz) StderrLine: {'line': b'   data.pitch = \x1b[01;31m\x1b[Kquat2Pitch\x1b[m\x1b[K(data.q);\n'}
+[5.238580] (carviz) StderrLine: {'line': b'                \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.238926] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/comm/ros2src/translatorsros2.cpp:123:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kquat2Roll\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.239243] (carviz) StderrLine: {'line': b'   data.roll = \x1b[01;31m\x1b[Kquat2Roll\x1b[m\x1b[K(data.q);\n'}
+[5.243024] (carviz) StderrLine: {'line': b'               \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.243406] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/comm/ros2src/translatorsros2.cpp:123:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Katoll\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.243729] (carviz) StderrLine: {'line': b'   data.roll = \x1b[01;36m\x1b[Kquat2Roll\x1b[m\x1b[K(data.q);\n'}
+[5.244037] (carviz) StderrLine: {'line': b'               \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.244375] (carviz) StderrLine: {'line': b'               \x1b[32m\x1b[Katoll\x1b[m\x1b[K\n'}
+[5.244695] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/comm/ros2src/translatorsros2.cpp:125:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 is not a pointer\n'}
+[5.245014] (carviz) StderrLine: {'line': b'   data.timeStamp = odom_msg\x1b[01;31m\x1b[K->\x1b[m\x1b[Kheader.stamp.sec + (odom_msg->header.stamp.nsec *1e-9);\n'}
+[5.253529] (carviz) StderrLine: {'line': b'                            \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.255183] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/comm/ros2src/translatorsros2.cpp:125:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 is not a pointer\n'}
+[5.255577] (carviz) StderrLine: {'line': b'   data.timeStamp = odom_msg->header.stamp.sec + (odom_msg\x1b[01;31m\x1b[K->\x1b[m\x1b[Kheader.stamp.nsec *1e-9);\n'}
+[5.255892] (-) TimerEvent: {}
+[5.271563] (carviz) StderrLine: {'line': b'                                                          \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.356148] (-) TimerEvent: {}
+[5.457575] (-) TimerEvent: {}
+[5.558198] (-) TimerEvent: {}
+[5.565341] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/comm/ros2src/publisherMotorsros2.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KComm::PublisherMotors::PublisherMotors(int, char**, std::__cxx11::string, std::__cxx11::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.565790] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/comm/ros2src/publisherMotorsros2.cpp:19:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunable to find numeric literal operator \xe2\x80\x98\x1b[01m\x1b[Koperator""ms\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.566136] (carviz) StderrLine: {'line': b'      timer_ = this->create_wall_timer(\x1b[01;31m\x1b[K500ms\x1b[m\x1b[K, std::bind(&PublisherMotors::publish, this));\n'}
+[5.566459] (carviz) StderrLine: {'line': b'                                       \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.578789] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/comm/ros2src/publisherMotorsros2.cpp:5:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargc\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.579242] (carviz) StderrLine: {'line': b'  PublisherMotors::PublisherMotors(int \x1b[01;35m\x1b[Kargc\x1b[m\x1b[K, char** argv, std::string nodeName, std::string topic)\n'}
+[5.582046] (carviz) StderrLine: {'line': b'                                       \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.582412] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/comm/ros2src/publisherMotorsros2.cpp:5:52:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargv\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.582770] (carviz) StderrLine: {'line': b'  PublisherMotors::PublisherMotors(int argc, char** \x1b[01;35m\x1b[Kargv\x1b[m\x1b[K, std::string nodeName, std::string topic)\n'}
+[5.583124] (carviz) StderrLine: {'line': b'                                                    \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.583481] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/comm/ros2src/publisherMotorsros2.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Comm::PublisherMotors::publish()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.583818] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/comm/ros2src/publisherMotorsros2.cpp:33:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing SharedPtr = class std::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > > > {aka class std::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > > >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kpublish\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.584168] (carviz) StderrLine: {'line': b'   this->publisher_.\x1b[01;31m\x1b[Kpublish\x1b[m\x1b[K(vel);////***check the correct syntac here****////\n'}
+[5.592826] (carviz) StderrLine: {'line': b'                    \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.658324] (-) TimerEvent: {}
+[5.758920] (-) TimerEvent: {}
+[5.860108] (-) TimerEvent: {}
+[5.931117] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/7/bits/c++allocator.h:33:0\x1b[m\x1b[K,\n'}
+[5.932328] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[5.933928] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/memory:63\x1b[m\x1b[K,\n'}
+[5.934373] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:142\x1b[m\x1b[K,\n'}
+[5.934797] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/comm/ros2src/../ros2head/listenerLaserros2.hpp:1\x1b[m\x1b[K,\n'}
+[5.935175] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/comm/ros2src/listenerLaserros2.cpp:1\x1b[m\x1b[K:\n'}
+[5.937654] (carviz) StderrLine: {'line': b'/usr/include/c++/7/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass __gnu_cxx::new_allocator<const sensor_msgs::msg::LaserScan_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.938066] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/allocator.h:108:11:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kclass std::allocator<const sensor_msgs::msg::LaserScan_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.938473] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/subscription_options.hpp:68:63:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krcl_subscription_options_t rclcpp::SubscriptionOptionsWithAllocator<Allocator>::to_rcl_subscription_options(const rclcpp::QoS&) const [with MessageT = const sensor_msgs::msg::LaserScan_<std::allocator<void> >; Allocator = std::allocator<void>; rcl_subscription_options_t = rcl_subscription_options_t]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.938867] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/create_subscription.hpp:135:8:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<SubscriptionT> rclcpp::create_subscription(NodeT&&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename rclcpp::message_memory_strategy::MessageMemoryStrategy<CallbackMessageT, Alloc>::SharedPtr) [with MessageT = const sensor_msgs::msg::LaserScan_<std::allocator<void> >; CallbackT = std::_Bind<void (Comm::ListenerLaser::*(Comm::ListenerLaser*, std::_Placeholder<1>))(std::shared_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> > >)>; AllocatorT = std::allocator<void>; CallbackMessageT = sensor_msgs::msg::LaserScan_<std::allocator<void> >; SubscriptionT = rclcpp::Subscription<sensor_msgs::msg::LaserScan_<std::allocator<void> > >; NodeT = rclcpp::Node&; std::__cxx11::string = std::__cxx11::basic_string<char>; typename rclcpp::message_memory_strategy::MessageMemoryStrategy<CallbackMessageT, Alloc>::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.939270] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/node_impl.hpp:124:47:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename rclcpp::message_memory_strategy::MessageMemoryStrategy<typename rclcpp::subscription_traits::has_message_type<CallbackT>::type, AllocatorT>::SharedPtr) [with MessageT = const sensor_msgs::msg::LaserScan_<std::allocator<void> >; CallbackT = std::_Bind<void (Comm::ListenerLaser::*(Comm::ListenerLaser*, std::_Placeholder<1>))(std::shared_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> > >)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<sensor_msgs::msg::LaserScan_<std::allocator<void> > >; std::__cxx11::string = std::__cxx11::basic_string<char>; typename rclcpp::message_memory_strategy::MessageMemoryStrategy<typename rclcpp::subscription_traits::has_message_type<CallbackT>::type, AllocatorT>::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.939678] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/comm/ros2src/listenerLaserros2.cpp:12:68:\x1b[m\x1b[K   required from here\n'}
+[5.940048] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/ext/new_allocator.h:93:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst _Tp* __gnu_cxx::new_allocator<_Tp>::address(__gnu_cxx::new_allocator<_Tp>::const_reference) const [with _Tp = const sensor_msgs::msg::LaserScan_<std::allocator<void> >; __gnu_cxx::new_allocator<_Tp>::const_pointer = const sensor_msgs::msg::LaserScan_<std::allocator<void> >*; __gnu_cxx::new_allocator<_Tp>::const_reference = const sensor_msgs::msg::LaserScan_<std::allocator<void> >&]\x1b[m\x1b[K\xe2\x80\x99 cannot be overloaded\n'}
+[5.940412] (carviz) StderrLine: {'line': b'       \x1b[01;31m\x1b[Kaddress\x1b[m\x1b[K(const_reference __x) const _GLIBCXX_NOEXCEPT\n'}
+[5.940787] (carviz) StderrLine: {'line': b'       \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.941125] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/ext/new_allocator.h:89:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kwith \xe2\x80\x98\x1b[01m\x1b[K_Tp* __gnu_cxx::new_allocator<_Tp>::address(__gnu_cxx::new_allocator<_Tp>::reference) const [with _Tp = const sensor_msgs::msg::LaserScan_<std::allocator<void> >; __gnu_cxx::new_allocator<_Tp>::pointer = const sensor_msgs::msg::LaserScan_<std::allocator<void> >*; __gnu_cxx::new_allocator<_Tp>::reference = const sensor_msgs::msg::LaserScan_<std::allocator<void> >&]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.941493] (carviz) StderrLine: {'line': b'       \x1b[01;31m\x1b[Kaddress\x1b[m\x1b[K(reference __x) const _GLIBCXX_NOEXCEPT\n'}
+[5.941860] (carviz) StderrLine: {'line': b'       \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.962906] (-) TimerEvent: {}
+[6.064674] (-) TimerEvent: {}
+[6.165958] (-) TimerEvent: {}
+[6.213454] (carviz) StderrLine: {'line': b'make[2]: *** [CMakeFiles/carViz.dir/comm/ros2src/translatorsros2.cpp.o] Error 1\n'}
+[6.214259] (carviz) StderrLine: {'line': b'make[2]: *** Waiting for unfinished jobs....\n'}
+[6.214756] (carviz) StdoutLine: {'line': b"CMakeFiles/carViz.dir/build.make:542: recipe for target 'CMakeFiles/carViz.dir/comm/ros2src/translatorsros2.cpp.o' failed\n"}
+[6.266091] (-) TimerEvent: {}
+[6.366637] (-) TimerEvent: {}
+[6.467205] (-) TimerEvent: {}
+[6.567867] (-) TimerEvent: {}
+[6.668640] (-) TimerEvent: {}
+[6.769330] (-) TimerEvent: {}
+[6.870034] (-) TimerEvent: {}
+[6.970693] (-) TimerEvent: {}
+[7.071374] (-) TimerEvent: {}
+[7.172020] (-) TimerEvent: {}
+[7.258148] (carviz) StdoutLine: {'line': b"CMakeFiles/carViz.dir/build.make:470: recipe for target 'CMakeFiles/carViz.dir/comm/ros2src/listenerLaserros2.cpp.o' failed\n"}
+[7.258473] (carviz) StderrLine: {'line': b'make[2]: *** [CMakeFiles/carViz.dir/comm/ros2src/listenerLaserros2.cpp.o] Error 1\n'}
+[7.272082] (-) TimerEvent: {}
+[7.372579] (-) TimerEvent: {}
+[7.457304] (carviz) StdoutLine: {'line': b"CMakeFiles/carViz.dir/build.make:518: recipe for target 'CMakeFiles/carViz.dir/comm/ros2src/publisherMotorsros2.cpp.o' failed\n"}
+[7.457929] (carviz) StderrLine: {'line': b'make[2]: *** [CMakeFiles/carViz.dir/comm/ros2src/publisherMotorsros2.cpp.o] Error 1\n'}
+[7.458311] (carviz) StderrLine: {'line': b'make[1]: *** [CMakeFiles/carViz.dir/all] Error 2\n'}
+[7.458997] (carviz) StdoutLine: {'line': b"CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/carViz.dir/all' failed\n"}
+[7.459352] (carviz) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[7.460209] (carviz) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[7.462662] (carviz) CommandEnded: {'returncode': 2}
+[7.463729] (carviz) JobEnded: {'identifier': 'carviz', 'rc': 2}
+[7.472903] (-) TimerEvent: {}
+[7.473778] (-) EventReactorShutdown: {}

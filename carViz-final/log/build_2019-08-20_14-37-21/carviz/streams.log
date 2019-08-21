@@ -1,0 +1,98 @@
+Invoking command in '/home/pankhuri/Week13/carViz/build/carviz': /usr/bin/cmake /home/pankhuri/Week13/carViz -Drosversion:string=0 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pankhuri/Week13/carViz/install/carviz
+-- The C compiler identification is GNU 7.4.0
+-- The CXX compiler identification is GNU 7.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+THIS IS ROS2
+-- Found ament_cmake: 0.7.3 (/opt/ros/dashing/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.8", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 0.7.5 (/opt/ros/dashing/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 0.7.1 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found rosidl_adapter: 0.7.3 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+-- Found sensor_msgs: 0.7.0 (/opt/ros/dashing/share/sensor_msgs/cmake)
+-- Found image_transport: 2.1.1 (/opt/ros/dashing/share/image_transport/cmake)
+-- Found poco_vendor:  (/opt/ros/dashing/share/poco_vendor/cmake)
+-- Found OpenCV: /usr (found version "3.2.0") 
+-- Found cv_bridge: 2.1.2 (/opt/ros/dashing/share/cv_bridge/cmake)
+-- Boost version: 1.65.1
+-- Found the following Boost libraries:
+--   system
+ROS2 found
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pankhuri/Week13/carViz/build/carviz
+Invoked command in '/home/pankhuri/Week13/carViz/build/carviz' returned '0': /usr/bin/cmake /home/pankhuri/Week13/carViz -Drosversion:string=0 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pankhuri/Week13/carViz/install/carviz
+Invoking command in '/home/pankhuri/Week13/carViz/build/carviz': /usr/bin/cmake --build /home/pankhuri/Week13/carViz/build/carviz -- -j4 -l4
+[35m[1mScanning dependencies of target carViz_autogen[0m
+[  4%] [34m[1mAutomatic MOC for target carViz[0m
+[  4%] Built target carViz_autogen
+[35m[1mScanning dependencies of target carViz[0m
+[  8%] [32mBuilding CXX object CMakeFiles/carViz.dir/robot/actuators.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/carViz.dir/main.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/carViz.dir/robot/robot.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/carViz.dir/robot/sensors.cpp.o[0m
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/motorsClient.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/actuators.h:7[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/actuators.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/header/publisherMotors.hpp:1:10:[m[K [01;31m[Kfatal error: [m[Kros/ros.h: No such file or directory
+ #include [01;31m[K<ros/ros.h>[m[K
+          [01;31m[K^~~~~~~~~~~[m[K
+compilation terminated.
+CMakeFiles/carViz.dir/build.make:86: recipe for target 'CMakeFiles/carViz.dir/robot/actuators.cpp.o' failed
+make[2]: *** [CMakeFiles/carViz.dir/robot/actuators.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:7:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/header/listenerLaser.hpp:1:10:[m[K [01;31m[Kfatal error: [m[Kros/ros.h: No such file or directory
+ #include [01;31m[K<ros/ros.h>[m[K
+          [01;31m[K^~~~~~~~~~~[m[K
+compilation terminated.
+CMakeFiles/carViz.dir/build.make:134: recipe for target 'CMakeFiles/carViz.dir/robot/sensors.cpp.o' failed
+make[2]: *** [CMakeFiles/carViz.dir/robot/sensors.cpp.o] Error 1
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:7:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/header/listenerLaser.hpp:1:10:[m[K [01;31m[Kfatal error: [m[Kros/ros.h: No such file or directory
+ #include [01;31m[K<ros/ros.h>[m[K
+          [01;31m[K^~~~~~~~~~~[m[K
+compilation terminated.
+CMakeFiles/carViz.dir/build.make:110: recipe for target 'CMakeFiles/carViz.dir/robot/robot.cpp.o' failed
+make[2]: *** [CMakeFiles/carViz.dir/robot/robot.cpp.o] Error 1
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:7:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/main.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/header/listenerLaser.hpp:1:10:[m[K [01;31m[Kfatal error: [m[Kros/ros.h: No such file or directory
+ #include [01;31m[K<ros/ros.h>[m[K
+          [01;31m[K^~~~~~~~~~~[m[K
+compilation terminated.
+CMakeFiles/carViz.dir/build.make:62: recipe for target 'CMakeFiles/carViz.dir/main.cpp.o' failed
+make[2]: *** [CMakeFiles/carViz.dir/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/carViz.dir/all] Error 2
+make: *** [all] Error 2
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/carViz.dir/all' failed
+Makefile:140: recipe for target 'all' failed
+Invoked command in '/home/pankhuri/Week13/carViz/build/carviz' returned '2': /usr/bin/cmake --build /home/pankhuri/Week13/carViz/build/carviz -- -j4 -l4

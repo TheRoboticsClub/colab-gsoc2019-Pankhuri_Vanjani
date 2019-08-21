@@ -1,0 +1,15 @@
+[  4%] [34m[1mAutomatic MOC for target carViz[0m
+[  4%] Built target carViz_autogen
+[35m[1mScanning dependencies of target carViz[0m
+[  8%] [32mBuilding CXX object CMakeFiles/carViz.dir/main.cpp.o[0m
+[ 12%] [32m[1mLinking CXX executable carViz[0m
+[100%] Built target carViz
+[  4%] [34m[1mAutomatic MOC for target carViz[0m
+[  4%] Built target carViz_autogen
+[100%] Built target carViz
+[36mInstall the project...[0m
+-- Install configuration: "Debug"
+-- Execute custom install script
+-- Installing: /home/pankhuri/Week13/carViz/install/carviz/bin/carViz
+-- Set runtime path of "/home/pankhuri/Week13/carViz/install/carviz/bin/carViz" to ""
+-- Up-to-date: /home/pankhuri/Week13/carViz/install/carviz/share/jderobot/conf/carViz.yml

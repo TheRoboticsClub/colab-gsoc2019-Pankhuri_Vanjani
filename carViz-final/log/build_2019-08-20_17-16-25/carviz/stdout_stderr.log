@@ -1,0 +1,78 @@
+[  4%] [34m[1mAutomatic MOC for target carViz[0m
+[  4%] Built target carViz_autogen
+[35m[1mScanning dependencies of target carViz[0m
+[  8%] [32mBuilding CXX object CMakeFiles/carViz.dir/main.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/carViz.dir/robot/actuators.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/carViz.dir/robot/sensors.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/carViz.dir/robot/robot.cpp.o[0m
+[01m[K/home/pankhuri/Week13/carViz/main.cpp:65:12:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+         ////****Do work her****////
+             
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:77:68:[m[K [01;31m[Kerror: [m[K‘[01m[KOdometry[m[K’ in namespace ‘[01m[Knav_msgs[m[K’ does not name a type
+  JdeRobotTypes::Pose3d translate_odometry_messages(const nav_msgs::[01;31m[KOdometry[m[K::SharedPtr odom_msg);
+                                                                    [01;31m[K^~~~~~~~[m[K
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:77:88:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kodom_msg[m[K’
+  JdeRobotTypes::Pose3d translate_odometry_messages(const nav_msgs::Odometry::SharedPtr [01;31m[Kodom_msg[m[K);
+                                                                                        [01;31m[K^~~~~~~~[m[K
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:77:88:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kodom_msg[m[K’
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:77:88:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kodom_msg[m[K’
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/publisherMotorsros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/motorsClient.hpp:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/actuators.h:7[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/actuators.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:77:68:[m[K [01;31m[Kerror: [m[K‘[01m[KOdometry[m[K’ in namespace ‘[01m[Knav_msgs[m[K’ does not name a type
+  JdeRobotTypes::Pose3d translate_odometry_messages(const nav_msgs::[01;31m[KOdometry[m[K::SharedPtr odom_msg);
+                                                                    [01;31m[K^~~~~~~~[m[K
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:77:88:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kodom_msg[m[K’
+  JdeRobotTypes::Pose3d translate_odometry_messages(const nav_msgs::Odometry::SharedPtr [01;31m[Kodom_msg[m[K);
+                                                                                        [01;31m[K^~~~~~~~[m[K
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:77:88:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kodom_msg[m[K’
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:77:88:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kodom_msg[m[K’
+CMakeFiles/carViz.dir/build.make:134: recipe for target 'CMakeFiles/carViz.dir/robot/sensors.cpp.o' failed
+make[2]: *** [CMakeFiles/carViz.dir/robot/sensors.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+CMakeFiles/carViz.dir/build.make:86: recipe for target 'CMakeFiles/carViz.dir/robot/actuators.cpp.o' failed
+make[2]: *** [CMakeFiles/carViz.dir/robot/actuators.cpp.o] Error 1
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:77:68:[m[K [01;31m[Kerror: [m[K‘[01m[KOdometry[m[K’ in namespace ‘[01m[Knav_msgs[m[K’ does not name a type
+  JdeRobotTypes::Pose3d translate_odometry_messages(const nav_msgs::[01;31m[KOdometry[m[K::SharedPtr odom_msg);
+                                                                    [01;31m[K^~~~~~~~[m[K
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:77:88:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kodom_msg[m[K’
+  JdeRobotTypes::Pose3d translate_odometry_messages(const nav_msgs::Odometry::SharedPtr [01;31m[Kodom_msg[m[K);
+                                                                                        [01;31m[K^~~~~~~~[m[K
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:77:88:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kodom_msg[m[K’
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:77:88:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kodom_msg[m[K’
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/main.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:77:68:[m[K [01;31m[Kerror: [m[K‘[01m[KOdometry[m[K’ in namespace ‘[01m[Knav_msgs[m[K’ does not name a type
+  JdeRobotTypes::Pose3d translate_odometry_messages(const nav_msgs::[01;31m[KOdometry[m[K::SharedPtr odom_msg);
+                                                                    [01;31m[K^~~~~~~~[m[K
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:77:88:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kodom_msg[m[K’
+  JdeRobotTypes::Pose3d translate_odometry_messages(const nav_msgs::Odometry::SharedPtr [01;31m[Kodom_msg[m[K);
+                                                                                        [01;31m[K^~~~~~~~[m[K
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:77:88:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kodom_msg[m[K’
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:77:88:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kodom_msg[m[K’
+In file included from [01m[K/home/pankhuri/Week13/carViz/main.cpp:4:0[m[K:
+[01m[K/home/pankhuri/Week13/carViz/config/config.h:[m[K In function ‘[01m[KConfig::Properties Config::load(int, char**)[m[K’:
+[01m[K/home/pankhuri/Week13/carViz/config/config.h:18:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ Config::Properties load(int [01;35m[Kargc[m[K, char* argv[])
+                             [01;35m[K^~~~[m[K
+CMakeFiles/carViz.dir/build.make:110: recipe for target 'CMakeFiles/carViz.dir/robot/robot.cpp.o' failed
+make[2]: *** [CMakeFiles/carViz.dir/robot/robot.cpp.o] Error 1
+make[2]: *** [CMakeFiles/carViz.dir/main.cpp.o] Error 1
+CMakeFiles/carViz.dir/build.make:62: recipe for target 'CMakeFiles/carViz.dir/main.cpp.o' failed
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/carViz.dir/all' failed
+make[1]: *** [CMakeFiles/carViz.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

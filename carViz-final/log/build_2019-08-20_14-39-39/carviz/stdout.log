@@ -1,0 +1,28 @@
+-- Found ament_cmake: 0.7.3 (/opt/ros/dashing/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 0.7.5 (/opt/ros/dashing/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 0.7.1 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+-- Found rosidl_adapter: 0.7.3 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+-- Found sensor_msgs: 0.7.0 (/opt/ros/dashing/share/sensor_msgs/cmake)
+-- Found image_transport: 2.1.1 (/opt/ros/dashing/share/image_transport/cmake)
+-- Found poco_vendor:  (/opt/ros/dashing/share/poco_vendor/cmake)
+-- Found cv_bridge: 2.1.2 (/opt/ros/dashing/share/cv_bridge/cmake)
+-- Boost version: 1.65.1
+-- Found the following Boost libraries:
+--   system
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pankhuri/Week13/carViz/build/carviz
+[  4%] [34m[1mAutomatic MOC for target carViz[0m
+[  4%] Built target carViz_autogen
+[35m[1mScanning dependencies of target carViz[0m
+[  8%] [32mBuilding CXX object CMakeFiles/carViz.dir/main.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/carViz.dir/robot/robot.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/carViz.dir/robot/actuators.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/carViz.dir/robot/sensors.cpp.o[0m
+CMakeFiles/carViz.dir/build.make:134: recipe for target 'CMakeFiles/carViz.dir/robot/sensors.cpp.o' failed
+CMakeFiles/carViz.dir/build.make:110: recipe for target 'CMakeFiles/carViz.dir/robot/robot.cpp.o' failed
+CMakeFiles/carViz.dir/build.make:62: recipe for target 'CMakeFiles/carViz.dir/main.cpp.o' failed
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/carViz.dir/all' failed
+Makefile:140: recipe for target 'all' failed

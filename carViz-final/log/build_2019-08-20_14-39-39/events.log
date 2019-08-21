@@ -1,0 +1,895 @@
+[0.000000] (-) TimerEvent: {}
+[0.001632] (carviz) JobQueued: {'identifier': 'carviz', 'dependencies': OrderedDict()}
+[0.001868] (carviz) JobStarted: {'identifier': 'carviz'}
+[0.022852] (carviz) JobProgress: {'identifier': 'carviz', 'progress': 'cmake'}
+[0.023815] (carviz) JobProgress: {'identifier': 'carviz', 'progress': 'build'}
+[0.025198] (carviz) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pankhuri/Week13/carViz/build/carviz', '--', '-j4', '-l4'], 'cwd': '/home/pankhuri/Week13/carViz/build/carviz', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('WORKON_HOME', '/home/pankhuri/.virtualenvs'), ('USER', 'pankhuri'), ('LANGUAGE', 'en_IN:en'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2887'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/pankhuri'), ('VIRTUALENVWRAPPER_PYTHON', '/usr/bin/python3'), ('DESKTOP_SESSION', 'ubuntu'), ('TERM_PROGRAM_VERSION', '1.34.0'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '23997'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '2'), ('LOGNAME', 'pankhuri'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'pankhuri'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/pankhuri/.local/bin:/home/pankhuri/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/pankhuri-LENOVO-IDEAPAD-500-15ISK:@/tmp/.ICE-unix/2761,unix/pankhuri-LENOVO-IDEAPAD-500-15ISK:/tmp/.ICE-unix/2761'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('NO_AT_BRIDGE', '1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/pankhuri/Week13/carViz/build/carviz'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg')]), 'shell': False}
+[0.099200] (-) TimerEvent: {}
+[0.110770] (carviz) StderrLine: {'line': b'THIS IS ROS2\n'}
+[0.129004] (carviz) StdoutLine: {'line': b'-- Found ament_cmake: 0.7.3 (/opt/ros/dashing/share/ament_cmake/cmake)\n'}
+[0.164919] (carviz) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.199322] (-) TimerEvent: {}
+[0.299783] (-) TimerEvent: {}
+[0.400212] (-) TimerEvent: {}
+[0.406839] (carviz) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.415922] (carviz) StdoutLine: {'line': b'-- Found rclcpp: 0.7.5 (/opt/ros/dashing/share/rclcpp/cmake)\n'}
+[0.437153] (carviz) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.7.1 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)\n'}
+[0.449109] (carviz) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.7.3 (/opt/ros/dashing/share/rosidl_adapter/cmake)\n'}
+[0.485248] (carviz) StdoutLine: {'line': b'-- Found sensor_msgs: 0.7.0 (/opt/ros/dashing/share/sensor_msgs/cmake)\n'}
+[0.500312] (-) TimerEvent: {}
+[0.506345] (carviz) StdoutLine: {'line': b'-- Found image_transport: 2.1.1 (/opt/ros/dashing/share/image_transport/cmake)\n'}
+[0.528165] (carviz) StdoutLine: {'line': b'-- Found poco_vendor:  (/opt/ros/dashing/share/poco_vendor/cmake)\n'}
+[0.562299] (carviz) StdoutLine: {'line': b'-- Found cv_bridge: 2.1.2 (/opt/ros/dashing/share/cv_bridge/cmake)\n'}
+[0.585010] (carviz) StdoutLine: {'line': b'-- Boost version: 1.65.1\n'}
+[0.585411] (carviz) StdoutLine: {'line': b'-- Found the following Boost libraries:\n'}
+[0.585687] (carviz) StdoutLine: {'line': b'--   system\n'}
+[0.587095] (carviz) StderrLine: {'line': b'ROS2 found\n'}
+[0.600462] (-) TimerEvent: {}
+[0.615776] (carviz) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.697105] (carviz) StdoutLine: {'line': b'-- Generating done\n'}
+[0.699210] (carviz) StdoutLine: {'line': b'-- Build files have been written to: /home/pankhuri/Week13/carViz/build/carviz\n'}
+[0.703899] (-) TimerEvent: {}
+[0.745508] (carviz) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mAutomatic MOC for target carViz\x1b[0m\n'}
+[0.804068] (-) TimerEvent: {}
+[0.904541] (-) TimerEvent: {}
+[1.005047] (-) TimerEvent: {}
+[1.105489] (-) TimerEvent: {}
+[1.205949] (-) TimerEvent: {}
+[1.306478] (-) TimerEvent: {}
+[1.406929] (-) TimerEvent: {}
+[1.507393] (-) TimerEvent: {}
+[1.607880] (-) TimerEvent: {}
+[1.708341] (-) TimerEvent: {}
+[1.809097] (-) TimerEvent: {}
+[1.910230] (-) TimerEvent: {}
+[2.011847] (-) TimerEvent: {}
+[2.113567] (-) TimerEvent: {}
+[2.214797] (-) TimerEvent: {}
+[2.315287] (-) TimerEvent: {}
+[2.415857] (-) TimerEvent: {}
+[2.516366] (-) TimerEvent: {}
+[2.616876] (-) TimerEvent: {}
+[2.717406] (-) TimerEvent: {}
+[2.817905] (-) TimerEvent: {}
+[2.918402] (-) TimerEvent: {}
+[3.018893] (-) TimerEvent: {}
+[3.119390] (-) TimerEvent: {}
+[3.219960] (-) TimerEvent: {}
+[3.320898] (-) TimerEvent: {}
+[3.422497] (-) TimerEvent: {}
+[3.524393] (-) TimerEvent: {}
+[3.625823] (-) TimerEvent: {}
+[3.726830] (-) TimerEvent: {}
+[3.827306] (-) TimerEvent: {}
+[3.927776] (-) TimerEvent: {}
+[4.028222] (-) TimerEvent: {}
+[4.128691] (-) TimerEvent: {}
+[4.229125] (-) TimerEvent: {}
+[4.329585] (-) TimerEvent: {}
+[4.430019] (-) TimerEvent: {}
+[4.530458] (-) TimerEvent: {}
+[4.631208] (-) TimerEvent: {}
+[4.732165] (-) TimerEvent: {}
+[4.832735] (-) TimerEvent: {}
+[4.933463] (-) TimerEvent: {}
+[5.033974] (-) TimerEvent: {}
+[5.134450] (-) TimerEvent: {}
+[5.235010] (-) TimerEvent: {}
+[5.335501] (-) TimerEvent: {}
+[5.435963] (-) TimerEvent: {}
+[5.536402] (-) TimerEvent: {}
+[5.636851] (-) TimerEvent: {}
+[5.737296] (-) TimerEvent: {}
+[5.838182] (-) TimerEvent: {}
+[5.939060] (-) TimerEvent: {}
+[5.971319] (carviz) StdoutLine: {'line': b'[  4%] Built target carViz_autogen\n'}
+[6.025114] (carviz) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target carViz\x1b[0m\n'}
+[6.039195] (-) TimerEvent: {}
+[6.139789] (-) TimerEvent: {}
+[6.240299] (-) TimerEvent: {}
+[6.245070] (carviz) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/carViz.dir/main.cpp.o\x1b[0m\n'}
+[6.245573] (carviz) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/carViz.dir/robot/robot.cpp.o\x1b[0m\n'}
+[6.249682] (carviz) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/carViz.dir/robot/actuators.cpp.o\x1b[0m\n'}
+[6.267621] (carviz) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/carViz.dir/robot/sensors.cpp.o\x1b[0m\n'}
+[6.340404] (-) TimerEvent: {}
+[6.440932] (-) TimerEvent: {}
+[6.541498] (-) TimerEvent: {}
+[6.642050] (-) TimerEvent: {}
+[6.742674] (-) TimerEvent: {}
+[6.843229] (-) TimerEvent: {}
+[6.943769] (-) TimerEvent: {}
+[7.044323] (-) TimerEvent: {}
+[7.144861] (-) TimerEvent: {}
+[7.245370] (-) TimerEvent: {}
+[7.345898] (-) TimerEvent: {}
+[7.446440] (-) TimerEvent: {}
+[7.546944] (-) TimerEvent: {}
+[7.647447] (-) TimerEvent: {}
+[7.747936] (-) TimerEvent: {}
+[7.848416] (-) TimerEvent: {}
+[7.948925] (-) TimerEvent: {}
+[8.049451] (-) TimerEvent: {}
+[8.149977] (-) TimerEvent: {}
+[8.250527] (-) TimerEvent: {}
+[8.351039] (-) TimerEvent: {}
+[8.451591] (-) TimerEvent: {}
+[8.552152] (-) TimerEvent: {}
+[8.652728] (-) TimerEvent: {}
+[8.753317] (-) TimerEvent: {}
+[8.853876] (-) TimerEvent: {}
+[8.954435] (-) TimerEvent: {}
+[9.055140] (-) TimerEvent: {}
+[9.155792] (-) TimerEvent: {}
+[9.256387] (-) TimerEvent: {}
+[9.356951] (-) TimerEvent: {}
+[9.457534] (-) TimerEvent: {}
+[9.558110] (-) TimerEvent: {}
+[9.658728] (-) TimerEvent: {}
+[9.759468] (-) TimerEvent: {}
+[9.860033] (-) TimerEvent: {}
+[9.960576] (-) TimerEvent: {}
+[10.061134] (-) TimerEvent: {}
+[10.161749] (-) TimerEvent: {}
+[10.262306] (-) TimerEvent: {}
+[10.362992] (-) TimerEvent: {}
+[10.463549] (-) TimerEvent: {}
+[10.564324] (-) TimerEvent: {}
+[10.664860] (-) TimerEvent: {}
+[10.766115] (-) TimerEvent: {}
+[10.866670] (-) TimerEvent: {}
+[10.967241] (-) TimerEvent: {}
+[11.067834] (-) TimerEvent: {}
+[11.168380] (-) TimerEvent: {}
+[11.269017] (-) TimerEvent: {}
+[11.374240] (-) TimerEvent: {}
+[11.474785] (-) TimerEvent: {}
+[11.575325] (-) TimerEvent: {}
+[11.675879] (-) TimerEvent: {}
+[11.776420] (-) TimerEvent: {}
+[11.876976] (-) TimerEvent: {}
+[11.977517] (-) TimerEvent: {}
+[12.078061] (-) TimerEvent: {}
+[12.178583] (-) TimerEvent: {}
+[12.279137] (-) TimerEvent: {}
+[12.379689] (-) TimerEvent: {}
+[12.480294] (-) TimerEvent: {}
+[12.580854] (-) TimerEvent: {}
+[12.681387] (-) TimerEvent: {}
+[12.781919] (-) TimerEvent: {}
+[12.882446] (-) TimerEvent: {}
+[12.983008] (-) TimerEvent: {}
+[13.083583] (-) TimerEvent: {}
+[13.184286] (-) TimerEvent: {}
+[13.284861] (-) TimerEvent: {}
+[13.385389] (-) TimerEvent: {}
+[13.485876] (-) TimerEvent: {}
+[13.586464] (-) TimerEvent: {}
+[13.686995] (-) TimerEvent: {}
+[13.787546] (-) TimerEvent: {}
+[13.888081] (-) TimerEvent: {}
+[13.988612] (-) TimerEvent: {}
+[14.089145] (-) TimerEvent: {}
+[14.189674] (-) TimerEvent: {}
+[14.290243] (-) TimerEvent: {}
+[14.390801] (-) TimerEvent: {}
+[14.491355] (-) TimerEvent: {}
+[14.591927] (-) TimerEvent: {}
+[14.692508] (-) TimerEvent: {}
+[14.793078] (-) TimerEvent: {}
+[14.893649] (-) TimerEvent: {}
+[14.994198] (-) TimerEvent: {}
+[15.054034] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerCameraros2.hpp:9:0\x1b[m\x1b[K,\n'}
+[15.054604] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/cameraClient.hpp:13\x1b[m\x1b[K,\n'}
+[15.054957] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:16\x1b[m\x1b[K,\n'}
+[15.055243] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.cpp:1\x1b[m\x1b[K:\n'}
+[15.055537] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/../interfaces/cameraClient.hpp:31:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kclass Comm::CameraClient\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.055877] (carviz) StderrLine: {'line': b'  class \x1b[01;31m\x1b[KCameraClient\x1b[m\x1b[K {\n'}
+[15.056149] (carviz) StderrLine: {'line': b'        \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.056426] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/cameraClient.hpp:6:0\x1b[m\x1b[K,\n'}
+[15.056720] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:16\x1b[m\x1b[K,\n'}
+[15.056988] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.cpp:1\x1b[m\x1b[K:\n'}
+[15.057256] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/interfaces/cameraClient.hpp:31:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious definition of \xe2\x80\x98\x1b[01m\x1b[Kclass Comm::CameraClient\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.057535] (carviz) StderrLine: {'line': b'  class \x1b[01;36m\x1b[KCameraClient\x1b[m\x1b[K {\n'}
+[15.058372] (carviz) StderrLine: {'line': b'        \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.059145] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerCameraros2.hpp:10:0\x1b[m\x1b[K,\n'}
+[15.059622] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/cameraClient.hpp:13\x1b[m\x1b[K,\n'}
+[15.060089] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:16\x1b[m\x1b[K,\n'}
+[15.060487] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.cpp:1\x1b[m\x1b[K:\n'}
+[15.060925] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:28:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kfloat camViz::PI\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.061338] (carviz) StderrLine: {'line': b'     float \x1b[01;31m\x1b[KPI\x1b[m\x1b[K = 3.1415;\n'}
+[15.061799] (carviz) StderrLine: {'line': b'           \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[15.062646] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[15.063106] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11\x1b[m\x1b[K,\n'}
+[15.063564] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:15\x1b[m\x1b[K,\n'}
+[15.063968] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.cpp:1\x1b[m\x1b[K:\n'}
+[15.064389] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfloat camViz::PI\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[15.064776] (carviz) StderrLine: {'line': b'     float \x1b[01;36m\x1b[KPI\x1b[m\x1b[K = 3.1415;\n'}
+[15.065168] (carviz) StderrLine: {'line': b'           \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[15.066053] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerCameraros2.hpp:10:0\x1b[m\x1b[K,\n'}
+[15.066447] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/cameraClient.hpp:13\x1b[m\x1b[K,\n'}
+[15.066777] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:16\x1b[m\x1b[K,\n'}
+[15.067102] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.cpp:1\x1b[m\x1b[K:\n'}
+[15.071094] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:30:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kint camViz::MAXRANGEIMGD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.071520] (carviz) StderrLine: {'line': b'  int \x1b[01;31m\x1b[KMAXRANGEIMGD\x1b[m\x1b[K = 8; //max length received from imageD\n'}
+[15.071873] (carviz) StderrLine: {'line': b'      \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.072191] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[15.072499] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11\x1b[m\x1b[K,\n'}
+[15.072810] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:15\x1b[m\x1b[K,\n'}
+[15.073094] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.cpp:1\x1b[m\x1b[K:\n'}
+[15.073382] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:30:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint camViz::MAXRANGEIMGD\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[15.073673] (carviz) StderrLine: {'line': b'  int \x1b[01;36m\x1b[KMAXRANGEIMGD\x1b[m\x1b[K = 8; //max length received from imageD\n'}
+[15.073964] (carviz) StderrLine: {'line': b'      \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.074247] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerCameraros2.hpp:10:0\x1b[m\x1b[K,\n'}
+[15.074533] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/cameraClient.hpp:13\x1b[m\x1b[K,\n'}
+[15.074824] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:16\x1b[m\x1b[K,\n'}
+[15.075133] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.cpp:1\x1b[m\x1b[K:\n'}
+[15.075439] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.075737] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:33:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.076027] (carviz) StderrLine: {'line': b'  \x1b[01;31m\x1b[KdepthToRGB\x1b[m\x1b[K(const cv::Mat& float_img, cv::Mat& rgb_img, std::string type ){\n'}
+[15.076314] (carviz) StderrLine: {'line': b'  \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.076598] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[15.082675] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11\x1b[m\x1b[K,\n'}
+[15.083010] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:15\x1b[m\x1b[K,\n'}
+[15.083292] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.cpp:1\x1b[m\x1b[K:\n'}
+[15.083620] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:33:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[15.083931] (carviz) StderrLine: {'line': b'  \x1b[01;36m\x1b[KdepthToRGB\x1b[m\x1b[K(const cv::Mat& float_img, cv::Mat& rgb_img, std::string type ){\n'}
+[15.084208] (carviz) StderrLine: {'line': b'  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.084478] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerCameraros2.hpp:10:0\x1b[m\x1b[K,\n'}
+[15.084746] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/cameraClient.hpp:13\x1b[m\x1b[K,\n'}
+[15.085012] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:16\x1b[m\x1b[K,\n'}
+[15.085277] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.cpp:1\x1b[m\x1b[K:\n'}
+[15.085538] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.085809] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:52:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.086066] (carviz) StderrLine: {'line': b'  \x1b[01;31m\x1b[Ktranslate_image_messages\x1b[m\x1b[K(const sensor_msgs::msg::Image::SharedPtr image_msg){\n'}
+[15.086315] (carviz) StderrLine: {'line': b'  \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.086565] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[15.086815] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11\x1b[m\x1b[K,\n'}
+[15.096747] (-) TimerEvent: {}
+[15.097064] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:15\x1b[m\x1b[K,\n'}
+[15.097440] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.cpp:1\x1b[m\x1b[K:\n'}
+[15.097757] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:52:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[15.098064] (carviz) StderrLine: {'line': b'  \x1b[01;36m\x1b[Ktranslate_image_messages\x1b[m\x1b[K(const sensor_msgs::msg::Image::SharedPtr image_msg){\n'}
+[15.098349] (carviz) StderrLine: {'line': b'  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.141200] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerPoseros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[15.141811] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/pose3dClient.hpp:10\x1b[m\x1b[K,\n'}
+[15.142302] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:17\x1b[m\x1b[K,\n'}
+[15.142794] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.cpp:1\x1b[m\x1b[K:\n'}
+[15.143238] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:\x1b[m\x1b[K At global scope:\n'}
+[15.143742] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:28:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kfloat camViz::PI\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.144248] (carviz) StderrLine: {'line': b'     float \x1b[01;31m\x1b[KPI\x1b[m\x1b[K = 3.1415;\n'}
+[15.144747] (carviz) StderrLine: {'line': b'           \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[15.145284] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[15.146099] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11\x1b[m\x1b[K,\n'}
+[15.146632] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:15\x1b[m\x1b[K,\n'}
+[15.147256] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.cpp:1\x1b[m\x1b[K:\n'}
+[15.147818] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfloat camViz::PI\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[15.148326] (carviz) StderrLine: {'line': b'     float \x1b[01;36m\x1b[KPI\x1b[m\x1b[K = 3.1415;\n'}
+[15.148826] (carviz) StderrLine: {'line': b'           \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[15.149431] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerPoseros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[15.149921] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/pose3dClient.hpp:10\x1b[m\x1b[K,\n'}
+[15.150392] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:17\x1b[m\x1b[K,\n'}
+[15.150813] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.cpp:1\x1b[m\x1b[K:\n'}
+[15.151271] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:30:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kint camViz::MAXRANGEIMGD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.151708] (carviz) StderrLine: {'line': b'  int \x1b[01;31m\x1b[KMAXRANGEIMGD\x1b[m\x1b[K = 8; //max length received from imageD\n'}
+[15.152134] (carviz) StderrLine: {'line': b'      \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.152600] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[15.153059] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11\x1b[m\x1b[K,\n'}
+[15.153852] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:15\x1b[m\x1b[K,\n'}
+[15.154208] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.cpp:1\x1b[m\x1b[K:\n'}
+[15.154500] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:30:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint camViz::MAXRANGEIMGD\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[15.154789] (carviz) StderrLine: {'line': b'  int \x1b[01;36m\x1b[KMAXRANGEIMGD\x1b[m\x1b[K = 8; //max length received from imageD\n'}
+[15.155057] (carviz) StderrLine: {'line': b'      \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.158533] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerPoseros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[15.158963] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/pose3dClient.hpp:10\x1b[m\x1b[K,\n'}
+[15.159292] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:17\x1b[m\x1b[K,\n'}
+[15.159622] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.cpp:1\x1b[m\x1b[K:\n'}
+[15.159942] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.160253] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:33:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.160552] (carviz) StderrLine: {'line': b'  \x1b[01;31m\x1b[KdepthToRGB\x1b[m\x1b[K(const cv::Mat& float_img, cv::Mat& rgb_img, std::string type ){\n'}
+[15.160862] (carviz) StderrLine: {'line': b'  \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.161112] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[15.161358] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11\x1b[m\x1b[K,\n'}
+[15.161607] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:15\x1b[m\x1b[K,\n'}
+[15.161875] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.cpp:1\x1b[m\x1b[K:\n'}
+[15.162124] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:33:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[15.162387] (carviz) StderrLine: {'line': b'  \x1b[01;36m\x1b[KdepthToRGB\x1b[m\x1b[K(const cv::Mat& float_img, cv::Mat& rgb_img, std::string type ){\n'}
+[15.162664] (carviz) StderrLine: {'line': b'  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.176010] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerPoseros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[15.176525] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/pose3dClient.hpp:10\x1b[m\x1b[K,\n'}
+[15.176906] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:17\x1b[m\x1b[K,\n'}
+[15.177214] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.cpp:1\x1b[m\x1b[K:\n'}
+[15.177544] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.177883] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:52:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.178199] (carviz) StderrLine: {'line': b'  \x1b[01;31m\x1b[Ktranslate_image_messages\x1b[m\x1b[K(const sensor_msgs::msg::Image::SharedPtr image_msg){\n'}
+[15.178498] (carviz) StderrLine: {'line': b'  \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.178772] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[15.179066] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11\x1b[m\x1b[K,\n'}
+[15.179423] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:15\x1b[m\x1b[K,\n'}
+[15.179734] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.cpp:1\x1b[m\x1b[K:\n'}
+[15.180035] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:52:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[15.180380] (carviz) StderrLine: {'line': b'  \x1b[01;36m\x1b[Ktranslate_image_messages\x1b[m\x1b[K(const sensor_msgs::msg::Image::SharedPtr image_msg){\n'}
+[15.180671] (carviz) StderrLine: {'line': b'  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.196951] (-) TimerEvent: {}
+[15.297693] (-) TimerEvent: {}
+[15.398292] (-) TimerEvent: {}
+[15.498949] (-) TimerEvent: {}
+[15.599781] (-) TimerEvent: {}
+[15.700353] (-) TimerEvent: {}
+[15.800931] (-) TimerEvent: {}
+[15.901513] (-) TimerEvent: {}
+[16.002069] (-) TimerEvent: {}
+[16.102654] (-) TimerEvent: {}
+[16.203220] (-) TimerEvent: {}
+[16.304168] (-) TimerEvent: {}
+[16.408140] (-) TimerEvent: {}
+[16.510992] (-) TimerEvent: {}
+[16.611552] (-) TimerEvent: {}
+[16.712084] (-) TimerEvent: {}
+[16.812693] (-) TimerEvent: {}
+[16.920411] (-) TimerEvent: {}
+[17.030653] (-) TimerEvent: {}
+[17.131137] (-) TimerEvent: {}
+[17.232271] (-) TimerEvent: {}
+[17.333509] (-) TimerEvent: {}
+[17.435098] (-) TimerEvent: {}
+[17.536213] (-) TimerEvent: {}
+[17.637225] (-) TimerEvent: {}
+[17.738858] (-) TimerEvent: {}
+[17.840546] (-) TimerEvent: {}
+[17.942027] (-) TimerEvent: {}
+[18.043262] (-) TimerEvent: {}
+[18.050418] (carviz) StderrLine: {'line': b'make[2]: *** [CMakeFiles/carViz.dir/robot/sensors.cpp.o] Error 1\n'}
+[18.051950] (carviz) StderrLine: {'line': b'make[2]: *** Waiting for unfinished jobs....\n'}
+[18.052307] (carviz) StdoutLine: {'line': b"CMakeFiles/carViz.dir/build.make:134: recipe for target 'CMakeFiles/carViz.dir/robot/sensors.cpp.o' failed\n"}
+[18.143486] (-) TimerEvent: {}
+[18.244187] (-) TimerEvent: {}
+[18.344752] (-) TimerEvent: {}
+[18.445403] (-) TimerEvent: {}
+[18.531017] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerCameraros2.hpp:9:0\x1b[m\x1b[K,\n'}
+[18.531599] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/cameraClient.hpp:13\x1b[m\x1b[K,\n'}
+[18.532180] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:16\x1b[m\x1b[K,\n'}
+[18.532545] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[18.533141] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1\x1b[m\x1b[K:\n'}
+[18.533507] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/../interfaces/cameraClient.hpp:31:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kclass Comm::CameraClient\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.533898] (carviz) StderrLine: {'line': b'  class \x1b[01;31m\x1b[KCameraClient\x1b[m\x1b[K {\n'}
+[18.534333] (carviz) StderrLine: {'line': b'        \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.534813] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/cameraClient.hpp:6:0\x1b[m\x1b[K,\n'}
+[18.535220] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:16\x1b[m\x1b[K,\n'}
+[18.535652] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[18.535990] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1\x1b[m\x1b[K:\n'}
+[18.536299] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/interfaces/cameraClient.hpp:31:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious definition of \xe2\x80\x98\x1b[01m\x1b[Kclass Comm::CameraClient\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.536643] (carviz) StderrLine: {'line': b'  class \x1b[01;36m\x1b[KCameraClient\x1b[m\x1b[K {\n'}
+[18.536999] (carviz) StderrLine: {'line': b'        \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.537328] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerCameraros2.hpp:10:0\x1b[m\x1b[K,\n'}
+[18.537651] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/cameraClient.hpp:13\x1b[m\x1b[K,\n'}
+[18.537953] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:16\x1b[m\x1b[K,\n'}
+[18.538254] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[18.538536] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1\x1b[m\x1b[K:\n'}
+[18.538779] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:28:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kfloat camViz::PI\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.539012] (carviz) StderrLine: {'line': b'     float \x1b[01;31m\x1b[KPI\x1b[m\x1b[K = 3.1415;\n'}
+[18.539282] (carviz) StderrLine: {'line': b'           \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[18.539630] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[18.539927] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11\x1b[m\x1b[K,\n'}
+[18.540216] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:15\x1b[m\x1b[K,\n'}
+[18.540493] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[18.540777] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1\x1b[m\x1b[K:\n'}
+[18.541064] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfloat camViz::PI\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[18.541354] (carviz) StderrLine: {'line': b'     float \x1b[01;36m\x1b[KPI\x1b[m\x1b[K = 3.1415;\n'}
+[18.541809] (carviz) StderrLine: {'line': b'           \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[18.542260] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerCameraros2.hpp:10:0\x1b[m\x1b[K,\n'}
+[18.542600] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/cameraClient.hpp:13\x1b[m\x1b[K,\n'}
+[18.542905] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:16\x1b[m\x1b[K,\n'}
+[18.543216] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[18.543580] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1\x1b[m\x1b[K:\n'}
+[18.543902] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:30:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kint camViz::MAXRANGEIMGD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.544215] (carviz) StderrLine: {'line': b'  int \x1b[01;31m\x1b[KMAXRANGEIMGD\x1b[m\x1b[K = 8; //max length received from imageD\n'}
+[18.544501] (carviz) StderrLine: {'line': b'      \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.544731] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[18.544955] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11\x1b[m\x1b[K,\n'}
+[18.545192] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:15\x1b[m\x1b[K,\n'}
+[18.545446] (-) TimerEvent: {}
+[18.545704] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[18.546059] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1\x1b[m\x1b[K:\n'}
+[18.546369] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:30:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint camViz::MAXRANGEIMGD\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[18.546678] (carviz) StderrLine: {'line': b'  int \x1b[01;36m\x1b[KMAXRANGEIMGD\x1b[m\x1b[K = 8; //max length received from imageD\n'}
+[18.546960] (carviz) StderrLine: {'line': b'      \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.547318] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerCameraros2.hpp:10:0\x1b[m\x1b[K,\n'}
+[18.547782] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/cameraClient.hpp:13\x1b[m\x1b[K,\n'}
+[18.548110] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:16\x1b[m\x1b[K,\n'}
+[18.548410] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[18.548704] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1\x1b[m\x1b[K:\n'}
+[18.549001] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.549298] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:33:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.549601] (carviz) StderrLine: {'line': b'  \x1b[01;31m\x1b[KdepthToRGB\x1b[m\x1b[K(const cv::Mat& float_img, cv::Mat& rgb_img, std::string type ){\n'}
+[18.549917] (carviz) StderrLine: {'line': b'  \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.550226] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[18.550560] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11\x1b[m\x1b[K,\n'}
+[18.550887] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:15\x1b[m\x1b[K,\n'}
+[18.551194] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[18.551650] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1\x1b[m\x1b[K:\n'}
+[18.551950] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:33:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[18.552258] (carviz) StderrLine: {'line': b'  \x1b[01;36m\x1b[KdepthToRGB\x1b[m\x1b[K(const cv::Mat& float_img, cv::Mat& rgb_img, std::string type ){\n'}
+[18.552528] (carviz) StderrLine: {'line': b'  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.552819] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerCameraros2.hpp:10:0\x1b[m\x1b[K,\n'}
+[18.553747] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/cameraClient.hpp:13\x1b[m\x1b[K,\n'}
+[18.554044] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:16\x1b[m\x1b[K,\n'}
+[18.554336] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[18.554641] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1\x1b[m\x1b[K:\n'}
+[18.554936] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.555225] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:52:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.555837] (carviz) StderrLine: {'line': b'  \x1b[01;31m\x1b[Ktranslate_image_messages\x1b[m\x1b[K(const sensor_msgs::msg::Image::SharedPtr image_msg){\n'}
+[18.556204] (carviz) StderrLine: {'line': b'  \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.556500] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[18.556768] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11\x1b[m\x1b[K,\n'}
+[18.557022] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:15\x1b[m\x1b[K,\n'}
+[18.557293] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[18.557574] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1\x1b[m\x1b[K:\n'}
+[18.557862] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:52:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[18.558142] (carviz) StderrLine: {'line': b'  \x1b[01;36m\x1b[Ktranslate_image_messages\x1b[m\x1b[K(const sensor_msgs::msg::Image::SharedPtr image_msg){\n'}
+[18.558436] (carviz) StderrLine: {'line': b'  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.558724] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerCameraros2.hpp:9:0\x1b[m\x1b[K,\n'}
+[18.559009] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/cameraClient.hpp:13\x1b[m\x1b[K,\n'}
+[18.559287] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:16\x1b[m\x1b[K,\n'}
+[18.559630] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[18.559955] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:1\x1b[m\x1b[K:\n'}
+[18.560255] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/../interfaces/cameraClient.hpp:31:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kclass Comm::CameraClient\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.560532] (carviz) StderrLine: {'line': b'  class \x1b[01;31m\x1b[KCameraClient\x1b[m\x1b[K {\n'}
+[18.563657] (carviz) StderrLine: {'line': b'        \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.564116] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/cameraClient.hpp:6:0\x1b[m\x1b[K,\n'}
+[18.564620] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:16\x1b[m\x1b[K,\n'}
+[18.564973] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[18.565287] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:1\x1b[m\x1b[K:\n'}
+[18.565680] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/interfaces/cameraClient.hpp:31:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious definition of \xe2\x80\x98\x1b[01m\x1b[Kclass Comm::CameraClient\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.566361] (carviz) StderrLine: {'line': b'  class \x1b[01;36m\x1b[KCameraClient\x1b[m\x1b[K {\n'}
+[18.567814] (carviz) StderrLine: {'line': b'        \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.568942] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerCameraros2.hpp:10:0\x1b[m\x1b[K,\n'}
+[18.569369] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/cameraClient.hpp:13\x1b[m\x1b[K,\n'}
+[18.569731] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:16\x1b[m\x1b[K,\n'}
+[18.570085] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[18.570431] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:1\x1b[m\x1b[K:\n'}
+[18.570780] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:28:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kfloat camViz::PI\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.571097] (carviz) StderrLine: {'line': b'     float \x1b[01;31m\x1b[KPI\x1b[m\x1b[K = 3.1415;\n'}
+[18.571601] (carviz) StderrLine: {'line': b'           \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[18.571948] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[18.572273] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11\x1b[m\x1b[K,\n'}
+[18.572596] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:15\x1b[m\x1b[K,\n'}
+[18.572913] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[18.573218] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:1\x1b[m\x1b[K:\n'}
+[18.573509] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfloat camViz::PI\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[18.573792] (carviz) StderrLine: {'line': b'     float \x1b[01;36m\x1b[KPI\x1b[m\x1b[K = 3.1415;\n'}
+[18.574107] (carviz) StderrLine: {'line': b'           \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[18.574395] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerCameraros2.hpp:10:0\x1b[m\x1b[K,\n'}
+[18.574697] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/cameraClient.hpp:13\x1b[m\x1b[K,\n'}
+[18.575018] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:16\x1b[m\x1b[K,\n'}
+[18.575335] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[18.575673] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:1\x1b[m\x1b[K:\n'}
+[18.575993] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:30:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kint camViz::MAXRANGEIMGD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.576319] (carviz) StderrLine: {'line': b'  int \x1b[01;31m\x1b[KMAXRANGEIMGD\x1b[m\x1b[K = 8; //max length received from imageD\n'}
+[18.576646] (carviz) StderrLine: {'line': b'      \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.576933] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[18.577229] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11\x1b[m\x1b[K,\n'}
+[18.577524] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:15\x1b[m\x1b[K,\n'}
+[18.577810] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[18.578070] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:1\x1b[m\x1b[K:\n'}
+[18.578346] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:30:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint camViz::MAXRANGEIMGD\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[18.578639] (carviz) StderrLine: {'line': b'  int \x1b[01;36m\x1b[KMAXRANGEIMGD\x1b[m\x1b[K = 8; //max length received from imageD\n'}
+[18.578919] (carviz) StderrLine: {'line': b'      \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.579231] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerCameraros2.hpp:10:0\x1b[m\x1b[K,\n'}
+[18.579553] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/cameraClient.hpp:13\x1b[m\x1b[K,\n'}
+[18.581809] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:16\x1b[m\x1b[K,\n'}
+[18.582297] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[18.582645] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:1\x1b[m\x1b[K:\n'}
+[18.582996] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.583354] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:33:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.583715] (carviz) StderrLine: {'line': b'  \x1b[01;31m\x1b[KdepthToRGB\x1b[m\x1b[K(const cv::Mat& float_img, cv::Mat& rgb_img, std::string type ){\n'}
+[18.584555] (carviz) StderrLine: {'line': b'  \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.586377] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[18.588293] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11\x1b[m\x1b[K,\n'}
+[18.588767] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:15\x1b[m\x1b[K,\n'}
+[18.589176] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[18.589561] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:1\x1b[m\x1b[K:\n'}
+[18.589941] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:33:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[18.590325] (carviz) StderrLine: {'line': b'  \x1b[01;36m\x1b[KdepthToRGB\x1b[m\x1b[K(const cv::Mat& float_img, cv::Mat& rgb_img, std::string type ){\n'}
+[18.590709] (carviz) StderrLine: {'line': b'  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.591028] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerCameraros2.hpp:10:0\x1b[m\x1b[K,\n'}
+[18.591345] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/cameraClient.hpp:13\x1b[m\x1b[K,\n'}
+[18.591878] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:16\x1b[m\x1b[K,\n'}
+[18.592274] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[18.592673] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:1\x1b[m\x1b[K:\n'}
+[18.593036] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.593369] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:52:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.593748] (carviz) StderrLine: {'line': b'  \x1b[01;31m\x1b[Ktranslate_image_messages\x1b[m\x1b[K(const sensor_msgs::msg::Image::SharedPtr image_msg){\n'}
+[18.594110] (carviz) StderrLine: {'line': b'  \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.594467] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[18.594815] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11\x1b[m\x1b[K,\n'}
+[18.595155] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:15\x1b[m\x1b[K,\n'}
+[18.595505] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[18.595902] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:1\x1b[m\x1b[K:\n'}
+[18.596262] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:52:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[18.596625] (carviz) StderrLine: {'line': b'  \x1b[01;36m\x1b[Ktranslate_image_messages\x1b[m\x1b[K(const sensor_msgs::msg::Image::SharedPtr image_msg){\n'}
+[18.596983] (carviz) StderrLine: {'line': b'  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.599221] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerPoseros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[18.599773] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/pose3dClient.hpp:10\x1b[m\x1b[K,\n'}
+[18.600154] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:17\x1b[m\x1b[K,\n'}
+[18.600489] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[18.601294] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1\x1b[m\x1b[K:\n'}
+[18.601772] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:\x1b[m\x1b[K At global scope:\n'}
+[18.602151] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:28:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kfloat camViz::PI\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.602520] (carviz) StderrLine: {'line': b'     float \x1b[01;31m\x1b[KPI\x1b[m\x1b[K = 3.1415;\n'}
+[18.602868] (carviz) StderrLine: {'line': b'           \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[18.603195] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[18.603593] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11\x1b[m\x1b[K,\n'}
+[18.603902] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:15\x1b[m\x1b[K,\n'}
+[18.604192] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[18.604532] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1\x1b[m\x1b[K:\n'}
+[18.604853] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfloat camViz::PI\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[18.605213] (carviz) StderrLine: {'line': b'     float \x1b[01;36m\x1b[KPI\x1b[m\x1b[K = 3.1415;\n'}
+[18.605517] (carviz) StderrLine: {'line': b'           \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[18.605844] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerPoseros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[18.606175] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/pose3dClient.hpp:10\x1b[m\x1b[K,\n'}
+[18.606468] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:17\x1b[m\x1b[K,\n'}
+[18.606779] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[18.607108] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1\x1b[m\x1b[K:\n'}
+[18.607444] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:30:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kint camViz::MAXRANGEIMGD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.607806] (carviz) StderrLine: {'line': b'  int \x1b[01;31m\x1b[KMAXRANGEIMGD\x1b[m\x1b[K = 8; //max length received from imageD\n'}
+[18.608103] (carviz) StderrLine: {'line': b'      \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.608394] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[18.608724] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11\x1b[m\x1b[K,\n'}
+[18.609013] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:15\x1b[m\x1b[K,\n'}
+[18.609318] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[18.609639] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1\x1b[m\x1b[K:\n'}
+[18.609948] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:30:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint camViz::MAXRANGEIMGD\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[18.610254] (carviz) StderrLine: {'line': b'  int \x1b[01;36m\x1b[KMAXRANGEIMGD\x1b[m\x1b[K = 8; //max length received from imageD\n'}
+[18.610599] (carviz) StderrLine: {'line': b'      \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.611117] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerPoseros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[18.611491] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/pose3dClient.hpp:10\x1b[m\x1b[K,\n'}
+[18.611898] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:17\x1b[m\x1b[K,\n'}
+[18.612211] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[18.612536] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1\x1b[m\x1b[K:\n'}
+[18.612854] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.613145] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:33:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.613444] (carviz) StderrLine: {'line': b'  \x1b[01;31m\x1b[KdepthToRGB\x1b[m\x1b[K(const cv::Mat& float_img, cv::Mat& rgb_img, std::string type ){\n'}
+[18.613742] (carviz) StderrLine: {'line': b'  \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.614040] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[18.614325] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11\x1b[m\x1b[K,\n'}
+[18.614631] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:15\x1b[m\x1b[K,\n'}
+[18.614943] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[18.615252] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1\x1b[m\x1b[K:\n'}
+[18.615572] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:33:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[18.615896] (carviz) StderrLine: {'line': b'  \x1b[01;36m\x1b[KdepthToRGB\x1b[m\x1b[K(const cv::Mat& float_img, cv::Mat& rgb_img, std::string type ){\n'}
+[18.616163] (carviz) StderrLine: {'line': b'  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.616439] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerPoseros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[18.616724] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/pose3dClient.hpp:10\x1b[m\x1b[K,\n'}
+[18.617003] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:17\x1b[m\x1b[K,\n'}
+[18.617307] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[18.617640] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1\x1b[m\x1b[K:\n'}
+[18.617954] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.618321] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:52:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.618652] (carviz) StderrLine: {'line': b'  \x1b[01;31m\x1b[Ktranslate_image_messages\x1b[m\x1b[K(const sensor_msgs::msg::Image::SharedPtr image_msg){\n'}
+[18.618968] (carviz) StderrLine: {'line': b'  \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.619867] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[18.620289] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11\x1b[m\x1b[K,\n'}
+[18.620593] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:15\x1b[m\x1b[K,\n'}
+[18.621178] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[18.621560] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1\x1b[m\x1b[K:\n'}
+[18.622176] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:52:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[18.622591] (carviz) StderrLine: {'line': b'  \x1b[01;36m\x1b[Ktranslate_image_messages\x1b[m\x1b[K(const sensor_msgs::msg::Image::SharedPtr image_msg){\n'}
+[18.622975] (carviz) StderrLine: {'line': b'  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.623304] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerPoseros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[18.623757] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/pose3dClient.hpp:10\x1b[m\x1b[K,\n'}
+[18.624129] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:17\x1b[m\x1b[K,\n'}
+[18.624518] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[18.624909] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:1\x1b[m\x1b[K:\n'}
+[18.625343] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:\x1b[m\x1b[K At global scope:\n'}
+[18.625732] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:28:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kfloat camViz::PI\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.626083] (carviz) StderrLine: {'line': b'     float \x1b[01;31m\x1b[KPI\x1b[m\x1b[K = 3.1415;\n'}
+[18.626480] (carviz) StderrLine: {'line': b'           \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[18.626828] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[18.627126] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11\x1b[m\x1b[K,\n'}
+[18.627362] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:15\x1b[m\x1b[K,\n'}
+[18.627608] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[18.627848] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:1\x1b[m\x1b[K:\n'}
+[18.628124] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfloat camViz::PI\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[18.628406] (carviz) StderrLine: {'line': b'     float \x1b[01;36m\x1b[KPI\x1b[m\x1b[K = 3.1415;\n'}
+[18.628683] (carviz) StderrLine: {'line': b'           \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[18.628956] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerPoseros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[18.629245] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/pose3dClient.hpp:10\x1b[m\x1b[K,\n'}
+[18.629575] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:17\x1b[m\x1b[K,\n'}
+[18.629842] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[18.630085] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:1\x1b[m\x1b[K:\n'}
+[18.631269] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:30:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kint camViz::MAXRANGEIMGD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.631705] (carviz) StderrLine: {'line': b'  int \x1b[01;31m\x1b[KMAXRANGEIMGD\x1b[m\x1b[K = 8; //max length received from imageD\n'}
+[18.632020] (carviz) StderrLine: {'line': b'      \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.632587] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[18.632921] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11\x1b[m\x1b[K,\n'}
+[18.633224] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:15\x1b[m\x1b[K,\n'}
+[18.633514] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[18.633819] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:1\x1b[m\x1b[K:\n'}
+[18.634120] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:30:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint camViz::MAXRANGEIMGD\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[18.634357] (carviz) StderrLine: {'line': b'  int \x1b[01;36m\x1b[KMAXRANGEIMGD\x1b[m\x1b[K = 8; //max length received from imageD\n'}
+[18.634587] (carviz) StderrLine: {'line': b'      \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.634889] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerPoseros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[18.635195] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/pose3dClient.hpp:10\x1b[m\x1b[K,\n'}
+[18.635550] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:17\x1b[m\x1b[K,\n'}
+[18.635827] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[18.636050] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:1\x1b[m\x1b[K:\n'}
+[18.636291] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.636553] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:33:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.636829] (carviz) StderrLine: {'line': b'  \x1b[01;31m\x1b[KdepthToRGB\x1b[m\x1b[K(const cv::Mat& float_img, cv::Mat& rgb_img, std::string type ){\n'}
+[18.637109] (carviz) StderrLine: {'line': b'  \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.637345] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[18.637562] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11\x1b[m\x1b[K,\n'}
+[18.637821] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:15\x1b[m\x1b[K,\n'}
+[18.638097] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[18.638390] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:1\x1b[m\x1b[K:\n'}
+[18.638655] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:33:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[18.638876] (carviz) StderrLine: {'line': b'  \x1b[01;36m\x1b[KdepthToRGB\x1b[m\x1b[K(const cv::Mat& float_img, cv::Mat& rgb_img, std::string type ){\n'}
+[18.639117] (carviz) StderrLine: {'line': b'  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.639380] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerPoseros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[18.639777] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/pose3dClient.hpp:10\x1b[m\x1b[K,\n'}
+[18.640052] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:17\x1b[m\x1b[K,\n'}
+[18.640274] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[18.640771] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:1\x1b[m\x1b[K:\n'}
+[18.641093] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.641387] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:52:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.641629] (carviz) StderrLine: {'line': b'  \x1b[01;31m\x1b[Ktranslate_image_messages\x1b[m\x1b[K(const sensor_msgs::msg::Image::SharedPtr image_msg){\n'}
+[18.641849] (carviz) StderrLine: {'line': b'  \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.642127] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[18.642405] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11\x1b[m\x1b[K,\n'}
+[18.642708] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:15\x1b[m\x1b[K,\n'}
+[18.642996] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[18.643280] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:1\x1b[m\x1b[K:\n'}
+[18.643604] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:52:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[18.643922] (carviz) StderrLine: {'line': b'  \x1b[01;36m\x1b[Ktranslate_image_messages\x1b[m\x1b[K(const sensor_msgs::msg::Image::SharedPtr image_msg){\n'}
+[18.644217] (carviz) StderrLine: {'line': b'  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.644527] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/publisherMotorsros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[18.644831] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/motorsClient.hpp:6\x1b[m\x1b[K,\n'}
+[18.645137] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/actuators.h:7\x1b[m\x1b[K,\n'}
+[18.645439] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:7\x1b[m\x1b[K,\n'}
+[18.645736] (-) TimerEvent: {}
+[18.645999] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1\x1b[m\x1b[K:\n'}
+[18.646324] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:\x1b[m\x1b[K At global scope:\n'}
+[18.646633] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:28:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kfloat camViz::PI\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.646938] (carviz) StderrLine: {'line': b'     float \x1b[01;31m\x1b[KPI\x1b[m\x1b[K = 3.1415;\n'}
+[18.647228] (carviz) StderrLine: {'line': b'           \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[18.647543] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[18.647890] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11\x1b[m\x1b[K,\n'}
+[18.648212] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:15\x1b[m\x1b[K,\n'}
+[18.648508] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[18.648794] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1\x1b[m\x1b[K:\n'}
+[18.649089] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfloat camViz::PI\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[18.649338] (carviz) StderrLine: {'line': b'     float \x1b[01;36m\x1b[KPI\x1b[m\x1b[K = 3.1415;\n'}
+[18.649561] (carviz) StderrLine: {'line': b'           \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[18.649796] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/publisherMotorsros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[18.650065] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/motorsClient.hpp:6\x1b[m\x1b[K,\n'}
+[18.650591] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/actuators.h:7\x1b[m\x1b[K,\n'}
+[18.650914] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:7\x1b[m\x1b[K,\n'}
+[18.651233] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1\x1b[m\x1b[K:\n'}
+[18.651561] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:30:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kint camViz::MAXRANGEIMGD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.651821] (carviz) StderrLine: {'line': b'  int \x1b[01;31m\x1b[KMAXRANGEIMGD\x1b[m\x1b[K = 8; //max length received from imageD\n'}
+[18.652052] (carviz) StderrLine: {'line': b'      \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.652290] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[18.652574] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11\x1b[m\x1b[K,\n'}
+[18.652862] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:15\x1b[m\x1b[K,\n'}
+[18.653149] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[18.653446] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1\x1b[m\x1b[K:\n'}
+[18.653736] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:30:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint camViz::MAXRANGEIMGD\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[18.654086] (carviz) StderrLine: {'line': b'  int \x1b[01;36m\x1b[KMAXRANGEIMGD\x1b[m\x1b[K = 8; //max length received from imageD\n'}
+[18.654410] (carviz) StderrLine: {'line': b'      \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.654715] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/publisherMotorsros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[18.655012] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/motorsClient.hpp:6\x1b[m\x1b[K,\n'}
+[18.655313] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/actuators.h:7\x1b[m\x1b[K,\n'}
+[18.655726] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:7\x1b[m\x1b[K,\n'}
+[18.656038] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1\x1b[m\x1b[K:\n'}
+[18.656347] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.656646] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:33:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.656890] (carviz) StderrLine: {'line': b'  \x1b[01;31m\x1b[KdepthToRGB\x1b[m\x1b[K(const cv::Mat& float_img, cv::Mat& rgb_img, std::string type ){\n'}
+[18.657114] (carviz) StderrLine: {'line': b'  \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.657344] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[18.657602] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11\x1b[m\x1b[K,\n'}
+[18.657896] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:15\x1b[m\x1b[K,\n'}
+[18.658191] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[18.658470] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1\x1b[m\x1b[K:\n'}
+[18.658754] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:33:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[18.659049] (carviz) StderrLine: {'line': b'  \x1b[01;36m\x1b[KdepthToRGB\x1b[m\x1b[K(const cv::Mat& float_img, cv::Mat& rgb_img, std::string type ){\n'}
+[18.659319] (carviz) StderrLine: {'line': b'  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.659584] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/publisherMotorsros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[18.659817] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/motorsClient.hpp:6\x1b[m\x1b[K,\n'}
+[18.660105] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/actuators.h:7\x1b[m\x1b[K,\n'}
+[18.661710] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:7\x1b[m\x1b[K,\n'}
+[18.662073] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1\x1b[m\x1b[K:\n'}
+[18.662462] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.662999] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:52:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.663542] (carviz) StderrLine: {'line': b'  \x1b[01;31m\x1b[Ktranslate_image_messages\x1b[m\x1b[K(const sensor_msgs::msg::Image::SharedPtr image_msg){\n'}
+[18.663939] (carviz) StderrLine: {'line': b'  \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.664278] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[18.664599] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11\x1b[m\x1b[K,\n'}
+[18.664906] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:15\x1b[m\x1b[K,\n'}
+[18.665226] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[18.665538] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1\x1b[m\x1b[K:\n'}
+[18.665851] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:52:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[18.666183] (carviz) StderrLine: {'line': b'  \x1b[01;36m\x1b[Ktranslate_image_messages\x1b[m\x1b[K(const sensor_msgs::msg::Image::SharedPtr image_msg){\n'}
+[18.667864] (carviz) StderrLine: {'line': b'  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.668469] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/publisherMotorsros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[18.668936] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/motorsClient.hpp:6\x1b[m\x1b[K,\n'}
+[18.669751] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/actuators.h:7\x1b[m\x1b[K,\n'}
+[18.671253] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:7\x1b[m\x1b[K,\n'}
+[18.671730] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:1\x1b[m\x1b[K:\n'}
+[18.672062] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:\x1b[m\x1b[K At global scope:\n'}
+[18.672346] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:28:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kfloat camViz::PI\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.672658] (carviz) StderrLine: {'line': b'     float \x1b[01;31m\x1b[KPI\x1b[m\x1b[K = 3.1415;\n'}
+[18.672966] (carviz) StderrLine: {'line': b'           \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[18.673272] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[18.673567] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11\x1b[m\x1b[K,\n'}
+[18.673879] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:15\x1b[m\x1b[K,\n'}
+[18.674176] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[18.674483] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:1\x1b[m\x1b[K:\n'}
+[18.674794] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfloat camViz::PI\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[18.675115] (carviz) StderrLine: {'line': b'     float \x1b[01;36m\x1b[KPI\x1b[m\x1b[K = 3.1415;\n'}
+[18.675443] (carviz) StderrLine: {'line': b'           \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[18.675761] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/publisherMotorsros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[18.676056] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/motorsClient.hpp:6\x1b[m\x1b[K,\n'}
+[18.676296] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/actuators.h:7\x1b[m\x1b[K,\n'}
+[18.676520] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:7\x1b[m\x1b[K,\n'}
+[18.676757] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:1\x1b[m\x1b[K:\n'}
+[18.677007] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:30:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kint camViz::MAXRANGEIMGD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.677298] (carviz) StderrLine: {'line': b'  int \x1b[01;31m\x1b[KMAXRANGEIMGD\x1b[m\x1b[K = 8; //max length received from imageD\n'}
+[18.677582] (carviz) StderrLine: {'line': b'      \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.677869] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[18.678169] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11\x1b[m\x1b[K,\n'}
+[18.678467] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:15\x1b[m\x1b[K,\n'}
+[18.678728] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[18.678968] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:1\x1b[m\x1b[K:\n'}
+[18.679531] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:30:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint camViz::MAXRANGEIMGD\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[18.682323] (carviz) StderrLine: {'line': b'  int \x1b[01;36m\x1b[KMAXRANGEIMGD\x1b[m\x1b[K = 8; //max length received from imageD\n'}
+[18.685638] (carviz) StderrLine: {'line': b'      \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.688302] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/publisherMotorsros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[18.688814] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/motorsClient.hpp:6\x1b[m\x1b[K,\n'}
+[18.689218] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/actuators.h:7\x1b[m\x1b[K,\n'}
+[18.689602] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:7\x1b[m\x1b[K,\n'}
+[18.689938] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:1\x1b[m\x1b[K:\n'}
+[18.690257] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.690563] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:33:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.690902] (carviz) StderrLine: {'line': b'  \x1b[01;31m\x1b[KdepthToRGB\x1b[m\x1b[K(const cv::Mat& float_img, cv::Mat& rgb_img, std::string type ){\n'}
+[18.691256] (carviz) StderrLine: {'line': b'  \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.691696] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[18.692053] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11\x1b[m\x1b[K,\n'}
+[18.692394] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:15\x1b[m\x1b[K,\n'}
+[18.692769] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[18.693106] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:1\x1b[m\x1b[K:\n'}
+[18.693471] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:33:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[18.693824] (carviz) StderrLine: {'line': b'  \x1b[01;36m\x1b[KdepthToRGB\x1b[m\x1b[K(const cv::Mat& float_img, cv::Mat& rgb_img, std::string type ){\n'}
+[18.694168] (carviz) StderrLine: {'line': b'  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.694522] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/publisherMotorsros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[18.694866] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/motorsClient.hpp:6\x1b[m\x1b[K,\n'}
+[18.695253] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/actuators.h:7\x1b[m\x1b[K,\n'}
+[18.695619] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:7\x1b[m\x1b[K,\n'}
+[18.696042] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:1\x1b[m\x1b[K:\n'}
+[18.696382] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.696778] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:52:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.697144] (carviz) StderrLine: {'line': b'  \x1b[01;31m\x1b[Ktranslate_image_messages\x1b[m\x1b[K(const sensor_msgs::msg::Image::SharedPtr image_msg){\n'}
+[18.697529] (carviz) StderrLine: {'line': b'  \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.697879] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0\x1b[m\x1b[K,\n'}
+[18.698244] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11\x1b[m\x1b[K,\n'}
+[18.698590] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:15\x1b[m\x1b[K,\n'}
+[18.698969] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[18.699318] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:1\x1b[m\x1b[K:\n'}
+[18.699677] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:52:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[18.700144] (carviz) StderrLine: {'line': b'  \x1b[01;36m\x1b[Ktranslate_image_messages\x1b[m\x1b[K(const sensor_msgs::msg::Image::SharedPtr image_msg){\n'}
+[18.700503] (carviz) StderrLine: {'line': b'  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.745935] (-) TimerEvent: {}
+[18.846447] (-) TimerEvent: {}
+[18.946983] (-) TimerEvent: {}
+[19.047689] (-) TimerEvent: {}
+[19.148318] (-) TimerEvent: {}
+[19.169564] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:4:0\x1b[m\x1b[K:\n'}
+[19.170703] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/config/config.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KConfig::Properties Config::load(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[19.172444] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/config/config.h:18:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargc\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[19.172857] (carviz) StderrLine: {'line': b' Config::Properties load(int \x1b[01;35m\x1b[Kargc\x1b[m\x1b[K, char* argv[])\n'}
+[19.173306] (carviz) StderrLine: {'line': b'                             \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[19.174545] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[19.175692] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:53:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kshared_ptr\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[19.176325] (carviz) StderrLine: {'line': b'           \x1b[01;31m\x1b[Kshared_ptr\x1b[m\x1b[K<camViz::MinimalSubscriber> ptr((camViz::MinimalSubscriber*)camRGB);\n'}
+[19.176950] (carviz) StderrLine: {'line': b'           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.177586] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:53:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[19.178073] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/bits/shared_ptr.h:52:0\x1b[m\x1b[K,\n'}
+[19.178674] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/memory:81\x1b[m\x1b[K,\n'}
+[19.179138] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/yaml-cpp/parser.h:11\x1b[m\x1b[K,\n'}
+[19.180227] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/yaml-cpp/yaml.h:10\x1b[m\x1b[K,\n'}
+[19.180668] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/../config/properties.hpp:7\x1b[m\x1b[K,\n'}
+[19.181044] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/communicator.hpp:3\x1b[m\x1b[K,\n'}
+[19.181567] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:14\x1b[m\x1b[K,\n'}
+[19.182176] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[19.182596] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:1\x1b[m\x1b[K:\n'}
+[19.184610] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/shared_ptr_base.h:347:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.186325] (carviz) StderrLine: {'line': b'     class \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K;\n'}
+[19.186821] (carviz) StderrLine: {'line': b'           \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.187204] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/throw_exception.hpp:42:0\x1b[m\x1b[K,\n'}
+[19.187580] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/shared_ptr.hpp:27\x1b[m\x1b[K,\n'}
+[19.190955] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/shared_ptr.hpp:17\x1b[m\x1b[K,\n'}
+[19.192445] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/yaml-cpp/node/ptr.h:11\x1b[m\x1b[K,\n'}
+[19.198122] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/yaml-cpp/node/node.h:16\x1b[m\x1b[K,\n'}
+[19.198920] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/yaml-cpp/yaml.h:16\x1b[m\x1b[K,\n'}
+[19.205008] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/../config/properties.hpp:7\x1b[m\x1b[K,\n'}
+[19.207212] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/communicator.hpp:3\x1b[m\x1b[K,\n'}
+[19.207877] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:14\x1b[m\x1b[K,\n'}
+[19.208498] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[19.209303] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:1\x1b[m\x1b[K:\n'}
+[19.209802] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/exception/exception.hpp:19:44:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kboost::shared_ptr\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.210247] (carviz) StderrLine: {'line': b' namespace boost { template <class T> class \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K; };\n'}
+[19.210747] (carviz) StderrLine: {'line': b'                                            \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.211342] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/exception/exception.hpp:19:44:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kboost::shared_ptr\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.211966] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:53:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMinimalSubscriber\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[KcamViz\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.212949] (carviz) StderrLine: {'line': b'           shared_ptr<camViz::\x1b[01;31m\x1b[KMinimalSubscriber\x1b[m\x1b[K> ptr((camViz::MinimalSubscriber*)camRGB);\n'}
+[19.213480] (carviz) StderrLine: {'line': b'                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.214123] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:53:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMinimalSubscriber\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[KcamViz\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.214654] (carviz) StderrLine: {'line': b'           shared_ptr<camViz::MinimalSubscriber> ptr((camViz::\x1b[01;31m\x1b[KMinimalSubscriber\x1b[m\x1b[K*)camRGB);\n'}
+[19.215179] (carviz) StderrLine: {'line': b'                                                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.215635] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:53:80:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[19.216092] (carviz) StderrLine: {'line': b'           shared_ptr<camViz::MinimalSubscriber> ptr((camViz::MinimalSubscriber*\x1b[01;31m\x1b[K)\x1b[m\x1b[KcamRGB);\n'}
+[19.216727] (carviz) StderrLine: {'line': b'                                                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[19.217288] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:53:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kptr\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[19.217742] (carviz) StderrLine: {'line': b'           shared_ptr<camViz::MinimalSubscriber> \x1b[01;31m\x1b[Kptr\x1b[m\x1b[K((camViz::MinimalSubscriber*)camRGB);\n'}
+[19.218168] (carviz) StderrLine: {'line': b'                                                 \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[19.218711] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:53:49:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Kputw\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.219258] (carviz) StderrLine: {'line': b'           shared_ptr<camViz::MinimalSubscriber> \x1b[01;36m\x1b[Kptr\x1b[m\x1b[K((camViz::MinimalSubscriber*)camRGB);\n'}
+[19.219668] (carviz) StderrLine: {'line': b'                                                 \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[19.220011] (carviz) StderrLine: {'line': b'                                                 \x1b[32m\x1b[Kputw\x1b[m\x1b[K\n'}
+[19.248436] (-) TimerEvent: {}
+[19.349606] (-) TimerEvent: {}
+[19.450217] (-) TimerEvent: {}
+[19.550849] (-) TimerEvent: {}
+[19.651541] (-) TimerEvent: {}
+[19.752083] (-) TimerEvent: {}
+[19.852639] (-) TimerEvent: {}
+[19.953753] (-) TimerEvent: {}
+[20.056022] (-) TimerEvent: {}
+[20.156695] (-) TimerEvent: {}
+[20.257504] (carviz) StdoutLine: {'line': b"CMakeFiles/carViz.dir/build.make:110: recipe for target 'CMakeFiles/carViz.dir/robot/robot.cpp.o' failed\n"}
+[20.257941] (-) TimerEvent: {}
+[20.258250] (carviz) StderrLine: {'line': b'make[2]: *** [CMakeFiles/carViz.dir/robot/robot.cpp.o] Error 1\n'}
+[20.358123] (-) TimerEvent: {}
+[20.458637] (-) TimerEvent: {}
+[20.559149] (-) TimerEvent: {}
+[20.659708] (-) TimerEvent: {}
+[20.760260] (-) TimerEvent: {}
+[20.861139] (-) TimerEvent: {}
+[20.945879] (carviz) StdoutLine: {'line': b"CMakeFiles/carViz.dir/build.make:62: recipe for target 'CMakeFiles/carViz.dir/main.cpp.o' failed\n"}
+[20.946197] (carviz) StderrLine: {'line': b'make[2]: *** [CMakeFiles/carViz.dir/main.cpp.o] Error 1\n'}
+[20.961191] (-) TimerEvent: {}
+[21.062162] (-) TimerEvent: {}
+[21.163505] (-) TimerEvent: {}
+[21.264676] (-) TimerEvent: {}
+[21.365917] (-) TimerEvent: {}
+[21.467207] (-) TimerEvent: {}
+[21.569178] (-) TimerEvent: {}
+[21.670357] (-) TimerEvent: {}
+[21.771271] (-) TimerEvent: {}
+[21.872304] (-) TimerEvent: {}
+[21.973490] (-) TimerEvent: {}
+[22.075060] (-) TimerEvent: {}
+[22.176846] (-) TimerEvent: {}
+[22.278722] (-) TimerEvent: {}
+[22.380288] (-) TimerEvent: {}
+[22.481887] (-) TimerEvent: {}
+[22.583354] (-) TimerEvent: {}
+[22.684926] (-) TimerEvent: {}
+[22.786292] (-) TimerEvent: {}
+[22.887867] (-) TimerEvent: {}
+[22.988855] (-) TimerEvent: {}
+[23.049899] (carviz) StdoutLine: {'line': b"CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/carViz.dir/all' failed\n"}
+[23.050325] (carviz) StderrLine: {'line': b'make[1]: *** [CMakeFiles/carViz.dir/all] Error 2\n'}
+[23.050531] (carviz) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[23.050691] (carviz) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[23.089039] (-) TimerEvent: {}
+[23.189784] (-) TimerEvent: {}
+[23.291231] (-) TimerEvent: {}
+[23.433940] (-) TimerEvent: {}
+[23.535594] (-) TimerEvent: {}
+[23.637077] (-) TimerEvent: {}
+[23.738517] (-) TimerEvent: {}
+[23.840017] (-) TimerEvent: {}
+[23.861822] (carviz) CommandEnded: {'returncode': 2}
+[23.866373] (carviz) JobEnded: {'identifier': 'carviz', 'rc': 2}
+[24.995713] (-) TimerEvent: {}
+[24.995989] (-) EventReactorShutdown: {}

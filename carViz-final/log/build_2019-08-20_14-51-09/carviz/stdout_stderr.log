@@ -1,0 +1,21 @@
+[  4%] [34m[1mAutomatic MOC for target carViz[0m
+[  4%] Built target carViz_autogen
+[35m[1mScanning dependencies of target carViz[0m
+[  8%] [32mBuilding CXX object CMakeFiles/carViz.dir/comm/pose3dClient.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/carViz.dir/comm/cameraClient.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/carViz.dir/comm/laserClient.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/carViz.dir/comm/motorsClient.cpp.o[0m
+[01m[K/home/pankhuri/Week13/carViz/comm/laserClient.cpp:[m[K In function ‘[01m[KComm::LaserClient* Comm::getLaserClient(Comm::Communicator*, std::__cxx11::string)[m[K’:
+[01m[K/home/pankhuri/Week13/carViz/comm/laserClient.cpp:50:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kcomm[m[K’ has not been declared
+     client = ([01;31m[Kcomm[m[K::LaserClient*) lc2;
+               [01;31m[K^~~~[m[K
+[01m[K/home/pankhuri/Week13/carViz/comm/laserClient.cpp:50:33:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+     client = (comm::LaserClient*[01;31m[K)[m[K lc2;
+                                 [01;31m[K^[m[K
+CMakeFiles/carViz.dir/build.make:374: recipe for target 'CMakeFiles/carViz.dir/comm/laserClient.cpp.o' failed
+make[2]: *** [CMakeFiles/carViz.dir/comm/laserClient.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/carViz.dir/all' failed
+make[1]: *** [CMakeFiles/carViz.dir/all] Error 2
+make: *** [all] Error 2
+Makefile:140: recipe for target 'all' failed

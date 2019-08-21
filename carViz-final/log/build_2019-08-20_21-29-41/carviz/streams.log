@@ -1,0 +1,68 @@
+Invoking command in '/home/pankhuri/Week13/carViz/build/carviz': /usr/bin/cmake --build /home/pankhuri/Week13/carViz/build/carviz -- -j4 -l4
+[  4%] [34m[1mAutomatic MOC for target carViz[0m
+[  4%] Built target carViz_autogen
+[35m[1mScanning dependencies of target carViz[0m
+[  8%] [32mBuilding CXX object CMakeFiles/carViz.dir/main.cpp.o[0m
+[01m[K/home/pankhuri/Week13/carViz/main.cpp:1:9:[m[K [01;35m[Kwarning: [m[K#pragma once in main file
+ #pragma [01;35m[Konce[m[K
+         [01;35m[K^~~~[m[K
+[01m[K/home/pankhuri/Week13/carViz/main.cpp:78:12:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+         ////****Do work her****////
+             
+In file included from [01m[K/home/pankhuri/Week13/carViz/main.cpp:8:0[m[K:
+[01m[K/home/pankhuri/Week13/carViz/config/config.h:[m[K In function ‘[01m[KConfig::Properties Config::load(int, char**)[m[K’:
+[01m[K/home/pankhuri/Week13/carViz/config/config.h:18:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ Config::Properties load(int [01;35m[Kargc[m[K, char* argv[])
+                             [01;35m[K^~~~[m[K
+[01m[K/home/pankhuri/Week13/carViz/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/pankhuri/Week13/carViz/main.cpp:61:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kshared_ptr[m[K’ was not declared in this scope
+              [01;31m[Kshared_ptr[m[K<Comm::ListenerCamera> ptr((Comm::ListenerCamera*)robot::Sensors::camera1);
+              [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/pankhuri/Week13/carViz/main.cpp:61:14:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/c++/7/bits/shared_ptr.h:52:0[m[K,
+                 from [01m[K/usr/include/c++/7/memory:81[m[K,
+                 from [01m[K/usr/include/yaml-cpp/parser.h:11[m[K,
+                 from [01m[K/usr/include/yaml-cpp/yaml.h:10[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/../config/properties.hpp:7[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/communicator.hpp:3[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:14[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/main.cpp:2[m[K:
+[01m[K/usr/include/c++/7/bits/shared_ptr_base.h:347:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr[m[K’
+     class [01;36m[Kshared_ptr[m[K;
+           [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/throw_exception.hpp:42:0[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:27[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/yaml-cpp/node/ptr.h:11[m[K,
+                 from [01m[K/usr/include/yaml-cpp/node/node.h:16[m[K,
+                 from [01m[K/usr/include/yaml-cpp/yaml.h:16[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/../config/properties.hpp:7[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/communicator.hpp:3[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:14[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/main.cpp:2[m[K:
+[01m[K/usr/include/boost/exception/exception.hpp:19:44:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::shared_ptr[m[K’
+ namespace boost { template <class T> class [01;36m[Kshared_ptr[m[K; };
+                                            [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/boost/exception/exception.hpp:19:44:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::shared_ptr[m[K’
+[01m[K/home/pankhuri/Week13/carViz/main.cpp:61:45:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+              shared_ptr<Comm::ListenerCamera[01;31m[K>[m[K ptr((Comm::ListenerCamera*)robot::Sensors::camera1);
+                                             [01;31m[K^[m[K
+[01m[K/home/pankhuri/Week13/carViz/main.cpp:61:74:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot[m[K’ is not a class, namespace, or enumeration
+              shared_ptr<Comm::ListenerCamera> ptr((Comm::ListenerCamera*)[01;31m[Krobot[m[K::Sensors::camera1);
+                                                                          [01;31m[K^~~~~[m[K
+[01m[K/home/pankhuri/Week13/carViz/main.cpp:61:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kptr[m[K’ was not declared in this scope
+              shared_ptr<Comm::ListenerCamera> [01;31m[Kptr[m[K((Comm::ListenerCamera*)robot::Sensors::camera1);
+                                               [01;31m[K^~~[m[K
+[01m[K/home/pankhuri/Week13/carViz/main.cpp:61:47:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kputw[m[K’
+              shared_ptr<Comm::ListenerCamera> [01;36m[Kptr[m[K((Comm::ListenerCamera*)robot::Sensors::camera1);
+                                               [01;36m[K^~~[m[K
+                                               [32m[Kputw[m[K
+CMakeFiles/carViz.dir/build.make:62: recipe for target 'CMakeFiles/carViz.dir/main.cpp.o' failed
+make[2]: *** [CMakeFiles/carViz.dir/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/carViz.dir/all] Error 2
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/carViz.dir/all' failed
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2
+Invoked command in '/home/pankhuri/Week13/carViz/build/carviz' returned '2': /usr/bin/cmake --build /home/pankhuri/Week13/carViz/build/carviz -- -j4 -l4

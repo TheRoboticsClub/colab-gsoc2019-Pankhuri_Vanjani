@@ -1,0 +1,30 @@
+[  4%] [34m[1mAutomatic MOC for target carViz[0m
+[  4%] Built target carViz_autogen
+[35m[1mScanning dependencies of target carViz[0m
+[  8%] [32mBuilding CXX object CMakeFiles/carViz.dir/comm/ros2src/listenerLaserros2.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/carViz.dir/comm/ros2src/listenerPoseros2.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/carViz.dir/comm/ros2src/listenerCameraros2.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/carViz.dir/comm/laserClient.cpp.o[0m
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/listenerLaserros2.cpp:1:10:[m[K [01;31m[Kfatal error: [m[K../ros2head/listenerLaser.hpp: No such file or directory
+ #include [01;31m[K"../ros2head/listenerLaser.hpp"[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/listenerCameraros2.cpp:1:10:[m[K [01;31m[Kfatal error: [m[K../ros2head/listenerCamera.hpp: No such file or directory
+ #include [01;31m[K"../ros2head/listenerCamera.hpp"[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+CMakeFiles/carViz.dir/build.make:446: recipe for target 'CMakeFiles/carViz.dir/comm/ros2src/listenerCameraros2.cpp.o' failed
+make[2]: *** [CMakeFiles/carViz.dir/comm/ros2src/listenerCameraros2.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+CMakeFiles/carViz.dir/build.make:470: recipe for target 'CMakeFiles/carViz.dir/comm/ros2src/listenerLaserros2.cpp.o' failed
+make[2]: *** [CMakeFiles/carViz.dir/comm/ros2src/listenerLaserros2.cpp.o] Error 1
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/listenerPoseros2.cpp:1:10:[m[K [01;31m[Kfatal error: [m[K../ros2head/listenerPose.hpp: No such file or directory
+ #include [01;31m[K"../ros2head/listenerPose.hpp"[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+CMakeFiles/carViz.dir/build.make:494: recipe for target 'CMakeFiles/carViz.dir/comm/ros2src/listenerPoseros2.cpp.o' failed
+make[2]: *** [CMakeFiles/carViz.dir/comm/ros2src/listenerPoseros2.cpp.o] Error 1
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/carViz.dir/all' failed
+make[1]: *** [CMakeFiles/carViz.dir/all] Error 2
+make: *** [all] Error 2
+Makefile:140: recipe for target 'all' failed

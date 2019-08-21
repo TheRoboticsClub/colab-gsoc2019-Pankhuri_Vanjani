@@ -1,0 +1,60 @@
+[  4%] [34m[1mAutomatic MOC for target carViz[0m
+[  4%] Built target carViz_autogen
+[35m[1mScanning dependencies of target carViz[0m
+[  8%] [32mBuilding CXX object CMakeFiles/carViz.dir/main.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/carViz.dir/robot/robot.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/carViz.dir/robot/actuators.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/carViz.dir/robot/sensors.cpp.o[0m
+[01m[K/home/pankhuri/Week13/carViz/main.cpp:65:12:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+         ////****Do work her****////
+             
+[ 25%] [32mBuilding CXX object CMakeFiles/carViz.dir/gui/gui.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/carViz.dir/gui/threadupdategui.cpp.o[0m
+In file included from [01m[K/home/pankhuri/Week13/carViz/main.cpp:4:0[m[K:
+[01m[K/home/pankhuri/Week13/carViz/config/config.h:[m[K In function ‘[01m[KConfig::Properties Config::load(int, char**)[m[K’:
+[01m[K/home/pankhuri/Week13/carViz/config/config.h:18:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ Config::Properties load(int [01;35m[Kargc[m[K, char* argv[])
+                             [01;35m[K^~~~[m[K
+[ 33%] [32mBuilding CXX object CMakeFiles/carViz.dir/gui/widget/cameraswidget.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/carViz.dir/gui/widget/controlvw.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/carViz.dir/config/properties.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/carViz.dir/comm/cameraClient.cpp.o[0m
+[01m[K/home/pankhuri/Week13/carViz/comm/cameraClient.cpp:[m[K In function ‘[01m[KComm::CameraClient* Comm::getCameraClient(Comm::Communicator*, std::__cxx11::string)[m[K’:
+[01m[K/home/pankhuri/Week13/carViz/comm/cameraClient.cpp:64:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kargc[m[K’ was not declared in this scope
+     rclcpp::init([01;31m[Kargc[m[K, argv);
+                  [01;31m[K^~~~[m[K
+[01m[K/home/pankhuri/Week13/carViz/comm/cameraClient.cpp:64:18:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kerfc[m[K’
+     rclcpp::init([01;36m[Kargc[m[K, argv);
+                  [01;36m[K^~~~[m[K
+                  [32m[Kerfc[m[K
+[01m[K/home/pankhuri/Week13/carViz/comm/cameraClient.cpp:64:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kargv[m[K’ was not declared in this scope
+     rclcpp::init(argc, [01;31m[Kargv[m[K);
+                        [01;31m[K^~~~[m[K
+[01m[K/home/pankhuri/Week13/carViz/comm/cameraClient.cpp:67:42:[m[K [01;31m[Kerror: [m[K‘[01m[KnodeName[m[K’ was not declared in this scope
+     lc2 = new ListenerCamera(0, nullptr, [01;31m[KnodeName[m[K,topic);
+                                          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/pankhuri/Week13/carViz/comm/cameraClient.cpp:67:42:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Krename[m[K’
+     lc2 = new ListenerCamera(0, nullptr, [01;36m[KnodeName[m[K,topic);
+                                          [01;36m[K^~~~~~~~[m[K
+                                          [32m[Krename[m[K
+[01m[K/home/pankhuri/Week13/carViz/comm/cameraClient.cpp:67:51:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic[m[K’ was not declared in this scope
+     lc2 = new ListenerCamera(0, nullptr, nodeName,[01;31m[Ktopic[m[K);
+                                                   [01;31m[K^~~~~[m[K
+[01m[K/home/pankhuri/Week13/carViz/comm/cameraClient.cpp:68:23:[m[K [01;31m[Kerror: [m[K‘[01m[KCameraClient[m[K’ is not a member of ‘[01m[KcamViz[m[K’
+     client = (camViz::[01;31m[KCameraClient[m[K*) lc2;
+                       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/pankhuri/Week13/carViz/comm/cameraClient.cpp:68:23:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/home/pankhuri/Week13/carViz/comm/cameraClient.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/comm/cameraClient.cpp:19[m[K:
+[01m[K/home/pankhuri/Week13/carViz/comm/interfaces/cameraClient.hpp:31:8:[m[K [01;36m[Knote: [m[K  ‘[01m[KComm::CameraClient[m[K’
+  class [01;36m[KCameraClient[m[K {
+        [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/pankhuri/Week13/carViz/comm/cameraClient.cpp:68:36:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+     client = (camViz::CameraClient*[01;31m[K)[m[K lc2;
+                                    [01;31m[K^[m[K
+CMakeFiles/carViz.dir/build.make:326: recipe for target 'CMakeFiles/carViz.dir/comm/cameraClient.cpp.o' failed
+make[2]: *** [CMakeFiles/carViz.dir/comm/cameraClient.cpp.o] Error 1
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/carViz.dir/all' failed
+make[1]: *** [CMakeFiles/carViz.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

@@ -1,0 +1,25 @@
+[01m[K/home/pankhuri/Week13/carViz/main.cpp:66:12:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+         ////****Do work her****////
+             
+In file included from [01m[K/home/pankhuri/Week13/carViz/main.cpp:4:0[m[K:
+[01m[K/home/pankhuri/Week13/carViz/config/config.h:[m[K In function ‘[01m[KConfig::Properties Config::load(int, char**)[m[K’:
+[01m[K/home/pankhuri/Week13/carViz/config/config.h:18:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ Config::Properties load(int [01;35m[Kargc[m[K, char* argv[])
+                             [01;35m[K^~~~[m[K
+[01m[K/home/pankhuri/Week13/carViz/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/pankhuri/Week13/carViz/main.cpp:53:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[KRobot[m[K’
+          [01;31m[KRobot[m[K *robot = new Robot(jdrc);
+          [01;31m[K^~~~~[m[K
+[01m[K/home/pankhuri/Week13/carViz/main.cpp:68:67:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot[m[K’ was not declared in this scope
+          ThreadUpdateGUI* thread_update_gui = new ThreadUpdateGUI([01;31m[Krobot[m[K, props);
+                                                                   [01;31m[K^~~~~[m[K
+[01m[K/home/pankhuri/Week13/carViz/main.cpp:68:67:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KRobot[m[K’
+          ThreadUpdateGUI* thread_update_gui = new ThreadUpdateGUI([01;36m[Krobot[m[K, props);
+                                                                   [01;36m[K^~~~~[m[K
+                                                                   [32m[KRobot[m[K
+[01m[K/home/pankhuri/Week13/carViz/main.cpp:49:30:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjdrc[m[K’ [[01;35m[K-Wunused-variable[m[K]
+          Comm::Communicator* [01;35m[Kjdrc[m[K = new Comm::Communicator(props);
+                              [01;35m[K^~~~[m[K
+make[2]: *** [CMakeFiles/carViz.dir/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/carViz.dir/all] Error 2
+make: *** [all] Error 2

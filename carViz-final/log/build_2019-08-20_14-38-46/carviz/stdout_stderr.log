@@ -1,0 +1,50 @@
+[  4%] [34m[1mAutomatic MOC for target carViz[0m
+[  4%] Built target carViz_autogen
+[35m[1mScanning dependencies of target carViz[0m
+[  8%] [32mBuilding CXX object CMakeFiles/carViz.dir/robot/robot.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/carViz.dir/robot/sensors.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/carViz.dir/robot/actuators.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/carViz.dir/main.cpp.o[0m
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:7:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/header/listenerLaser.hpp:1:10:[m[K [01;31m[Kfatal error: [m[Kros/ros.h: No such file or directory
+ #include [01;31m[K<ros/ros.h>[m[K
+          [01;31m[K^~~~~~~~~~~[m[K
+compilation terminated.
+CMakeFiles/carViz.dir/build.make:134: recipe for target 'CMakeFiles/carViz.dir/robot/sensors.cpp.o' failed
+make[2]: *** [CMakeFiles/carViz.dir/robot/sensors.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:7:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/main.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/header/listenerLaser.hpp:1:10:[m[K [01;31m[Kfatal error: [m[Kros/ros.h: No such file or directory
+ #include [01;31m[K<ros/ros.h>[m[K
+          [01;31m[K^~~~~~~~~~~[m[K
+compilation terminated.
+CMakeFiles/carViz.dir/build.make:62: recipe for target 'CMakeFiles/carViz.dir/main.cpp.o' failed
+make[2]: *** [CMakeFiles/carViz.dir/main.cpp.o] Error 1
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:7:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/header/listenerLaser.hpp:1:10:[m[K [01;31m[Kfatal error: [m[Kros/ros.h: No such file or directory
+ #include [01;31m[K<ros/ros.h>[m[K
+          [01;31m[K^~~~~~~~~~~[m[K
+compilation terminated.
+CMakeFiles/carViz.dir/build.make:110: recipe for target 'CMakeFiles/carViz.dir/robot/robot.cpp.o' failed
+make[2]: *** [CMakeFiles/carViz.dir/robot/robot.cpp.o] Error 1
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/motorsClient.hpp:10:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/actuators.h:7[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/actuators.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/header/publisherMotors.hpp:1:10:[m[K [01;31m[Kfatal error: [m[Kros/ros.h: No such file or directory
+ #include [01;31m[K<ros/ros.h>[m[K
+          [01;31m[K^~~~~~~~~~~[m[K
+compilation terminated.
+CMakeFiles/carViz.dir/build.make:86: recipe for target 'CMakeFiles/carViz.dir/robot/actuators.cpp.o' failed
+make[2]: *** [CMakeFiles/carViz.dir/robot/actuators.cpp.o] Error 1
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/carViz.dir/all' failed
+make[1]: *** [CMakeFiles/carViz.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

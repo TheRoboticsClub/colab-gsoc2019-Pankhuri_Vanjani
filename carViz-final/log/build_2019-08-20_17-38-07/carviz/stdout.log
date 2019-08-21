@@ -1,0 +1,12 @@
+[  4%] [34m[1mAutomatic MOC for target carViz[0m
+[  4%] Built target carViz_autogen
+[35m[1mScanning dependencies of target carViz[0m
+[  8%] [32mBuilding CXX object CMakeFiles/carViz.dir/comm/ros2src/listenerLaserros2.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/carViz.dir/carViz_autogen/mocs_compilation.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/carViz.dir/comm/ros2src/publisherMotorsros2.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/carViz.dir/comm/ros2src/translatorsros2.cpp.o[0m
+CMakeFiles/carViz.dir/build.make:542: recipe for target 'CMakeFiles/carViz.dir/comm/ros2src/translatorsros2.cpp.o' failed
+CMakeFiles/carViz.dir/build.make:518: recipe for target 'CMakeFiles/carViz.dir/comm/ros2src/publisherMotorsros2.cpp.o' failed
+CMakeFiles/carViz.dir/build.make:470: recipe for target 'CMakeFiles/carViz.dir/comm/ros2src/listenerLaserros2.cpp.o' failed
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/carViz.dir/all' failed
+Makefile:140: recipe for target 'all' failed

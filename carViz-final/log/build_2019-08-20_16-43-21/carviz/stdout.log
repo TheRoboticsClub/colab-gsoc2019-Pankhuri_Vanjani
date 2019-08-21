@@ -1,0 +1,8 @@
+[  4%] [34m[1mAutomatic MOC for target carViz[0m
+[  4%] Built target carViz_autogen
+[35m[1mScanning dependencies of target carViz[0m
+[  8%] [32mBuilding CXX object CMakeFiles/carViz.dir/robot/robot.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/carViz.dir/comm/ros2src/listenerPoseros2.cpp.o[0m
+CMakeFiles/carViz.dir/build.make:494: recipe for target 'CMakeFiles/carViz.dir/comm/ros2src/listenerPoseros2.cpp.o' failed
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/carViz.dir/all' failed
+Makefile:140: recipe for target 'all' failed

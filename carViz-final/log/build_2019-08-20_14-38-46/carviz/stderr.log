@@ -1,0 +1,37 @@
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:7:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/header/listenerLaser.hpp:1:10:[m[K [01;31m[Kfatal error: [m[Kros/ros.h: No such file or directory
+ #include [01;31m[K<ros/ros.h>[m[K
+          [01;31m[K^~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/carViz.dir/robot/sensors.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:7:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/main.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/header/listenerLaser.hpp:1:10:[m[K [01;31m[Kfatal error: [m[Kros/ros.h: No such file or directory
+ #include [01;31m[K<ros/ros.h>[m[K
+          [01;31m[K^~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/carViz.dir/main.cpp.o] Error 1
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:7:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/header/listenerLaser.hpp:1:10:[m[K [01;31m[Kfatal error: [m[Kros/ros.h: No such file or directory
+ #include [01;31m[K<ros/ros.h>[m[K
+          [01;31m[K^~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/carViz.dir/robot/robot.cpp.o] Error 1
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/motorsClient.hpp:10:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/actuators.h:7[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/actuators.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/header/publisherMotors.hpp:1:10:[m[K [01;31m[Kfatal error: [m[Kros/ros.h: No such file or directory
+ #include [01;31m[K<ros/ros.h>[m[K
+          [01;31m[K^~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/carViz.dir/robot/actuators.cpp.o] Error 1
+make[1]: *** [CMakeFiles/carViz.dir/all] Error 2
+make: *** [all] Error 2

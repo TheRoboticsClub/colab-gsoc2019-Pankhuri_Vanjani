@@ -1,0 +1,831 @@
+Invoking command in '/home/pankhuri/Week13/carViz/build/carviz': /usr/bin/cmake --build /home/pankhuri/Week13/carViz/build/carviz -- -j4 -l4
+[  4%] [34m[1mAutomatic MOC for target carViz[0m
+[  4%] Built target carViz_autogen
+[35m[1mScanning dependencies of target carViz[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/carViz.dir/main.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/carViz.dir/robot/robot.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/carViz.dir/robot/sensors.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/carViz.dir/gui/gui.cpp.o[0m
+[01m[K/home/pankhuri/Week13/carViz/main.cpp:65:12:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+         ////****Do work her****////
+             
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerCameraros2.hpp:9:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/cameraClient.hpp:13[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:16[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/../interfaces/cameraClient.hpp:31:8:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass Comm::CameraClient[m[K’
+  class [01;31m[KCameraClient[m[K {
+        [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/cameraClient.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:16[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/interfaces/cameraClient.hpp:31:8:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass Comm::CameraClient[m[K’
+  class [01;36m[KCameraClient[m[K {
+        [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerCameraros2.hpp:10:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/cameraClient.hpp:13[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:16[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:28:11:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kfloat camViz::PI[m[K’
+     float [01;31m[KPI[m[K = 3.1415;
+           [01;31m[K^~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:28:11:[m[K [01;36m[Knote: [m[K‘[01m[Kfloat camViz::PI[m[K’ previously defined here
+     float [01;36m[KPI[m[K = 3.1415;
+           [01;36m[K^~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerCameraros2.hpp:10:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/cameraClient.hpp:13[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:16[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:30:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kint camViz::MAXRANGEIMGD[m[K’
+  int [01;31m[KMAXRANGEIMGD[m[K = 8; //max length received from imageD
+      [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:30:6:[m[K [01;36m[Knote: [m[K‘[01m[Kint camViz::MAXRANGEIMGD[m[K’ previously defined here
+  int [01;36m[KMAXRANGEIMGD[m[K = 8; //max length received from imageD
+      [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerCameraros2.hpp:10:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/cameraClient.hpp:13[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:16[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:[m[K In function ‘[01m[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)[m[K’:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:33:2:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)[m[K’
+  [01;31m[KdepthToRGB[m[K(const cv::Mat& float_img, cv::Mat& rgb_img, std::string type ){
+  [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:33:2:[m[K [01;36m[Knote: [m[K‘[01m[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)[m[K’ previously defined here
+  [01;36m[KdepthToRGB[m[K(const cv::Mat& float_img, cv::Mat& rgb_img, std::string type ){
+  [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerCameraros2.hpp:10:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/cameraClient.hpp:13[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:16[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:[m[K In function ‘[01m[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:52:2:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’
+  [01;31m[Ktranslate_image_messages[m[K(const sensor_msgs::msg::Image::SharedPtr image_msg){
+  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:52:2:[m[K [01;36m[Knote: [m[K‘[01m[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’ previously defined here
+  [01;36m[Ktranslate_image_messages[m[K(const sensor_msgs::msg::Image::SharedPtr image_msg){
+  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerPoseros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/pose3dClient.hpp:10[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:17[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:[m[K At global scope:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:28:11:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kfloat camViz::PI[m[K’
+     float [01;31m[KPI[m[K = 3.1415;
+           [01;31m[K^~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:28:11:[m[K [01;36m[Knote: [m[K‘[01m[Kfloat camViz::PI[m[K’ previously defined here
+     float [01;36m[KPI[m[K = 3.1415;
+           [01;36m[K^~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerPoseros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/pose3dClient.hpp:10[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:17[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:30:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kint camViz::MAXRANGEIMGD[m[K’
+  int [01;31m[KMAXRANGEIMGD[m[K = 8; //max length received from imageD
+      [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:30:6:[m[K [01;36m[Knote: [m[K‘[01m[Kint camViz::MAXRANGEIMGD[m[K’ previously defined here
+  int [01;36m[KMAXRANGEIMGD[m[K = 8; //max length received from imageD
+      [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerPoseros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/pose3dClient.hpp:10[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:17[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:[m[K In function ‘[01m[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)[m[K’:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:33:2:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)[m[K’
+  [01;31m[KdepthToRGB[m[K(const cv::Mat& float_img, cv::Mat& rgb_img, std::string type ){
+  [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:33:2:[m[K [01;36m[Knote: [m[K‘[01m[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)[m[K’ previously defined here
+  [01;36m[KdepthToRGB[m[K(const cv::Mat& float_img, cv::Mat& rgb_img, std::string type ){
+  [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerPoseros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/pose3dClient.hpp:10[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:17[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:[m[K In function ‘[01m[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:52:2:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’
+  [01;31m[Ktranslate_image_messages[m[K(const sensor_msgs::msg::Image::SharedPtr image_msg){
+  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:52:2:[m[K [01;36m[Knote: [m[K‘[01m[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’ previously defined here
+  [01;36m[Ktranslate_image_messages[m[K(const sensor_msgs::msg::Image::SharedPtr image_msg){
+  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+CMakeFiles/carViz.dir/build.make:134: recipe for target 'CMakeFiles/carViz.dir/robot/sensors.cpp.o' failed
+make[2]: *** [CMakeFiles/carViz.dir/robot/sensors.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerCameraros2.hpp:9:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/cameraClient.hpp:13[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:16[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/../interfaces/cameraClient.hpp:31:8:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass Comm::CameraClient[m[K’
+  class [01;31m[KCameraClient[m[K {
+        [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/cameraClient.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:16[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/interfaces/cameraClient.hpp:31:8:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass Comm::CameraClient[m[K’
+  class [01;36m[KCameraClient[m[K {
+        [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerCameraros2.hpp:10:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/cameraClient.hpp:13[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:16[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:28:11:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kfloat camViz::PI[m[K’
+     float [01;31m[KPI[m[K = 3.1415;
+           [01;31m[K^~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:28:11:[m[K [01;36m[Knote: [m[K‘[01m[Kfloat camViz::PI[m[K’ previously defined here
+     float [01;36m[KPI[m[K = 3.1415;
+           [01;36m[K^~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerCameraros2.hpp:10:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/cameraClient.hpp:13[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:16[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:30:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kint camViz::MAXRANGEIMGD[m[K’
+  int [01;31m[KMAXRANGEIMGD[m[K = 8; //max length received from imageD
+      [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:30:6:[m[K [01;36m[Knote: [m[K‘[01m[Kint camViz::MAXRANGEIMGD[m[K’ previously defined here
+  int [01;36m[KMAXRANGEIMGD[m[K = 8; //max length received from imageD
+      [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerCameraros2.hpp:10:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/cameraClient.hpp:13[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:16[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:[m[K In function ‘[01m[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)[m[K’:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:33:2:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)[m[K’
+  [01;31m[KdepthToRGB[m[K(const cv::Mat& float_img, cv::Mat& rgb_img, std::string type ){
+  [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:33:2:[m[K [01;36m[Knote: [m[K‘[01m[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)[m[K’ previously defined here
+  [01;36m[KdepthToRGB[m[K(const cv::Mat& float_img, cv::Mat& rgb_img, std::string type ){
+  [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerCameraros2.hpp:10:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/cameraClient.hpp:13[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:16[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:[m[K In function ‘[01m[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:52:2:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’
+  [01;31m[Ktranslate_image_messages[m[K(const sensor_msgs::msg::Image::SharedPtr image_msg){
+  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:52:2:[m[K [01;36m[Knote: [m[K‘[01m[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’ previously defined here
+  [01;36m[Ktranslate_image_messages[m[K(const sensor_msgs::msg::Image::SharedPtr image_msg){
+  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerPoseros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/pose3dClient.hpp:10[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:17[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:[m[K At global scope:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:28:11:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kfloat camViz::PI[m[K’
+     float [01;31m[KPI[m[K = 3.1415;
+           [01;31m[K^~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:28:11:[m[K [01;36m[Knote: [m[K‘[01m[Kfloat camViz::PI[m[K’ previously defined here
+     float [01;36m[KPI[m[K = 3.1415;
+           [01;36m[K^~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerPoseros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/pose3dClient.hpp:10[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:17[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:30:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kint camViz::MAXRANGEIMGD[m[K’
+  int [01;31m[KMAXRANGEIMGD[m[K = 8; //max length received from imageD
+      [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:30:6:[m[K [01;36m[Knote: [m[K‘[01m[Kint camViz::MAXRANGEIMGD[m[K’ previously defined here
+  int [01;36m[KMAXRANGEIMGD[m[K = 8; //max length received from imageD
+      [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerPoseros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/pose3dClient.hpp:10[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:17[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:[m[K In function ‘[01m[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)[m[K’:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:33:2:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)[m[K’
+  [01;31m[KdepthToRGB[m[K(const cv::Mat& float_img, cv::Mat& rgb_img, std::string type ){
+  [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:33:2:[m[K [01;36m[Knote: [m[K‘[01m[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)[m[K’ previously defined here
+  [01;36m[KdepthToRGB[m[K(const cv::Mat& float_img, cv::Mat& rgb_img, std::string type ){
+  [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerPoseros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/pose3dClient.hpp:10[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:17[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:[m[K In function ‘[01m[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:52:2:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’
+  [01;31m[Ktranslate_image_messages[m[K(const sensor_msgs::msg::Image::SharedPtr image_msg){
+  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:52:2:[m[K [01;36m[Knote: [m[K‘[01m[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’ previously defined here
+  [01;36m[Ktranslate_image_messages[m[K(const sensor_msgs::msg::Image::SharedPtr image_msg){
+  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/publisherMotorsros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/motorsClient.hpp:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/actuators.h:7[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:7[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:[m[K At global scope:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:28:11:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kfloat camViz::PI[m[K’
+     float [01;31m[KPI[m[K = 3.1415;
+           [01;31m[K^~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:28:11:[m[K [01;36m[Knote: [m[K‘[01m[Kfloat camViz::PI[m[K’ previously defined here
+     float [01;36m[KPI[m[K = 3.1415;
+           [01;36m[K^~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/publisherMotorsros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/motorsClient.hpp:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/actuators.h:7[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:7[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:30:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kint camViz::MAXRANGEIMGD[m[K’
+  int [01;31m[KMAXRANGEIMGD[m[K = 8; //max length received from imageD
+      [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:30:6:[m[K [01;36m[Knote: [m[K‘[01m[Kint camViz::MAXRANGEIMGD[m[K’ previously defined here
+  int [01;36m[KMAXRANGEIMGD[m[K = 8; //max length received from imageD
+      [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/publisherMotorsros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/motorsClient.hpp:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/actuators.h:7[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:7[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:[m[K In function ‘[01m[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)[m[K’:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:33:2:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)[m[K’
+  [01;31m[KdepthToRGB[m[K(const cv::Mat& float_img, cv::Mat& rgb_img, std::string type ){
+  [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:33:2:[m[K [01;36m[Knote: [m[K‘[01m[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)[m[K’ previously defined here
+  [01;36m[KdepthToRGB[m[K(const cv::Mat& float_img, cv::Mat& rgb_img, std::string type ){
+  [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/publisherMotorsros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/motorsClient.hpp:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/actuators.h:7[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:7[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:[m[K In function ‘[01m[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:52:2:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’
+  [01;31m[Ktranslate_image_messages[m[K(const sensor_msgs::msg::Image::SharedPtr image_msg){
+  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:52:2:[m[K [01;36m[Knote: [m[K‘[01m[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’ previously defined here
+  [01;36m[Ktranslate_image_messages[m[K(const sensor_msgs::msg::Image::SharedPtr image_msg){
+  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerCameraros2.hpp:9:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/cameraClient.hpp:13[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:16[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/main.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/../interfaces/cameraClient.hpp:31:8:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass Comm::CameraClient[m[K’
+  class [01;31m[KCameraClient[m[K {
+        [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/cameraClient.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:16[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/main.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/interfaces/cameraClient.hpp:31:8:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass Comm::CameraClient[m[K’
+  class [01;36m[KCameraClient[m[K {
+        [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerCameraros2.hpp:10:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/cameraClient.hpp:13[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:16[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/main.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:28:11:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kfloat camViz::PI[m[K’
+     float [01;31m[KPI[m[K = 3.1415;
+           [01;31m[K^~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/main.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:28:11:[m[K [01;36m[Knote: [m[K‘[01m[Kfloat camViz::PI[m[K’ previously defined here
+     float [01;36m[KPI[m[K = 3.1415;
+           [01;36m[K^~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerCameraros2.hpp:10:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/cameraClient.hpp:13[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:16[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/main.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:30:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kint camViz::MAXRANGEIMGD[m[K’
+  int [01;31m[KMAXRANGEIMGD[m[K = 8; //max length received from imageD
+      [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/main.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:30:6:[m[K [01;36m[Knote: [m[K‘[01m[Kint camViz::MAXRANGEIMGD[m[K’ previously defined here
+  int [01;36m[KMAXRANGEIMGD[m[K = 8; //max length received from imageD
+      [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerCameraros2.hpp:10:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/cameraClient.hpp:13[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:16[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/main.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:[m[K In function ‘[01m[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)[m[K’:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:33:2:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)[m[K’
+  [01;31m[KdepthToRGB[m[K(const cv::Mat& float_img, cv::Mat& rgb_img, std::string type ){
+  [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/main.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:33:2:[m[K [01;36m[Knote: [m[K‘[01m[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)[m[K’ previously defined here
+  [01;36m[KdepthToRGB[m[K(const cv::Mat& float_img, cv::Mat& rgb_img, std::string type ){
+  [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerCameraros2.hpp:10:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/cameraClient.hpp:13[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:16[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/main.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:[m[K In function ‘[01m[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:52:2:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’
+  [01;31m[Ktranslate_image_messages[m[K(const sensor_msgs::msg::Image::SharedPtr image_msg){
+  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/main.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:52:2:[m[K [01;36m[Knote: [m[K‘[01m[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’ previously defined here
+  [01;36m[Ktranslate_image_messages[m[K(const sensor_msgs::msg::Image::SharedPtr image_msg){
+  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerPoseros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/pose3dClient.hpp:10[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:17[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/main.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:[m[K At global scope:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:28:11:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kfloat camViz::PI[m[K’
+     float [01;31m[KPI[m[K = 3.1415;
+           [01;31m[K^~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/main.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:28:11:[m[K [01;36m[Knote: [m[K‘[01m[Kfloat camViz::PI[m[K’ previously defined here
+     float [01;36m[KPI[m[K = 3.1415;
+           [01;36m[K^~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerPoseros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/pose3dClient.hpp:10[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:17[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/main.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:30:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kint camViz::MAXRANGEIMGD[m[K’
+  int [01;31m[KMAXRANGEIMGD[m[K = 8; //max length received from imageD
+      [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/main.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:30:6:[m[K [01;36m[Knote: [m[K‘[01m[Kint camViz::MAXRANGEIMGD[m[K’ previously defined here
+  int [01;36m[KMAXRANGEIMGD[m[K = 8; //max length received from imageD
+      [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerPoseros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/pose3dClient.hpp:10[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:17[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/main.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:[m[K In function ‘[01m[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)[m[K’:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:33:2:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)[m[K’
+  [01;31m[KdepthToRGB[m[K(const cv::Mat& float_img, cv::Mat& rgb_img, std::string type ){
+  [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/main.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:33:2:[m[K [01;36m[Knote: [m[K‘[01m[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)[m[K’ previously defined here
+  [01;36m[KdepthToRGB[m[K(const cv::Mat& float_img, cv::Mat& rgb_img, std::string type ){
+  [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerPoseros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/pose3dClient.hpp:10[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:17[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/main.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:[m[K In function ‘[01m[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:52:2:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’
+  [01;31m[Ktranslate_image_messages[m[K(const sensor_msgs::msg::Image::SharedPtr image_msg){
+  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/main.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:52:2:[m[K [01;36m[Knote: [m[K‘[01m[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’ previously defined here
+  [01;36m[Ktranslate_image_messages[m[K(const sensor_msgs::msg::Image::SharedPtr image_msg){
+  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/publisherMotorsros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/motorsClient.hpp:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/actuators.h:7[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:7[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/main.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:[m[K At global scope:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:28:11:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kfloat camViz::PI[m[K’
+     float [01;31m[KPI[m[K = 3.1415;
+           [01;31m[K^~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/main.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:28:11:[m[K [01;36m[Knote: [m[K‘[01m[Kfloat camViz::PI[m[K’ previously defined here
+     float [01;36m[KPI[m[K = 3.1415;
+           [01;36m[K^~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/publisherMotorsros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/motorsClient.hpp:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/actuators.h:7[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:7[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/main.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:30:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kint camViz::MAXRANGEIMGD[m[K’
+  int [01;31m[KMAXRANGEIMGD[m[K = 8; //max length received from imageD
+      [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/main.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:30:6:[m[K [01;36m[Knote: [m[K‘[01m[Kint camViz::MAXRANGEIMGD[m[K’ previously defined here
+  int [01;36m[KMAXRANGEIMGD[m[K = 8; //max length received from imageD
+      [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/publisherMotorsros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/motorsClient.hpp:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/actuators.h:7[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:7[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/main.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:[m[K In function ‘[01m[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)[m[K’:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:33:2:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)[m[K’
+  [01;31m[KdepthToRGB[m[K(const cv::Mat& float_img, cv::Mat& rgb_img, std::string type ){
+  [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/main.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:33:2:[m[K [01;36m[Knote: [m[K‘[01m[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)[m[K’ previously defined here
+  [01;36m[KdepthToRGB[m[K(const cv::Mat& float_img, cv::Mat& rgb_img, std::string type ){
+  [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/publisherMotorsros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/motorsClient.hpp:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/actuators.h:7[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:7[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/main.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:[m[K In function ‘[01m[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:52:2:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’
+  [01;31m[Ktranslate_image_messages[m[K(const sensor_msgs::msg::Image::SharedPtr image_msg){
+  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/main.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/robot/../comm/ros2head/translatorsros2.hpp:52:2:[m[K [01;36m[Knote: [m[K‘[01m[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’ previously defined here
+  [01;36m[Ktranslate_image_messages[m[K(const sensor_msgs::msg::Image::SharedPtr image_msg){
+  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/listenerCameraros2.hpp:9:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/cameraClient.hpp:13[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/sensors.h:16[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/../interfaces/cameraClient.hpp:31:8:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass Comm::CameraClient[m[K’
+  class [01;31m[KCameraClient[m[K {
+        [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/cameraClient.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/sensors.h:16[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/interfaces/cameraClient.hpp:31:8:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass Comm::CameraClient[m[K’
+  class [01;36m[KCameraClient[m[K {
+        [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/listenerCameraros2.hpp:10:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/cameraClient.hpp:13[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/sensors.h:16[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/translatorsros2.hpp:28:11:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kfloat camViz::PI[m[K’
+     float [01;31m[KPI[m[K = 3.1415;
+           [01;31m[K^~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/translatorsros2.hpp:28:11:[m[K [01;36m[Knote: [m[K‘[01m[Kfloat camViz::PI[m[K’ previously defined here
+     float [01;36m[KPI[m[K = 3.1415;
+           [01;36m[K^~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/listenerCameraros2.hpp:10:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/cameraClient.hpp:13[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/sensors.h:16[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/translatorsros2.hpp:30:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kint camViz::MAXRANGEIMGD[m[K’
+  int [01;31m[KMAXRANGEIMGD[m[K = 8; //max length received from imageD
+      [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/translatorsros2.hpp:30:6:[m[K [01;36m[Knote: [m[K‘[01m[Kint camViz::MAXRANGEIMGD[m[K’ previously defined here
+  int [01;36m[KMAXRANGEIMGD[m[K = 8; //max length received from imageD
+      [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/listenerCameraros2.hpp:10:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/cameraClient.hpp:13[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/sensors.h:16[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/translatorsros2.hpp:[m[K In function ‘[01m[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)[m[K’:
+[01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/translatorsros2.hpp:33:2:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)[m[K’
+  [01;31m[KdepthToRGB[m[K(const cv::Mat& float_img, cv::Mat& rgb_img, std::string type ){
+  [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/translatorsros2.hpp:33:2:[m[K [01;36m[Knote: [m[K‘[01m[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)[m[K’ previously defined here
+  [01;36m[KdepthToRGB[m[K(const cv::Mat& float_img, cv::Mat& rgb_img, std::string type ){
+  [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/listenerCameraros2.hpp:10:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/cameraClient.hpp:13[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/sensors.h:16[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/translatorsros2.hpp:[m[K In function ‘[01m[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/translatorsros2.hpp:52:2:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’
+  [01;31m[Ktranslate_image_messages[m[K(const sensor_msgs::msg::Image::SharedPtr image_msg){
+  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/translatorsros2.hpp:52:2:[m[K [01;36m[Knote: [m[K‘[01m[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’ previously defined here
+  [01;36m[Ktranslate_image_messages[m[K(const sensor_msgs::msg::Image::SharedPtr image_msg){
+  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/listenerPoseros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/pose3dClient.hpp:10[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/sensors.h:17[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/translatorsros2.hpp:[m[K At global scope:
+[01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/translatorsros2.hpp:28:11:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kfloat camViz::PI[m[K’
+     float [01;31m[KPI[m[K = 3.1415;
+           [01;31m[K^~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/translatorsros2.hpp:28:11:[m[K [01;36m[Knote: [m[K‘[01m[Kfloat camViz::PI[m[K’ previously defined here
+     float [01;36m[KPI[m[K = 3.1415;
+           [01;36m[K^~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/listenerPoseros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/pose3dClient.hpp:10[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/sensors.h:17[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/translatorsros2.hpp:30:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kint camViz::MAXRANGEIMGD[m[K’
+  int [01;31m[KMAXRANGEIMGD[m[K = 8; //max length received from imageD
+      [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/translatorsros2.hpp:30:6:[m[K [01;36m[Knote: [m[K‘[01m[Kint camViz::MAXRANGEIMGD[m[K’ previously defined here
+  int [01;36m[KMAXRANGEIMGD[m[K = 8; //max length received from imageD
+      [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/listenerPoseros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/pose3dClient.hpp:10[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/sensors.h:17[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/translatorsros2.hpp:[m[K In function ‘[01m[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)[m[K’:
+[01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/translatorsros2.hpp:33:2:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)[m[K’
+  [01;31m[KdepthToRGB[m[K(const cv::Mat& float_img, cv::Mat& rgb_img, std::string type ){
+  [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/translatorsros2.hpp:33:2:[m[K [01;36m[Knote: [m[K‘[01m[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)[m[K’ previously defined here
+  [01;36m[KdepthToRGB[m[K(const cv::Mat& float_img, cv::Mat& rgb_img, std::string type ){
+  [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/listenerPoseros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/pose3dClient.hpp:10[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/sensors.h:17[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/translatorsros2.hpp:[m[K In function ‘[01m[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/translatorsros2.hpp:52:2:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’
+  [01;31m[Ktranslate_image_messages[m[K(const sensor_msgs::msg::Image::SharedPtr image_msg){
+  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/translatorsros2.hpp:52:2:[m[K [01;36m[Knote: [m[K‘[01m[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’ previously defined here
+  [01;36m[Ktranslate_image_messages[m[K(const sensor_msgs::msg::Image::SharedPtr image_msg){
+  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/publisherMotorsros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/motorsClient.hpp:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/actuators.h:7[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/robot.h:7[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/translatorsros2.hpp:[m[K At global scope:
+[01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/translatorsros2.hpp:28:11:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kfloat camViz::PI[m[K’
+     float [01;31m[KPI[m[K = 3.1415;
+           [01;31m[K^~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/translatorsros2.hpp:28:11:[m[K [01;36m[Knote: [m[K‘[01m[Kfloat camViz::PI[m[K’ previously defined here
+     float [01;36m[KPI[m[K = 3.1415;
+           [01;36m[K^~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/publisherMotorsros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/motorsClient.hpp:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/actuators.h:7[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/robot.h:7[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/translatorsros2.hpp:30:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kint camViz::MAXRANGEIMGD[m[K’
+  int [01;31m[KMAXRANGEIMGD[m[K = 8; //max length received from imageD
+      [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/translatorsros2.hpp:30:6:[m[K [01;36m[Knote: [m[K‘[01m[Kint camViz::MAXRANGEIMGD[m[K’ previously defined here
+  int [01;36m[KMAXRANGEIMGD[m[K = 8; //max length received from imageD
+      [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/publisherMotorsros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/motorsClient.hpp:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/actuators.h:7[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/robot.h:7[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/translatorsros2.hpp:[m[K In function ‘[01m[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)[m[K’:
+[01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/translatorsros2.hpp:33:2:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)[m[K’
+  [01;31m[KdepthToRGB[m[K(const cv::Mat& float_img, cv::Mat& rgb_img, std::string type ){
+  [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/translatorsros2.hpp:33:2:[m[K [01;36m[Knote: [m[K‘[01m[Kvoid camViz::depthToRGB(const cv::Mat&, cv::Mat&, std::__cxx11::string)[m[K’ previously defined here
+  [01;36m[KdepthToRGB[m[K(const cv::Mat& float_img, cv::Mat& rgb_img, std::string type ){
+  [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/publisherMotorsros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/motorsClient.hpp:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/actuators.h:7[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/robot.h:7[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/translatorsros2.hpp:[m[K In function ‘[01m[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/translatorsros2.hpp:52:2:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’
+  [01;31m[Ktranslate_image_messages[m[K(const sensor_msgs::msg::Image::SharedPtr image_msg){
+  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/listenerLaserros2.hpp:6:0[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/laserClient.hpp:11[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/sensors.h:15[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/../robot/robot.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.h:6[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/gui/gui.cpp:1[m[K:
+[01m[K/home/pankhuri/Week13/carViz/gui/../robot/../comm/ros2head/translatorsros2.hpp:52:2:[m[K [01;36m[Knote: [m[K‘[01m[KJdeRobotTypes::Image camViz::translate_image_messages(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’ previously defined here
+  [01;36m[Ktranslate_image_messages[m[K(const sensor_msgs::msg::Image::SharedPtr image_msg){
+  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pankhuri/Week13/carViz/main.cpp:4:0[m[K:
+[01m[K/home/pankhuri/Week13/carViz/config/config.h:[m[K In function ‘[01m[KConfig::Properties Config::load(int, char**)[m[K’:
+[01m[K/home/pankhuri/Week13/carViz/config/config.h:18:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ Config::Properties load(int [01;35m[Kargc[m[K, char* argv[])
+                             [01;35m[K^~~~[m[K
+CMakeFiles/carViz.dir/build.make:110: recipe for target 'CMakeFiles/carViz.dir/robot/robot.cpp.o' failed
+make[2]: *** [CMakeFiles/carViz.dir/robot/robot.cpp.o] Error 1
+make[2]: *** [CMakeFiles/carViz.dir/gui/gui.cpp.o] Error 1
+CMakeFiles/carViz.dir/build.make:158: recipe for target 'CMakeFiles/carViz.dir/gui/gui.cpp.o' failed
+CMakeFiles/carViz.dir/build.make:62: recipe for target 'CMakeFiles/carViz.dir/main.cpp.o' failed
+make[2]: *** [CMakeFiles/carViz.dir/main.cpp.o] Error 1
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/carViz.dir/all' failed
+make[1]: *** [CMakeFiles/carViz.dir/all] Error 2
+make: *** [all] Error 2
+Makefile:140: recipe for target 'all' failed
+Invoked command in '/home/pankhuri/Week13/carViz/build/carviz' returned '2': /usr/bin/cmake --build /home/pankhuri/Week13/carViz/build/carviz -- -j4 -l4

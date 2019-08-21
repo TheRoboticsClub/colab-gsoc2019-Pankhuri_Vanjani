@@ -1,0 +1,63 @@
+[  4%] [34m[1mAutomatic MOC for target carViz[0m
+[  4%] Built target carViz_autogen
+[35m[1mScanning dependencies of target carViz[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/carViz.dir/robot/actuators.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/carViz.dir/main.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/carViz.dir/robot/robot.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/carViz.dir/robot/sensors.cpp.o[0m
+[01m[K/home/pankhuri/Week13/carViz/main.cpp:65:12:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+         ////****Do work her****////
+             
+In file included from [01m[K/home/pankhuri/Week13/carViz/main.cpp:4:0[m[K:
+[01m[K/home/pankhuri/Week13/carViz/config/config.h:[m[K In function ‘[01m[KConfig::Properties Config::load(int, char**)[m[K’:
+[01m[K/home/pankhuri/Week13/carViz/config/config.h:18:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ Config::Properties load(int [01;35m[Kargc[m[K, char* argv[])
+                             [01;35m[K^~~~[m[K
+[ 25%] [32mBuilding CXX object CMakeFiles/carViz.dir/gui/threadupdategui.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/carViz.dir/gui/gui.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/carViz.dir/gui/widget/cameraswidget.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/carViz.dir/comm/cameraClient.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/carViz.dir/comm/pose3dClient.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/carViz.dir/comm/ros2src/listenerCameraros2.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/carViz.dir/comm/motorsClient.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/carViz.dir/comm/laserClient.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/carViz.dir/comm/ros2src/listenerLaserros2.cpp.o[0m
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/listenerCameraros2.cpp:[m[K In constructor ‘[01m[KComm::ListenerCamera::ListenerCamera(int, char**, std::__cxx11::string, std::__cxx11::string)[m[K’:
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/listenerCameraros2.cpp:6:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  ListenerCamera::ListenerCamera(int [01;35m[Kargc[m[K, char** argv, std::string nodeName, std::string topic):
+                                     [01;35m[K^~~~[m[K
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/listenerCameraros2.cpp:6:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  ListenerCamera::ListenerCamera(int argc, char** [01;35m[Kargv[m[K, std::string nodeName, std::string topic):
+                                                  [01;35m[K^~~~[m[K
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/listenerLaserros2.cpp:[m[K In constructor ‘[01m[KComm::ListenerLaser::ListenerLaser(int, char**, std::__cxx11::string, std::__cxx11::string)[m[K’:
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/listenerLaserros2.cpp:6:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  ListenerLaser::ListenerLaser(int [01;35m[Kargc[m[K, char** argv, std::string nodeName, std::string topic)
+                                   [01;35m[K^~~~[m[K
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/listenerLaserros2.cpp:6:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  ListenerLaser::ListenerLaser(int argc, char** [01;35m[Kargv[m[K, std::string nodeName, std::string topic)
+                                                [01;35m[K^~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/7/bits/c++allocator.h:33:0[m[K,
+                 from [01m[K/usr/include/c++/7/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/7/memory:63[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:142[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/comm/ros2src/../ros2head/listenerLaserros2.hpp:1[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/comm/ros2src/listenerLaserros2.cpp:1[m[K:
+/usr/include/c++/7/ext/new_allocator.h: In instantiation of ‘[01m[Kclass __gnu_cxx::new_allocator<const sensor_msgs::msg::LaserScan_<std::allocator<void> > >[m[K’:
+[01m[K/usr/include/c++/7/bits/allocator.h:108:11:[m[K   required from ‘[01m[Kclass std::allocator<const sensor_msgs::msg::LaserScan_<std::allocator<void> > >[m[K’
+[01m[K/opt/ros/dashing/include/rclcpp/subscription_options.hpp:68:63:[m[K   required from ‘[01m[Krcl_subscription_options_t rclcpp::SubscriptionOptionsWithAllocator<Allocator>::to_rcl_subscription_options(const rclcpp::QoS&) const [with MessageT = const sensor_msgs::msg::LaserScan_<std::allocator<void> >; Allocator = std::allocator<void>; rcl_subscription_options_t = rcl_subscription_options_t][m[K’
+[01m[K/opt/ros/dashing/include/rclcpp/create_subscription.hpp:135:8:[m[K   required from ‘[01m[Kstd::shared_ptr<SubscriptionT> rclcpp::create_subscription(NodeT&&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename rclcpp::message_memory_strategy::MessageMemoryStrategy<CallbackMessageT, Alloc>::SharedPtr) [with MessageT = const sensor_msgs::msg::LaserScan_<std::allocator<void> >; CallbackT = std::_Bind<void (Comm::ListenerLaser::*(Comm::ListenerLaser*, std::_Placeholder<1>))(std::shared_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> > >)>; AllocatorT = std::allocator<void>; CallbackMessageT = sensor_msgs::msg::LaserScan_<std::allocator<void> >; SubscriptionT = rclcpp::Subscription<sensor_msgs::msg::LaserScan_<std::allocator<void> > >; NodeT = rclcpp::Node&; std::__cxx11::string = std::__cxx11::basic_string<char>; typename rclcpp::message_memory_strategy::MessageMemoryStrategy<CallbackMessageT, Alloc>::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[01m[K/opt/ros/dashing/include/rclcpp/node_impl.hpp:124:47:[m[K   required from ‘[01m[Kstd::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename rclcpp::message_memory_strategy::MessageMemoryStrategy<typename rclcpp::subscription_traits::has_message_type<CallbackT>::type, AllocatorT>::SharedPtr) [with MessageT = const sensor_msgs::msg::LaserScan_<std::allocator<void> >; CallbackT = std::_Bind<void (Comm::ListenerLaser::*(Comm::ListenerLaser*, std::_Placeholder<1>))(std::shared_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> > >)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<sensor_msgs::msg::LaserScan_<std::allocator<void> > >; std::__cxx11::string = std::__cxx11::basic_string<char>; typename rclcpp::message_memory_strategy::MessageMemoryStrategy<typename rclcpp::subscription_traits::has_message_type<CallbackT>::type, AllocatorT>::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/listenerLaserros2.cpp:18:68:[m[K   required from here
+[01m[K/usr/include/c++/7/ext/new_allocator.h:93:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst _Tp* __gnu_cxx::new_allocator<_Tp>::address(__gnu_cxx::new_allocator<_Tp>::const_reference) const [with _Tp = const sensor_msgs::msg::LaserScan_<std::allocator<void> >; __gnu_cxx::new_allocator<_Tp>::const_pointer = const sensor_msgs::msg::LaserScan_<std::allocator<void> >*; __gnu_cxx::new_allocator<_Tp>::const_reference = const sensor_msgs::msg::LaserScan_<std::allocator<void> >&][m[K’ cannot be overloaded
+       [01;31m[Kaddress[m[K(const_reference __x) const _GLIBCXX_NOEXCEPT
+       [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/c++/7/ext/new_allocator.h:89:7:[m[K [01;31m[Kerror: [m[Kwith ‘[01m[K_Tp* __gnu_cxx::new_allocator<_Tp>::address(__gnu_cxx::new_allocator<_Tp>::reference) const [with _Tp = const sensor_msgs::msg::LaserScan_<std::allocator<void> >; __gnu_cxx::new_allocator<_Tp>::pointer = const sensor_msgs::msg::LaserScan_<std::allocator<void> >*; __gnu_cxx::new_allocator<_Tp>::reference = const sensor_msgs::msg::LaserScan_<std::allocator<void> >&][m[K’
+       [01;31m[Kaddress[m[K(reference __x) const _GLIBCXX_NOEXCEPT
+       [01;31m[K^~~~~~~[m[K
+CMakeFiles/carViz.dir/build.make:470: recipe for target 'CMakeFiles/carViz.dir/comm/ros2src/listenerLaserros2.cpp.o' failed
+make[2]: *** [CMakeFiles/carViz.dir/comm/ros2src/listenerLaserros2.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/carViz.dir/all] Error 2
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/carViz.dir/all' failed
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

@@ -1,0 +1,213 @@
+[0.000000] (-) TimerEvent: {}
+[0.001844] (carviz) JobQueued: {'identifier': 'carviz', 'dependencies': OrderedDict()}
+[0.002118] (carviz) JobStarted: {'identifier': 'carviz'}
+[0.043266] (carviz) JobProgress: {'identifier': 'carviz', 'progress': 'cmake'}
+[0.045630] (carviz) JobProgress: {'identifier': 'carviz', 'progress': 'build'}
+[0.048445] (carviz) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pankhuri/Week13/carViz/build/carviz', '--', '-j4', '-l4'], 'cwd': '/home/pankhuri/Week13/carViz/build/carviz', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('WORKON_HOME', '/home/pankhuri/.virtualenvs'), ('USER', 'pankhuri'), ('LANGUAGE', 'en_IN:en'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2887'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/pankhuri'), ('VIRTUALENVWRAPPER_PYTHON', '/usr/bin/python3'), ('DESKTOP_SESSION', 'ubuntu'), ('TERM_PROGRAM_VERSION', '1.34.0'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '23997'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '2'), ('LOGNAME', 'pankhuri'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'pankhuri'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/pankhuri/.local/bin:/home/pankhuri/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/pankhuri-LENOVO-IDEAPAD-500-15ISK:@/tmp/.ICE-unix/2761,unix/pankhuri-LENOVO-IDEAPAD-500-15ISK:/tmp/.ICE-unix/2761'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('NO_AT_BRIDGE', '1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/pankhuri/Week13/carViz/build/carviz'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg')]), 'shell': False}
+[0.099315] (-) TimerEvent: {}
+[0.200432] (-) TimerEvent: {}
+[0.203171] (carviz) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mAutomatic MOC for target carViz\x1b[0m\n'}
+[0.235206] (carviz) StdoutLine: {'line': b'[  4%] Built target carViz_autogen\n'}
+[0.292186] (carviz) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target carViz\x1b[0m\n'}
+[0.300608] (-) TimerEvent: {}
+[0.401141] (-) TimerEvent: {}
+[0.501738] (-) TimerEvent: {}
+[0.602183] (-) TimerEvent: {}
+[0.637161] (carviz) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/carViz.dir/main.cpp.o\x1b[0m\n'}
+[0.645058] (carviz) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/carViz.dir/gui/widget/cameraswidget.cpp.o\x1b[0m\n'}
+[0.649368] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:1:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#pragma once in main file\n'}
+[0.649819] (carviz) StderrLine: {'line': b' #pragma \x1b[01;35m\x1b[Konce\x1b[m\x1b[K\n'}
+[0.650093] (carviz) StderrLine: {'line': b'         \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[0.651571] (carviz) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/carViz.dir/carViz_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[0.702322] (-) TimerEvent: {}
+[0.802809] (-) TimerEvent: {}
+[0.903709] (-) TimerEvent: {}
+[1.004250] (-) TimerEvent: {}
+[1.105284] (-) TimerEvent: {}
+[1.206276] (-) TimerEvent: {}
+[1.307540] (-) TimerEvent: {}
+[1.408688] (-) TimerEvent: {}
+[1.509698] (-) TimerEvent: {}
+[1.610669] (-) TimerEvent: {}
+[1.713225] (-) TimerEvent: {}
+[1.814432] (-) TimerEvent: {}
+[1.915637] (-) TimerEvent: {}
+[2.016763] (-) TimerEvent: {}
+[2.117942] (-) TimerEvent: {}
+[2.219079] (-) TimerEvent: {}
+[2.320218] (-) TimerEvent: {}
+[2.421490] (-) TimerEvent: {}
+[2.522038] (-) TimerEvent: {}
+[2.622666] (-) TimerEvent: {}
+[2.723925] (-) TimerEvent: {}
+[2.825320] (-) TimerEvent: {}
+[2.926641] (-) TimerEvent: {}
+[2.973216] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:80:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"/*" within comment [\x1b[01;35m\x1b[K-Wcomment\x1b[m\x1b[K]\n'}
+[2.973796] (carviz) StderrLine: {'line': b'         ////****Do work her****////\n'}
+[2.974243] (carviz) StderrLine: {'line': b'             \n'}
+[3.026745] (-) TimerEvent: {}
+[3.127342] (-) TimerEvent: {}
+[3.228875] (-) TimerEvent: {}
+[3.330417] (-) TimerEvent: {}
+[3.431918] (-) TimerEvent: {}
+[3.533327] (-) TimerEvent: {}
+[3.634571] (-) TimerEvent: {}
+[3.735881] (-) TimerEvent: {}
+[3.837282] (-) TimerEvent: {}
+[3.938559] (-) TimerEvent: {}
+[4.039837] (-) TimerEvent: {}
+[4.141119] (-) TimerEvent: {}
+[4.242550] (-) TimerEvent: {}
+[4.343839] (-) TimerEvent: {}
+[4.445116] (-) TimerEvent: {}
+[4.545811] (-) TimerEvent: {}
+[4.647102] (-) TimerEvent: {}
+[4.748382] (-) TimerEvent: {}
+[4.849787] (-) TimerEvent: {}
+[4.951246] (-) TimerEvent: {}
+[5.052226] (-) TimerEvent: {}
+[5.153669] (-) TimerEvent: {}
+[5.254972] (-) TimerEvent: {}
+[5.356267] (-) TimerEvent: {}
+[5.457461] (-) TimerEvent: {}
+[5.559648] (-) TimerEvent: {}
+[5.660899] (-) TimerEvent: {}
+[5.762152] (-) TimerEvent: {}
+[5.863533] (-) TimerEvent: {}
+[5.964895] (-) TimerEvent: {}
+[6.066186] (-) TimerEvent: {}
+[6.167743] (-) TimerEvent: {}
+[6.269110] (-) TimerEvent: {}
+[6.370547] (-) TimerEvent: {}
+[6.471839] (-) TimerEvent: {}
+[6.573161] (-) TimerEvent: {}
+[6.674505] (-) TimerEvent: {}
+[6.775769] (-) TimerEvent: {}
+[6.877117] (-) TimerEvent: {}
+[6.978666] (-) TimerEvent: {}
+[7.079253] (-) TimerEvent: {}
+[7.180665] (-) TimerEvent: {}
+[7.281970] (-) TimerEvent: {}
+[7.383343] (-) TimerEvent: {}
+[7.484585] (-) TimerEvent: {}
+[7.586001] (-) TimerEvent: {}
+[7.687418] (-) TimerEvent: {}
+[7.788865] (-) TimerEvent: {}
+[7.890117] (-) TimerEvent: {}
+[7.991433] (-) TimerEvent: {}
+[8.092762] (-) TimerEvent: {}
+[8.194000] (-) TimerEvent: {}
+[8.295209] (-) TimerEvent: {}
+[8.396509] (-) TimerEvent: {}
+[8.497823] (-) TimerEvent: {}
+[8.599210] (-) TimerEvent: {}
+[8.700496] (-) TimerEvent: {}
+[8.801736] (-) TimerEvent: {}
+[8.903183] (-) TimerEvent: {}
+[9.004735] (-) TimerEvent: {}
+[9.106101] (-) TimerEvent: {}
+[9.207478] (-) TimerEvent: {}
+[9.308798] (-) TimerEvent: {}
+[9.410375] (-) TimerEvent: {}
+[9.511609] (-) TimerEvent: {}
+[9.613011] (-) TimerEvent: {}
+[9.714446] (-) TimerEvent: {}
+[9.815782] (-) TimerEvent: {}
+[9.917168] (-) TimerEvent: {}
+[10.018545] (-) TimerEvent: {}
+[10.119867] (-) TimerEvent: {}
+[10.221148] (-) TimerEvent: {}
+[10.322721] (-) TimerEvent: {}
+[10.424152] (-) TimerEvent: {}
+[10.525654] (-) TimerEvent: {}
+[10.626928] (-) TimerEvent: {}
+[10.728510] (-) TimerEvent: {}
+[10.829818] (-) TimerEvent: {}
+[10.931064] (-) TimerEvent: {}
+[11.031700] (-) TimerEvent: {}
+[11.133086] (-) TimerEvent: {}
+[11.234617] (-) TimerEvent: {}
+[11.335180] (-) TimerEvent: {}
+[11.436250] (-) TimerEvent: {}
+[11.537575] (-) TimerEvent: {}
+[11.638153] (-) TimerEvent: {}
+[11.738738] (-) TimerEvent: {}
+[11.808471] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:10:0\x1b[m\x1b[K:\n'}
+[11.809159] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/config/config.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KConfig::Properties Config::load(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.810131] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/config/config.h:18:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargc\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[11.810554] (carviz) StderrLine: {'line': b' Config::Properties load(int \x1b[01;35m\x1b[Kargc\x1b[m\x1b[K, char* argv[])\n'}
+[11.810915] (carviz) StderrLine: {'line': b'                             \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[11.811313] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.811662] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:63:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kshared_ptr\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[11.812024] (carviz) StderrLine: {'line': b'              \x1b[01;31m\x1b[Kshared_ptr\x1b[m\x1b[K<Comm::ListenerCamera> ptr((Comm::ListenerCamera*)robot->sensors->camera1);\n'}
+[11.812360] (carviz) StderrLine: {'line': b'              \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.812735] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:63:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[11.813071] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/bits/shared_ptr.h:52:0\x1b[m\x1b[K,\n'}
+[11.813481] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/memory:81\x1b[m\x1b[K,\n'}
+[11.813867] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/yaml-cpp/parser.h:11\x1b[m\x1b[K,\n'}
+[11.814203] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/yaml-cpp/yaml.h:10\x1b[m\x1b[K,\n'}
+[11.814558] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/../config/properties.hpp:7\x1b[m\x1b[K,\n'}
+[11.815046] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/communicator.hpp:3\x1b[m\x1b[K,\n'}
+[11.815429] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:14\x1b[m\x1b[K,\n'}
+[11.815765] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[11.816070] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:2\x1b[m\x1b[K:\n'}
+[11.816366] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/shared_ptr_base.h:347:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.816678] (carviz) StderrLine: {'line': b'     class \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K;\n'}
+[11.817010] (carviz) StderrLine: {'line': b'           \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.817418] (carviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/throw_exception.hpp:42:0\x1b[m\x1b[K,\n'}
+[11.817783] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/shared_ptr.hpp:27\x1b[m\x1b[K,\n'}
+[11.818158] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/shared_ptr.hpp:17\x1b[m\x1b[K,\n'}
+[11.818502] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/yaml-cpp/node/ptr.h:11\x1b[m\x1b[K,\n'}
+[11.818867] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/yaml-cpp/node/node.h:16\x1b[m\x1b[K,\n'}
+[11.819191] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/yaml-cpp/yaml.h:16\x1b[m\x1b[K,\n'}
+[11.819529] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/../config/properties.hpp:7\x1b[m\x1b[K,\n'}
+[11.819888] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/../comm/communicator.hpp:3\x1b[m\x1b[K,\n'}
+[11.820230] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/sensors.h:14\x1b[m\x1b[K,\n'}
+[11.820605] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/robot/robot.h:6\x1b[m\x1b[K,\n'}
+[11.820945] (carviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:2\x1b[m\x1b[K:\n'}
+[11.821312] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/exception/exception.hpp:19:44:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kboost::shared_ptr\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.821695] (carviz) StderrLine: {'line': b' namespace boost { template <class T> class \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K; };\n'}
+[11.822024] (carviz) StderrLine: {'line': b'                                            \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.822355] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/exception/exception.hpp:19:44:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kboost::shared_ptr\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.822746] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:63:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[11.823105] (carviz) StderrLine: {'line': b'              shared_ptr<Comm::ListenerCamera\x1b[01;31m\x1b[K>\x1b[m\x1b[K ptr((Comm::ListenerCamera*)robot->sensors->camera1);\n'}
+[11.823436] (carviz) StderrLine: {'line': b'                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[11.823780] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:63:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kptr\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[11.824125] (carviz) StderrLine: {'line': b'              shared_ptr<Comm::ListenerCamera> \x1b[01;31m\x1b[Kptr\x1b[m\x1b[K((Comm::ListenerCamera*)robot->sensors->camera1);\n'}
+[11.824495] (carviz) StderrLine: {'line': b'                                               \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[11.824832] (carviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pankhuri/Week13/carViz/main.cpp:63:47:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Kputw\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.825179] (carviz) StderrLine: {'line': b'              shared_ptr<Comm::ListenerCamera> \x1b[01;36m\x1b[Kptr\x1b[m\x1b[K((Comm::ListenerCamera*)robot->sensors->camera1);\n'}
+[11.825541] (carviz) StderrLine: {'line': b'                                               \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[11.825895] (carviz) StderrLine: {'line': b'                                               \x1b[32m\x1b[Kputw\x1b[m\x1b[K\n'}
+[11.838847] (-) TimerEvent: {}
+[11.939842] (-) TimerEvent: {}
+[12.040583] (-) TimerEvent: {}
+[12.141306] (-) TimerEvent: {}
+[12.241852] (-) TimerEvent: {}
+[12.342455] (-) TimerEvent: {}
+[12.443097] (-) TimerEvent: {}
+[12.543700] (-) TimerEvent: {}
+[12.644340] (-) TimerEvent: {}
+[12.744890] (-) TimerEvent: {}
+[12.845461] (-) TimerEvent: {}
+[12.946113] (-) TimerEvent: {}
+[13.046747] (-) TimerEvent: {}
+[13.147457] (-) TimerEvent: {}
+[13.236191] (carviz) StderrLine: {'line': b'make[2]: *** [CMakeFiles/carViz.dir/main.cpp.o] Error 1\n'}
+[13.236566] (carviz) StderrLine: {'line': b'make[2]: *** Waiting for unfinished jobs....\n'}
+[13.236849] (carviz) StdoutLine: {'line': b"CMakeFiles/carViz.dir/build.make:62: recipe for target 'CMakeFiles/carViz.dir/main.cpp.o' failed\n"}
+[13.247542] (-) TimerEvent: {}
+[13.348076] (-) TimerEvent: {}
+[13.448598] (-) TimerEvent: {}
+[13.549097] (-) TimerEvent: {}
+[13.649685] (-) TimerEvent: {}
+[13.750285] (-) TimerEvent: {}
+[13.850810] (-) TimerEvent: {}
+[13.951308] (-) TimerEvent: {}
+[14.006825] (carviz) StderrLine: {'line': b'make[1]: *** [CMakeFiles/carViz.dir/all] Error 2\n'}
+[14.007220] (carviz) StdoutLine: {'line': b"CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/carViz.dir/all' failed\n"}
+[14.007524] (carviz) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[14.007783] (carviz) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[14.009496] (carviz) CommandEnded: {'returncode': 2}
+[14.010425] (carviz) JobEnded: {'identifier': 'carviz', 'rc': 2}
+[14.020744] (-) EventReactorShutdown: {}

@@ -1,0 +1,95 @@
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/listenerLaserros2.cpp:[m[K In constructor ‘[01m[KComm::ListenerLaser::ListenerLaser(int, char**, std::__cxx11::string, std::__cxx11::string)[m[K’:
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/listenerLaserros2.cpp:6:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  ListenerLaser::ListenerLaser(int [01;35m[Kargc[m[K, char** argv, std::string nodeName, std::string topic)
+                                   [01;35m[K^~~~[m[K
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/listenerLaserros2.cpp:6:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  ListenerLaser::ListenerLaser(int argc, char** [01;35m[Kargv[m[K, std::string nodeName, std::string topic)
+                                                [01;35m[K^~~~[m[K
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/translatorsros2.cpp:[m[K In function ‘[01m[KJdeRobotTypes::LaserData Comm::translate_laser_messages(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/translatorsros2.cpp:85:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _stamp_type = struct builtin_interfaces::msg::Time_<std::allocator<void> > {aka struct builtin_interfaces::msg::Time_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Knsec[m[K’; did you mean ‘[01m[Ksec[m[K’?
+   data.timeStamp = scan->header.stamp.sec + (scan->header.stamp.[01;31m[Knsec[m[K *1e-9);
+                                                                 [01;31m[K^~~~[m[K
+                                                                 [32m[Ksec[m[K
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/translatorsros2.cpp:[m[K At global scope:
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/translatorsros2.cpp:108:46:[m[K [01;31m[Kerror: [m[K‘[01m[KOdometryConstPtr[m[K’ in namespace ‘[01m[Knav_msgs[m[K’ does not name a type
+  translate_odometry_messages(const nav_msgs::[01;31m[KOdometryConstPtr[m[K& odom_msg)
+                                              [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/translatorsros2.cpp:[m[K In function ‘[01m[KJdeRobotTypes::Pose3d Comm::translate_odometry_messages(const int&)[m[K’:
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/translatorsros2.cpp:112:19:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   data.x= odom_msg[01;31m[K->[m[Kpose.pose.position.x;
+                   [01;31m[K^~[m[K
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/translatorsros2.cpp:113:19:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   data.y= odom_msg[01;31m[K->[m[Kpose.pose.position.y;
+                   [01;31m[K^~[m[K
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/translatorsros2.cpp:114:19:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   data.z= odom_msg[01;31m[K->[m[Kpose.pose.position.z;
+                   [01;31m[K^~[m[K
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/translatorsros2.cpp:116:22:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   data.q[0]= odom_msg[01;31m[K->[m[Kpose.pose.orientation.w;
+                      [01;31m[K^~[m[K
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/translatorsros2.cpp:117:22:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   data.q[1]= odom_msg[01;31m[K->[m[Kpose.pose.orientation.x;
+                      [01;31m[K^~[m[K
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/translatorsros2.cpp:118:22:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   data.q[2]= odom_msg[01;31m[K->[m[Kpose.pose.orientation.y;
+                      [01;31m[K^~[m[K
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/translatorsros2.cpp:119:22:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   data.q[3]= odom_msg[01;31m[K->[m[Kpose.pose.orientation.z;
+                      [01;31m[K^~[m[K
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/translatorsros2.cpp:121:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kquat2Yaw[m[K’ was not declared in this scope
+   data.yaw = [01;31m[Kquat2Yaw[m[K(data.q);
+              [01;31m[K^~~~~~~~[m[K
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/translatorsros2.cpp:122:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kquat2Pitch[m[K’ was not declared in this scope
+   data.pitch = [01;31m[Kquat2Pitch[m[K(data.q);
+                [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/translatorsros2.cpp:123:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kquat2Roll[m[K’ was not declared in this scope
+   data.roll = [01;31m[Kquat2Roll[m[K(data.q);
+               [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/translatorsros2.cpp:123:15:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Katoll[m[K’
+   data.roll = [01;36m[Kquat2Roll[m[K(data.q);
+               [01;36m[K^~~~~~~~~[m[K
+               [32m[Katoll[m[K
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/translatorsros2.cpp:125:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   data.timeStamp = odom_msg[01;31m[K->[m[Kheader.stamp.sec + (odom_msg->header.stamp.nsec *1e-9);
+                            [01;31m[K^~[m[K
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/translatorsros2.cpp:125:58:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   data.timeStamp = odom_msg->header.stamp.sec + (odom_msg[01;31m[K->[m[Kheader.stamp.nsec *1e-9);
+                                                          [01;31m[K^~[m[K
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/publisherMotorsros2.cpp:[m[K In constructor ‘[01m[KComm::PublisherMotors::PublisherMotors(int, char**, std::__cxx11::string, std::__cxx11::string)[m[K’:
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/publisherMotorsros2.cpp:19:39:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+      timer_ = this->create_wall_timer([01;31m[K500ms[m[K, std::bind(&PublisherMotors::publish, this));
+                                       [01;31m[K^~~~~[m[K
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/publisherMotorsros2.cpp:5:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  PublisherMotors::PublisherMotors(int [01;35m[Kargc[m[K, char** argv, std::string nodeName, std::string topic)
+                                       [01;35m[K^~~~[m[K
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/publisherMotorsros2.cpp:5:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  PublisherMotors::PublisherMotors(int argc, char** [01;35m[Kargv[m[K, std::string nodeName, std::string topic)
+                                                    [01;35m[K^~~~[m[K
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/publisherMotorsros2.cpp:[m[K In member function ‘[01m[Kvoid Comm::PublisherMotors::publish()[m[K’:
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/publisherMotorsros2.cpp:33:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > > > {aka class std::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > > >}[m[K’ has no member named ‘[01m[Kpublish[m[K’
+   this->publisher_.[01;31m[Kpublish[m[K(vel);////***check the correct syntac here****////
+                    [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/7/bits/c++allocator.h:33:0[m[K,
+                 from [01m[K/usr/include/c++/7/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/7/memory:63[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:142[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/comm/ros2src/../ros2head/listenerLaserros2.hpp:1[m[K,
+                 from [01m[K/home/pankhuri/Week13/carViz/comm/ros2src/listenerLaserros2.cpp:1[m[K:
+/usr/include/c++/7/ext/new_allocator.h: In instantiation of ‘[01m[Kclass __gnu_cxx::new_allocator<const sensor_msgs::msg::LaserScan_<std::allocator<void> > >[m[K’:
+[01m[K/usr/include/c++/7/bits/allocator.h:108:11:[m[K   required from ‘[01m[Kclass std::allocator<const sensor_msgs::msg::LaserScan_<std::allocator<void> > >[m[K’
+[01m[K/opt/ros/dashing/include/rclcpp/subscription_options.hpp:68:63:[m[K   required from ‘[01m[Krcl_subscription_options_t rclcpp::SubscriptionOptionsWithAllocator<Allocator>::to_rcl_subscription_options(const rclcpp::QoS&) const [with MessageT = const sensor_msgs::msg::LaserScan_<std::allocator<void> >; Allocator = std::allocator<void>; rcl_subscription_options_t = rcl_subscription_options_t][m[K’
+[01m[K/opt/ros/dashing/include/rclcpp/create_subscription.hpp:135:8:[m[K   required from ‘[01m[Kstd::shared_ptr<SubscriptionT> rclcpp::create_subscription(NodeT&&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename rclcpp::message_memory_strategy::MessageMemoryStrategy<CallbackMessageT, Alloc>::SharedPtr) [with MessageT = const sensor_msgs::msg::LaserScan_<std::allocator<void> >; CallbackT = std::_Bind<void (Comm::ListenerLaser::*(Comm::ListenerLaser*, std::_Placeholder<1>))(std::shared_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> > >)>; AllocatorT = std::allocator<void>; CallbackMessageT = sensor_msgs::msg::LaserScan_<std::allocator<void> >; SubscriptionT = rclcpp::Subscription<sensor_msgs::msg::LaserScan_<std::allocator<void> > >; NodeT = rclcpp::Node&; std::__cxx11::string = std::__cxx11::basic_string<char>; typename rclcpp::message_memory_strategy::MessageMemoryStrategy<CallbackMessageT, Alloc>::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[01m[K/opt/ros/dashing/include/rclcpp/node_impl.hpp:124:47:[m[K   required from ‘[01m[Kstd::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename rclcpp::message_memory_strategy::MessageMemoryStrategy<typename rclcpp::subscription_traits::has_message_type<CallbackT>::type, AllocatorT>::SharedPtr) [with MessageT = const sensor_msgs::msg::LaserScan_<std::allocator<void> >; CallbackT = std::_Bind<void (Comm::ListenerLaser::*(Comm::ListenerLaser*, std::_Placeholder<1>))(std::shared_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> > >)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<sensor_msgs::msg::LaserScan_<std::allocator<void> > >; std::__cxx11::string = std::__cxx11::basic_string<char>; typename rclcpp::message_memory_strategy::MessageMemoryStrategy<typename rclcpp::subscription_traits::has_message_type<CallbackT>::type, AllocatorT>::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[01m[K/home/pankhuri/Week13/carViz/comm/ros2src/listenerLaserros2.cpp:12:68:[m[K   required from here
+[01m[K/usr/include/c++/7/ext/new_allocator.h:93:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst _Tp* __gnu_cxx::new_allocator<_Tp>::address(__gnu_cxx::new_allocator<_Tp>::const_reference) const [with _Tp = const sensor_msgs::msg::LaserScan_<std::allocator<void> >; __gnu_cxx::new_allocator<_Tp>::const_pointer = const sensor_msgs::msg::LaserScan_<std::allocator<void> >*; __gnu_cxx::new_allocator<_Tp>::const_reference = const sensor_msgs::msg::LaserScan_<std::allocator<void> >&][m[K’ cannot be overloaded
+       [01;31m[Kaddress[m[K(const_reference __x) const _GLIBCXX_NOEXCEPT
+       [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/c++/7/ext/new_allocator.h:89:7:[m[K [01;31m[Kerror: [m[Kwith ‘[01m[K_Tp* __gnu_cxx::new_allocator<_Tp>::address(__gnu_cxx::new_allocator<_Tp>::reference) const [with _Tp = const sensor_msgs::msg::LaserScan_<std::allocator<void> >; __gnu_cxx::new_allocator<_Tp>::pointer = const sensor_msgs::msg::LaserScan_<std::allocator<void> >*; __gnu_cxx::new_allocator<_Tp>::reference = const sensor_msgs::msg::LaserScan_<std::allocator<void> >&][m[K’
+       [01;31m[Kaddress[m[K(reference __x) const _GLIBCXX_NOEXCEPT
+       [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/carViz.dir/comm/ros2src/translatorsros2.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/carViz.dir/comm/ros2src/listenerLaserros2.cpp.o] Error 1
+make[2]: *** [CMakeFiles/carViz.dir/comm/ros2src/publisherMotorsros2.cpp.o] Error 1
+make[1]: *** [CMakeFiles/carViz.dir/all] Error 2
+make: *** [all] Error 2

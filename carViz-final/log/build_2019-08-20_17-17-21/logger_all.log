@@ -1,0 +1,53 @@
+[2.232s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--cmake-args', ' -Drosversion:string=0']
+[2.232s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths='.', build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=['-Drosversion:string=0'], cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base='log', log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f174a4559b0>>, merge_install=False, metas='./colcon.meta', packages_above=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, parallel_workers=4, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f174a4559b0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f174a455be0>)
+[2.689s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.691s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.691s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.691s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.691s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.693s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pankhuri/Week13/carViz'
+[2.694s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pankhuri/Week13/carViz) by extensions ['ignore', 'ignore_ament_install']
+[2.695s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pankhuri/Week13/carViz) by extension 'ignore'
+[2.695s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pankhuri/Week13/carViz) by extension 'ignore_ament_install'
+[2.696s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pankhuri/Week13/carViz) by extensions ['colcon_pkg']
+[2.696s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pankhuri/Week13/carViz) by extension 'colcon_pkg'
+[2.697s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pankhuri/Week13/carViz) by extensions ['colcon_meta']
+[2.697s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pankhuri/Week13/carViz) by extension 'colcon_meta'
+[2.698s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pankhuri/Week13/carViz) by extensions ['ros']
+[2.698s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pankhuri/Week13/carViz) by extension 'ros'
+[2.892s] DEBUG:colcon.colcon_core.package_identification:Package '/home/pankhuri/Week13/carViz' with type 'ros.ament_cmake' and name 'carviz'
+[2.892s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.901s] Level 5:colcon.colcon_core.verb:set package 'carviz' build argument 'cmake_args' from command line to '['-Drosversion:string=0']'
+[2.901s] Level 5:colcon.colcon_core.verb:set package 'carviz' build argument 'cmake_target' from command line to 'None'
+[2.901s] Level 5:colcon.colcon_core.verb:set package 'carviz' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.901s] Level 5:colcon.colcon_core.verb:set package 'carviz' build argument 'cmake_clean_cache' from command line to 'False'
+[2.901s] Level 5:colcon.colcon_core.verb:set package 'carviz' build argument 'cmake_clean_first' from command line to 'False'
+[2.902s] Level 5:colcon.colcon_core.verb:set package 'carviz' build argument 'cmake_force_configure' from command line to 'False'
+[2.902s] Level 5:colcon.colcon_core.verb:set package 'carviz' build argument 'ament_cmake_args' from command line to 'None'
+[2.902s] Level 5:colcon.colcon_core.verb:set package 'carviz' build argument 'catkin_cmake_args' from command line to 'None'
+[2.902s] Level 5:colcon.colcon_core.verb:set package 'carviz' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.902s] DEBUG:colcon.colcon_core.verb:Building package 'carviz' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pankhuri/Week13/carViz/build/carviz', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-Drosversion:string=0'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pankhuri/Week13/carViz/install/carviz', 'merge_install': False, 'path': '/home/pankhuri/Week13/carViz', 'symlink_install': True, 'test_result_base': None}
+[2.905s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.906s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.907s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pankhuri/Week13/carViz' with build type 'ament_cmake'
+[2.994s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.995s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pankhuri/Week13/carViz'
+[2.997s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.092s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pankhuri/Week13/carViz/build/carviz': /usr/bin/cmake --build /home/pankhuri/Week13/carViz/build/carviz -- -j4 -l4
+[77.285s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pankhuri/Week13/carViz/build/carviz' returned '2': /usr/bin/cmake --build /home/pankhuri/Week13/carViz/build/carviz -- -j4 -l4
+[77.295s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[77.296s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[77.296s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[77.296s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[77.401s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[77.401s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[77.401s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[77.406s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[77.408s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pankhuri/Week13/carViz/install/local_setup.ps1'
+[77.439s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pankhuri/Week13/carViz/install/setup.ps1'
+[77.444s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pankhuri/Week13/carViz/install/local_setup.sh'
+[77.447s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pankhuri/Week13/carViz/install/setup.sh'
+[77.451s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pankhuri/Week13/carViz/install/local_setup.bash'
+[77.474s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pankhuri/Week13/carViz/install/setup.bash'
+[77.478s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pankhuri/Week13/carViz/install/local_setup.zsh'
+[77.490s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pankhuri/Week13/carViz/install/setup.zsh'

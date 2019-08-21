@@ -1,0 +1,10 @@
+/home/pankhuri/Week13/carViz/build/carviz/CMakeFiles/install/strip.dir
+/home/pankhuri/Week13/carViz/build/carviz/CMakeFiles/install.dir
+/home/pankhuri/Week13/carViz/build/carviz/CMakeFiles/carViz.dir
+/home/pankhuri/Week13/carViz/build/carviz/CMakeFiles/uninstall.dir
+/home/pankhuri/Week13/carViz/build/carviz/CMakeFiles/install/local.dir
+/home/pankhuri/Week13/carViz/build/carviz/CMakeFiles/test.dir
+/home/pankhuri/Week13/carViz/build/carviz/CMakeFiles/list_install_components.dir
+/home/pankhuri/Week13/carViz/build/carviz/CMakeFiles/edit_cache.dir
+/home/pankhuri/Week13/carViz/build/carviz/CMakeFiles/rebuild_cache.dir
+/home/pankhuri/Week13/carViz/build/carviz/CMakeFiles/carViz_autogen.dir
