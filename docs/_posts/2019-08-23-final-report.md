@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Final Report 
+title: GSoC'19 Final Report
 date: 2019-08-23
 ---	
 
@@ -74,8 +74,7 @@ It is a python based tool which uses Qt for GUI
 | ColorTuner tool   | Done      |  week10 -Week11   | (put link to repo) | First Python tool completed | [PR#6](https://github.com/JdeRobot/ColorTuner/pull/6)|
 | VisualStates Tool   | in-progress   |  week12  | (put link to repo) | Error in generated ros2 node  | (in -progress)|
 
-
-
+Playground Repository: [TheRoboticsClub/colab-gsoc2019-Pankhuri_Vanjani](https://github.com/TheRoboticsClub/colab-gsoc2019-Pankhuri_Vanjani)
 
 
 **Future Work**
