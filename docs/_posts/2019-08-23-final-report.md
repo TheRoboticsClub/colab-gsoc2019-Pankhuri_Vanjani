@@ -15,13 +15,13 @@ date: 2019-08-23
 
 (Click on image to watch video:)
 
-1. Basic Image Tool 
+**1. Basic Image Tool** 
 
 A simple tool was developed which showed the use of ROS1+ROS2 interface efficiently. Images were subscribed to publsiher and displayed with  OpenCV GUI.
 
 [![Image-tool-final](http://img.youtube.com/vi/E6v-G0QFUSg/0.jpg)](http://www.youtube.com/watch?v=E6v-G0QFUSg "Simplified image-tool-final")
 
-2. CamViz Tool 
+**2. CamViz Tool**
 
 CamViz is a simple tool which takes image from Pubisher, sends it to GUI (it has it's own Gtk based GUI, unlike Image Tool) and displays the continous stream of images. It can be used to take images from USB-cam as well as camera attached on a Robot.
 
@@ -29,7 +29,7 @@ This is a cpp tool, concerned with the client side.
 
 (Put video here)
 
-3. ColorTuner Tool
+**3. ColorTuner Tool**
 
 Colortuner component implements three different image color filters in the next color spaces: RGB, HSV, YUV. It is an application to configure tailored color filters in HSV, RGB, or YUV color spaces. It is used to obtain optimal values of tint and saturation, as well as lighting, in that kind of filters. To perform the different color conversions between spaces we used the conventions appear in wikipedia, (HSV color conversions), and for YUV, (YUV color conversions) .
 
@@ -41,7 +41,7 @@ It is a python based tool which uses Qt for GUI
 
  [![ColorTuner Tool- ROS1+ROS2 Interface](http://img.youtube.com/vi/-bwSsLItVi0/0.jpg)](http://www.youtube.com/watch?v=-bwSsLItVi0 "ColorTuner Tool- ROS1+ROS2 Interface")
  
- 4. CarViz Tool
+ **4. CarViz Tool**
  
  CarViz is a teleoperation tool which can be used for Mobile robots like turtlebot, Dolly etc..
  
@@ -49,7 +49,7 @@ It is a python based tool which uses Qt for GUI
  
   [![carviz-turtlebot-ros-only](http://img.youtube.com/vi/Cto_d_tk12I/0.jpg)](http://www.youtube.com/watch?v=Cto_d_tk12I "carviz-turtlebot-ros-only")
  
- 5. VisualStates Tool
+ **5. VisualStates Tool**
 
 
 
