@@ -34,8 +34,8 @@ This is a cpp tool, concerned with the client side.
 
 CamViz takes image from Pubisher, sends it to GUI (it has it's own Gtk based GUI, unlike Image Tool) and displays the continous stream of images. It can be used to take images from USB-cam as well as camera attached on a Robot.
 
+  [![camviz](../img/camviz-ros1ros2.gif)
 
-(Put video here)
 
 **3. ColorTuner**
 
