@@ -57,8 +57,11 @@ It is a python based tool which uses Qt for GUI
  
  This tool has been tested with Turtlebot3 in ROS and Turtlebot3 and Dolly robot in ROS2.
  
-  [![carviz-turtlebot-ros-only](http://img.youtube.com/vi/Cto_d_tk12I/0.jpg)](http://www.youtube.com/watch?v=Cto_d_tk12I "carviz-turtlebot-ros-only")
-  
+ *Carviz-ROS1*
+ 
+  [![carvizros1](../img/carviz-ros1.gif)
+ 
+  *Carviz-ROS2*
   [![carvizros2](../img/carviz-ros2.gif)
 
  
