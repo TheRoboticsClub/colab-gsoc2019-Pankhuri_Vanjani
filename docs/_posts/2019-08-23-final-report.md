@@ -102,7 +102,7 @@ Current Status:
 | Refactor Carviz    | Done      |  week10      | - | Isolation and rosification of CarViz tool was done| |
 | Carviz-ROS1+ROS2 support   | Done      |  week10 -Week12     | [CarViz](https://github.com/pankhurivanjani/viz/tree/viz-ros2/carViz) | Solving threading issue in camViz solved issues in thi repo too|[PR#39](https://github.com/JdeRobot/viz/pull/39)|
 | ColorTuner tool   | Done      |  week10 -Week11   | [ColorTuner](https://github.com/pankhurivanjani/ColorTuner) | First Python tool completed | [PR#6](https://github.com/JdeRobot/ColorTuner/pull/6)|
-| VisualStates Tool   | in-progress   |  week12  | (put link  | Error in generated ros2 node  | (in -progress)|
+| VisualStates Tool   | developed in codebase, examples in progress   |  week12  | (put link  | Error in generated ros2 node  | [#PR137](https://github.com/JdeRobot/VisualStates/pull/137)|
 
 Playground Repository: [TheRoboticsClub/colab-gsoc2019-Pankhuri_Vanjani](https://github.com/TheRoboticsClub/colab-gsoc2019-Pankhuri_Vanjani)
 
