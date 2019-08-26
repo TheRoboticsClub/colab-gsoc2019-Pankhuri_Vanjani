@@ -99,10 +99,10 @@ Current Status:
 | Study CamViz tool | Done      |  week7       | N/A  | studied codebase of this tool and comm library which has ICE+ ROS drivers | -|
 | CamViz-Rosify   | Done      |  Week8       | N/A  | Isolated CamViz tool from official repository and rosified tool | -|
 | CamViz-ROS1+ROS2 support   | done      |  Week9 - Week12      | [camVIz](https://github.com/pankhurivanjani/viz/tree/viz-ros2/camViz) | Challenge of using threading as a workaround as an alternative of ros::Asyncspinner in ROS1 | [PR#39](https://github.com/JdeRobot/viz/pull/39)|
-| Refactor Carviz    | Done      |  week10      | - | Isolation and rosification of CarViz tool was done| |
+| Refactor Carviz    | Done      |  week10      | [rosified-carviz-youtube](https://www.youtube.com/watch?v=Cto_d_tk12I) | Isolation and rosification of CarViz tool was done| |
 | Carviz-ROS1+ROS2 support   | Done      |  week10 -Week12     | [CarViz](https://github.com/pankhurivanjani/viz/tree/viz-ros2/carViz) | Solving threading issue in camViz solved issues in thi repo too|[PR#39](https://github.com/JdeRobot/viz/pull/39)|
-| ColorTuner tool   | Done      |  week10 -Week11   | [ColorTuner](https://github.com/pankhurivanjani/ColorTuner) | First Python tool completed | [PR#6](https://github.com/JdeRobot/ColorTuner/pull/6)|
-| VisualStates Tool   | developed in codebase, examples in progress   |  week12  | (put link  | Error in generated ros2 node  | [#PR137](https://github.com/JdeRobot/VisualStates/pull/137)|
+| ColorTuner tool   | Done      |  week10 -Week11   | [ColorTuner](https://github.com/pankhurivanjani/ColorTuner) [ColorTuner-youtube](https://www.youtube.com/watch?v=-bwSsLItVi0&t=2s) | First Python tool completed | [PR#6](https://github.com/JdeRobot/ColorTuner/pull/6)|
+| VisualStates Tool   | developed in codebase, examples in progress   |  week12  | [visualstates-ros2](https://github.com/pankhurivanjani/VisualStates/tree/ros2-devel)  | Error in generated ros2 node  | [#PR137](https://github.com/JdeRobot/VisualStates/pull/137)|
 
 Playground Repository: [TheRoboticsClub/colab-gsoc2019-Pankhuri_Vanjani](https://github.com/TheRoboticsClub/colab-gsoc2019-Pankhuri_Vanjani)
 
